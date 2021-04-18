@@ -1,0 +1,15 @@
+<unit type="sfm" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_dlc_friend/props/sfm_ropeladder/sfm_ropeladder" />
+	<dependencies>
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="hold_unfold_ladder" />
+			<var name="_interact_object" value="interact"/>
+		</extension>
+	</extensions>
+</unit>

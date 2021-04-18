@@ -1,0 +1,4 @@
+{
+	"tonis2_ecmtest" : "Hold $BTN_INTERACT to hack the circuit",
+	"tonis2_noecm" : "Requires an ECM to hack"
+}

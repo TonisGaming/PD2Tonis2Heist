@@ -1,0 +1,17 @@
+<dynamic_object>
+    <diesel orientation_object="rp_brickwall" materials="units/pd2_mod_ton/ind_ext_brick_wall_a_hole/ind_ext_brick_wall_a_hole" />
+   
+   <bodies>
+        <body name="body_static" enabled="true" template="static">
+            <object name="c_brickwall" collision_type="mesh_mopp" />
+        </body>
+    </bodies>
+   
+   <decal_surfaces>
+        <decal_mesh enabled="true" name="g_brickwall" material="concrete" />
+    </decal_surfaces>
+    
+	<graphics>
+        <object enabled="true" name="g_brickwall" shadow_caster="true"/>
+    </graphics>
+</dynamic_object>

@@ -1,0 +1,35 @@
+<materials version="3">
+    <material name="mat_gen_prop_plywood" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/gen_prop_plywood/gen_prop_plywood_df" mip="1"/>
+        <bump_normal_texture file="units/payday2/props/gen_prop_plywood/gen_prop_plywood_nm" mip="4"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_zero_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_gen_prop_plywood_lod1" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/gen_prop_plywood/gen_prop_plywood_df" mip="1"/>
+        <bump_normal_texture file="units/payday2/props/gen_prop_plywood/gen_prop_plywood_nm" mip="4"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_zero_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_gen_prop_plywood_lod2" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/gen_prop_plywood/gen_prop_plywood_df" mip="1"/>
+        <bump_normal_texture file="units/payday2/props/gen_prop_plywood/gen_prop_plywood_nm" mip="4"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_zero_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="mat_gen_prop_plywood_lod3" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/gen_prop_plywood/gen_prop_plywood_df" mip="1"/>
+        <bump_normal_texture file="units/payday2/props/gen_prop_plywood/gen_prop_plywood_nm" mip="4"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_zero_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+
+
+    <material name="mat_gen_prop_plywood_lod4" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/gen_prop_plywood/gen_prop_plywood_df" mip="1"/>
+        <bump_normal_texture file="units/payday2/props/gen_prop_plywood/gen_prop_plywood_nm" mip="5"/>
+        <reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_zero_df"/>
+        <variable value="1 0 2" type="vector3" name="environment_settings"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only:INSTANCED" version="2"/>
+</materials>

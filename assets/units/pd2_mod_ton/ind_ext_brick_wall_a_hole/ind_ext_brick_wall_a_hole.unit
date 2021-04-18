@@ -1,0 +1,6 @@
+<unit type="ton" slot="1" >
+    <object file="units/pd2_mod_ton/ind_ext_brick_wall_a_hole/ind_ext_brick_wall_a_hole" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

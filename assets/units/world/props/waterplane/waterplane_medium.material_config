@@ -1,0 +1,8 @@
+<materials version="3">
+    <material name="waterplane" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:NORMAL_UVANIM:RL_BACKDROP" version="2">
+        <bump_normal_texture file="units/world/props/waterplane/waterplane_nm"/>
+        <diffuse_texture file="units/world/props/waterplane/waterplane_df"/>
+        <variable value="-0.02 -0.02 0" type="vector3" name="uv_speed"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+    </material>
+</materials>

@@ -1,0 +1,589 @@
+<table directory="assets">
+	<add path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x2_top_door_red_v2" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_v2" unload="true"/>
+		<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x2_top_door_red_v2" unload="true"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x2_top_door_red_v2" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/str/str_ext_concrete_ground_8x8m_a" type="unit">
+		<material_config path="units/payday2/architecture/str/str" unload="true"/>
+		<object path="units/payday2/architecture/str/str_ext_concrete_ground_8x8m_a" unload="true"/>
+		<unit path="units/payday2/architecture/str/str_ext_concrete_ground_8x8m_a" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/com_int_basement/com_int_basement_wall_1x3m" type="unit">
+		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_wall" unload="true"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_wall_1x3m" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_wall_1x3m" unload="true"/>
+	</add>
+	<add path="units/payday2/pickups/gen_pku_artifact_statue/gen_pku_artifact_statue" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_artifact_statue/gen_pku_artifact_statue" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_artifact_statue/gen_pku_artifact_statue" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_artifact_statue/gen_pku_artifact_statue" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_artifact_statue/gen_pku_artifact_statue" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_pal/pickups/pal_pku_money_stack_huge/pal_pku_money_stack_huge" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_money" unload="true"/>
+		<material_config path="units/pd2_dlc_pal/equipment/pal_interactable_money_printer/pal_interactable_money_printer" unload="true"/>
+		<object path="units/pd2_dlc_pal/pickups/pal_pku_money_stack_huge/pal_pku_money_stack_huge" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_pal/pickups/pal_pku_money_stack_huge/pal_pku_money_stack_huge" unload="true"/>
+		<unit path="units/pd2_dlc_pal/pickups/pal_pku_money_stack_huge/pal_pku_money_stack_huge" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_cocaine" type="unit">
+		<material_config path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_cocaine" unload="true"/>
+		<object path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_cocaine" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_cocaine" unload="true"/>
+		<unit path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_cocaine" unload="true"/>
+	</add>
+	<add path="units/payday2/pickups/gen_pku_tf2_turret_ammo/gen_pku_tf2_turret_ammo_open" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_tf2_turret_ammo/gen_pku_tf2_turret_ammo_open" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_tf2_turret_ammo/gen_pku_tf2_turret_ammo_open" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_tf2_turret_ammo/gen_pku_tf2_turret_ammo_closed" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_tf2_turret_ammo/gen_pku_tf2_turret_ammo_open" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_1x1/drk_interactable_weapon_case_1x1" type="unit">
+		<unit path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_1x1/drk_interactable_weapon_case_1x1" unload="true"/>
+		<object path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_1x1/drk_interactable_weapon_case_1x1" unload="true"/>
+		<material_config path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_1x1/drk_interactable_weapon_case_1x1" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_1x1/drk_interactable_weapon_case_1x1" unload="true"/>
+		<unit path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_1x1/spawn_glock" unload="true"/>
+		<object path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_1x1/spawn_glock" unload="true"/>
+		<material_config path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_1x1/spawn_glock" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_1x1/spawn_glock" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_money" type="unit">
+		<material_config path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_money" unload="true"/>
+		<object path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_money" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_money" unload="true"/>
+		<unit path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_money" unload="true"/>
+	</add>
+	<add path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box" unload="true"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box" unload="true"/>
+		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box" unload="true"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_evidence_box/mcm_prop_evidence_box" unload="true"/>
+	</add>
+	<add path="units/payday2/pickups/gen_pku_tf2_turret_ammo/gen_pku_tf2_turret_ammo_closed" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_tf2_turret_ammo/gen_pku_tf2_turret_ammo_closed" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_tf2_turret_ammo/gen_pku_tf2_turret_ammo_closed" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_tf2_turret_ammo/gen_pku_tf2_turret_ammo_closed" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_tf2_turret_ammo/gen_pku_tf2_turret_ammo_closed" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_gold" type="unit">
+		<effect load="true" path="effects/payday2/particles/grab/grab_gold" unload="true"/>
+		<material_config path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_gold" unload="true"/>
+		<object path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_gold" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_gold" unload="true"/>
+		<unit path="units/payday2/equipment/ind_interactable_hardcase_loot/ind_interactable_hardcase_loot_gold" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_2x1/drk_interactable_weapon_case_2x1" type="unit">
+		<unit path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_2x1/drk_interactable_weapon_case_2x1" unload="true"/>
+		<object path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_2x1/drk_interactable_weapon_case_2x1" unload="true"/>
+		<material_config path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_2x1/drk_interactable_weapon_case_2x1" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_2x1/drk_interactable_weapon_case_2x1" unload="true"/>
+		<unit path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_2x1/spawn_scar" unload="true"/>
+		<object path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_2x1/spawn_scar" unload="true"/>
+		<material_config path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_2x1/spawn_scar" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_dark/equipment/drk_interactable_weapon_case_2x1/spawn_scar" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+	</add>
+	<add path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_cocaine/gen_pku_cocaine_pure" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc1/props/com_prop_sign_avalon/com_prop_sign_avalon_7x2m_il_smaller" type="unit">
+		<material_config path="units/pd2_dlc1/props/com_prop_sign_avalon/com_prop_sign_avalon_il" unload="true"/>
+		<object path="units/pd2_dlc1/props/com_prop_sign_avalon/com_prop_sign_avalon_7x2m_il_smaller" unload="true"/>
+		<unit path="units/pd2_dlc1/props/com_prop_sign_avalon/com_prop_sign_avalon_7x2m_il_smaller" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_arena/props/are_prop_ext_sign_set/are_prop_ext_sign_gensec_showroom_small" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_ext_sign_set/are_prop_ext_sign_gensec_set" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_ext_sign_set/are_prop_ext_sign_gensec_showroom_small" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_ext_sign_set/are_prop_ext_sign_gensec_showroom_small" unload="true"/>
+	</add>
+	<add path="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck" type="unit">
+		<material_config path="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck" unload="true"/>
+		<object path="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck" unload="true"/>
+		<sequence_manager path="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck" unload="true"/>
+		<unit path="units/payday2/vehicles/str_vehicle_m35_truck/str_vehicle_m35_truck" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x1m" unload="true"/>
+	</add>
+	<add path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_basement_ceiling_02" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_basement" unload="true"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_basement_ceiling_02" unload="true"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_basement_ceiling_02" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_arena/equipment/are_interactable_gensec_panel/are_interactable_gensec_panel" type="unit">
+		<material_config path="units/pd2_dlc_arena/equipment/gen_interactable_door_keycard_v2/gen_interactable_door_keycard_v2" unload="true"/>
+		<object path="units/pd2_dlc_arena/equipment/are_interactable_gensec_panel/are_interactable_gensec_panel" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_arena/equipment/are_interactable_gensec_panel/are_interactable_gensec_panel" unload="true"/>
+		<unit path="units/pd2_dlc_arena/equipment/are_interactable_gensec_panel/are_interactable_gensec_panel" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters" unload="true"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters" unload="true"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_02" type="unit">
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters" unload="true"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_02" unload="true"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_02" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters" unload="true"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03" unload="true"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_sec_safe_2x05_titan/gen_interactable_sec_safe_2x05_titan" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_sec_safe_2x05_titan/gen_interactable_sec_safe_2x05_titan" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_sec_safe_2x05_titan/gen_interactable_sec_safe_2x05_titan" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_sec_safe_2x05_titan/gen_interactable_sec_safe_2x05_titan" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_sec_safe_2x05_titan/gen_interactable_sec_safe_2x05_titan" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_c" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<object path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<material_config path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<object path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<material_config path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_sec_safe_2x05/dest_sec_safe_2x05_door" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_sec_safe_2x05/dest_sec_safe_2x05_door" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_sec_safe_2x05/gen_interactable_sec_safe_2x05" unload="true"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/drill" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/drill_jammed" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_sec_safe_2x05_titan/dest_sec_safe_2x05_door_titan" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_sec_safe_2x05_titan/dest_sec_safe_2x05_door_titan" unload="true"/>
+		<effect load="true" path="effects/particles/explosions/explosion_grenade" unload="true"/>
+		<effect load="true" path="effects/particles/dest/smoke_pocket_puff" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_sec_safe_05x05_titan/gen_interactable_sec_safe_05x05_titan" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_sec_safe_05x05_titan/gen_interactable_sec_safe_05x05_titan" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_sec_safe_05x05_titan/gen_interactable_sec_safe_05x05_titan" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_sec_safe_05x05_titan/gen_interactable_sec_safe_05x05_titan" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_sec_safe_05x05_titan/gen_interactable_sec_safe_05x05_titan" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_c" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_gold" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<object path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<material_config path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<object path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<material_config path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_sec_safe_05x05/dest_sec_safe_05x05_door" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_sec_safe_05x05/dest_sec_safe_05x05_door" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_sec_safe_05x05/gen_interactable_sec_safe_05x05" unload="true"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_sec_safe_05x05_titan/dest_sec_safe_05x05_door_titan" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_sec_safe_05x05_titan/dest_sec_safe_05x05_door_titan" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_sec_safe_1x05_titan/gen_interactable_sec_safe_1x05_titan" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_sec_safe_1x05_titan/gen_interactable_sec_safe_1x05_titan" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_sec_safe_1x05_titan/gen_interactable_sec_safe_1x05_titan" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_sec_safe_1x05_titan/gen_interactable_sec_safe_1x05_titan" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_sec_safe_1x05_titan/gen_interactable_sec_safe_1x05_titan" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_c" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<object path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<material_config path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<object path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<material_config path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_sec_safe_1x05/dest_sec_safe_1x05" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_sec_safe_1x05/dest_sec_safe_1x05" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_sec_safe_1x05/gen_interactable_sec_safe_1x05" unload="true"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_sec_safe_1x05_titan/dest_sec_safe_1x05_titan" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_sec_safe_1x05_titan/dest_sec_safe_1x05_titan" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_sec_safe_1x1_titan/gen_interactable_sec_safe_1x1_titan" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_sec_safe_1x1_titan/gen_interactable_sec_safe_1x1_titan" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_sec_safe_1x1_titan/gen_interactable_sec_safe_1x1_titan" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_sec_safe_1x1_titan/gen_interactable_sec_safe_1x1_titan" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_sec_safe_1x1_titan/gen_interactable_sec_safe_1x1_titan" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_c" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<object path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<material_config path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<object path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<material_config path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_sec_safe_1x1_titan/dest_sec_safe_1x1_titan" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_sec_safe_1x1_titan/dest_sec_safe_1x1_titan" unload="true"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_sec_safe_2x1_titan/gen_interactable_sec_safe_2x1_titan" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_sec_safe_2x1_titan/gen_interactable_sec_safe_2x1_titan" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_sec_safe_2x1_titan/gen_interactable_sec_safe_2x1_titan" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_sec_safe_2x1_titan/gen_interactable_sec_safe_2x1_titan" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_sec_safe_2x1_titan/gen_interactable_sec_safe_2x1_titan" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_c" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<material_config path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_special_money" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<object path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<material_config path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_prop_loot_blueprint/gen_prop_loot_blueprint" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_keycard/gen_pku_keycard" unload="true"/>
+		<unit path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<object path="units/payday2/characters/civ_acc_keycard_clipped/civ_acc_keycard_clipped" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<object path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<material_config path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<sequence_manager path="units/payday2/props/gen_prop_loot_confidential_folder_event/gen_prop_loot_confidential_folder_event" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_sec_safe_2x05/dest_sec_safe_2x05_door" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_sec_safe_2x05/dest_sec_safe_2x05_door" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_sec_safe_2x05/gen_interactable_sec_safe_2x05" unload="true"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<unit path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_sec_safe_2x1_titan/dest_sec_safe_2x1_door_titan" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_sec_safe_2x1_titan/dest_sec_safe_2x1_door_titan" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate" type="unit">
+		<material_config path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate" unload="true"/>
+		<object path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate" unload="true"/>
+		<unit path="units/pd2_dlc_dark/props/drk_prop_murkywater_crate/drk_prop_murkywater_crate" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v3_ending" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2" unload="true"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v3_ending" unload="true"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v3_ending" unload="true"/>
+	</add>
+	<add path="units/payday2/props/ind_prop_military_mre/ind_prop_military_mre_1x1m" type="unit">
+		<material_config path="units/payday2/props/ind_prop_military_mre/ind_prop_military_mre" unload="true"/>
+		<object path="units/payday2/props/ind_prop_military_mre/ind_prop_military_mre_1x1m" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_military_mre/ind_prop_military_mre_1x1m" unload="true"/>
+	</add>
+	<add path="units/payday2/props/ind_prop_military_mre/ind_prop_military_mre_1x1_5m" type="unit">
+		<material_config path="units/payday2/props/ind_prop_military_mre/ind_prop_military_mre" unload="true"/>
+		<object path="units/payday2/props/ind_prop_military_mre/ind_prop_military_mre_1x1_5m" unload="true"/>
+		<unit path="units/payday2/props/ind_prop_military_mre/ind_prop_military_mre_1x1_5m" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_chill/props/chl_prop_plywood/chl_prop_plank_1m" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_plywood/chl_prop_plywood" unload="true"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_plywood/chl_prop_plank_1m" unload="true"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_plywood/chl_prop_plank_1m" unload="true"/>
+	</add>
+	<add unload_on_restart="true">
+		<texture path="units/pd2_mod_ton/staindecal/ton_paint_decal_df" unload="true"/>
+		<texture path="units/pd2_mod_ton/staindecal/ton_paint_decal_op" unload="true"/>
+		<material_config path="units/pd2_mod_ton/staindecal/ton_paint_decal" unload="true"/>
+		<model path="units/pd2_mod_ton/staindecal/ton_paint_decal" unload="true"/>
+		<object path="units/pd2_mod_ton/staindecal/ton_paint_decal" unload="true"/>
+		<unit path="units/pd2_mod_ton/staindecal/ton_paint_decal" unload="true"/>
+	</add>
+	<add unload_on_restart="true">
+		<material_config path="units/pd2_mod_ton/ind_ext_brick_wall_a_hole/ind_ext_brick_wall_a_hole" unload="true"/>
+		<model path="units/pd2_mod_ton/ind_ext_brick_wall_a_hole/ind_ext_brick_wall_a_hole" unload="true"/>
+		<object path="units/pd2_mod_ton/ind_ext_brick_wall_a_hole/ind_ext_brick_wall_a_hole" unload="true"/>
+		<unit path="units/pd2_mod_ton/ind_ext_brick_wall_a_hole/ind_ext_brick_wall_a_hole" unload="true"/>
+	</add>
+	<add unload_on_restart="true">
+		<unit path="units/pd2_mod_ton/ind_ext_brick_wall_a_hole/ind_ext_brick_wall_a_single_brick" unload="true"/>
+		<object path="units/pd2_mod_ton/ind_ext_brick_wall_a_hole/ind_ext_brick_wall_a_single_brick" unload="true"/>
+		<model path="units/pd2_mod_ton/ind_ext_brick_wall_a_hole/ind_ext_brick_wall_a_single_brick" unload="true"/>
+		<unit path="units/pd2_mod_ton/ind_ext_brick_wall_a_hole/ind_ext_brick_wall_a_single_brick_broken" unload="true"/>
+		<object path="units/pd2_mod_ton/ind_ext_brick_wall_a_hole/ind_ext_brick_wall_a_single_brick_broken" unload="true"/>
+		<model path="units/pd2_mod_ton/ind_ext_brick_wall_a_hole/ind_ext_brick_wall_a_single_brick_broken" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_in" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_out" unload="true"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<material_config path="units/pickups/pickup_bank_manager_key/pickup_bank_manager_key" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer" unload="true"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/shapecharger_explosion" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/fire_smoke_mid" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/dark_smoke_big" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" type="unit">
+		<unit path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" unload="true"/>
+		<object path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" unload="true"/>
+		<material_config path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" unload="true"/>
+		<sequence_manager path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" unload="true"/>
+	</add>
+</table>

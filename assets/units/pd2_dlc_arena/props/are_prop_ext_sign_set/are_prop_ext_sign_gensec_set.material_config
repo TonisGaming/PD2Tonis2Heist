@@ -1,0 +1,30 @@
+<materials version="3">
+	<material name="mat_gensec_signs_lod0" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_arena/props/are_prop_ext_sign_set/are_prop_ext_sign_set_df" />
+		<bump_normal_texture file="units/pd2_dlc_arena/props/are_prop_ext_sign_set/are_prop_ext_sign_set_nm" />
+	</material>
+	<material name="mat_gensec_signs_lod1" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_arena/props/are_prop_ext_sign_set/are_prop_ext_sign_set_df" mip="3" />
+		<bump_normal_texture file="units/pd2_dlc_arena/props/are_prop_ext_sign_set/are_prop_ext_sign_set_nm" mip="3" />
+	</material>
+	<material name="shadow_caster" render_template="shadow_caster_only" version="2" />
+	<material name="mat_gensec_sign_big_02" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/pd2_dlc_arena/props/are_prop_ext_sign_set/gensec_sign_big_02_df" />
+	</material>
+	<material name="mat_glow_red" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2">
+		<variable name="intensity" type="scalar" value="3" />
+		<diffuse_texture file="units/pd2_dlc_arena/props/are_prop_ext_sign_set/red_glow_df" />
+	</material>
+	<material name="mat_glow_blue" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2">
+		<variable name="intensity" type="scalar" value="3" />
+		<diffuse_texture file="units/pd2_dlc_arena/props/are_prop_ext_sign_set/blue_glow_df" />
+	</material>
+	<material name="mat_gensec_text" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/pd2_dlc_arena/props/are_prop_ext_sign_set/gensec_sign_text_df" />
+		<reflection_texture file="units/payday2/cubemaps/cubemap_lab" type="cubemap" />
+		<variable name="environment_settings" type="vector3" value="1 0 2" />
+	</material>
+	<material name="mat_gensec_sign_bg" render_template="generic:DIFFUSE_TEXTURE" version="2">
+		<diffuse_texture file="units/pd2_dlc_arena/props/are_prop_ext_sign_set/gensec_sign_bg_df" />
+	</material>
+</materials>

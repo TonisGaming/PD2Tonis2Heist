@@ -1,0 +1,6 @@
+<materials version="3">
+	<material name="mtr_stain" render_template="decal:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_mod_ton/staindecal/ton_paint_decal_df"/>
+        <opacity_texture file="units/pd2_mod_ton/staindecal/ton_paint_decal_op"/>
+    </material>
+</materials>

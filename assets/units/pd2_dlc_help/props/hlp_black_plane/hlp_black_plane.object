@@ -1,0 +1,13 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_help/props/hlp_black_plane/hlp_black_plane" orientation_object="rp_hlp_black_plane" />
+
+	<bodies>
+		<body name="body_collision_01" enabled="true" template="editor">
+			<object name="rp_hlp_black_plane" />
+			<object name="g_g" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_g" 		enabled="true" />
+	</graphics>
+</dynamic_object>

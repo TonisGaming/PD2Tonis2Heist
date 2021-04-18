@@ -1,0 +1,14 @@
+<materials version="3">
+    <material name="mtr_brickwall" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_cro/ind_ext_brick_wall_a/brick_wall_diffuse_df"/>
+        <bump_normal_texture file="units/pd2_dlc_cro/ind_ext_brick_wall_a/brick_wall_normal_nm"/>
+    </material>
+    <material name="mtr_brick" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_cro/ind_ext_brick_wall_a/brick_wall_diffuse_df"/>
+        <bump_normal_texture file="units/pd2_dlc_cro/ind_ext_brick_wall_a/brick_wall_normal_nm"/>
+    </material>
+    <material name="mtr_brick_broken" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_cro/ind_ext_brick_wall_a/brick_wall_diffuse_df"/>
+        <bump_normal_texture file="units/pd2_dlc_cro/ind_ext_brick_wall_a/brick_wall_normal_nm"/>
+    </material>
+</materials>
