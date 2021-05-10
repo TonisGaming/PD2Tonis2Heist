@@ -1,0 +1,56 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mat_bry_prop_server" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_UVANIM" name="mat_bry_glow" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_glow_df"/>
+        <self_illumination_texture file="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_glow_df"/>
+        <variable type="scalar" name="il_multiplier" value="searchlight"/>
+        <variable type="vector3" name="uv_speed" value="0 1 0"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_UVANIM" name="mat_bry_glow1" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_glow_df"/>
+        <self_illumination_texture file="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_glow_df"/>
+        <variable type="scalar" name="il_multiplier" value="searchlight"/>
+        <variable type="vector3" name="uv_speed" value="0 1.1 0"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_UVANIM" version="2" name="mat_bry_glow2">
+        <diffuse_texture file="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_glow_df"/>
+        <self_illumination_texture file="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_glow_df"/>
+        <variable type="scalar" name="il_multiplier" value="searchlight"/>
+        <variable type="vector3" name="uv_speed" value="0 -1 0"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION:SELF_ILLUMINATION_UVANIM" name="mat_bry_glow3" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_glow_df"/>
+        <self_illumination_texture file="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_glow_df"/>
+        <variable type="scalar" name="il_multiplier" value="searchlight"/>
+        <variable type="vector3" name="uv_speed" value="0 -1.1 0"/>
+    </material>
+    <material decal_material="no_decal" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:DOUBLE_SIDED:OPACITY_FADE" name="mat_glass" version="2">
+        <variable type="vector3" name="fresnel_settings" value="0.55000001192093 1 0.37000000476837"/>
+        <opacity_texture file="units/payday2/glass/glass_clear_vehicle_op"/>
+        <diffuse_texture file="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_window_01_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable type="vector3" name="opacity_fade" value="10 4000 0"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" name="mat_lxy_prop_server_rack_doors" version="2">
+        <diffuse_texture file="units/pd2_dlc_fish/props/lxy_prop_server_01/lxy_prop_server_rack_doors_df"/>
+        <bump_normal_texture file="units/pd2_dlc_fish/props/lxy_prop_server_01/lxy_prop_server_rack_doors_nm"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_steel" type="cubemap"/>
+        <self_illumination_texture file="units/pd2_dlc_fish/props/lxy_prop_server_01/lxy_prop_server_rack_doors_il"/>
+        <variable type="scalar" name="il_multiplier" value="reddot"/>
+        <variable type="scalar" name="il_bloom" value="5.8910002798075"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" name="mat_lxy_prop_server_blue" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_nm"/>
+        <self_illumination_texture file="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_il"/>
+        <variable type="scalar" name="il_multiplier" value="searchlight"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SELF_ILLUMINATION" name="mat_lxy_prop_server_red" version="2">
+        <diffuse_texture file="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_df"/>
+        <bump_normal_texture file="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_nm"/>
+        <self_illumination_texture file="units/pd2_dlc_fish/props/lxy_prop_server_01/lxy_prop_server_rack_il"/>
+        <variable type="scalar" name="il_multiplier" value="searchlight"/>
+    </material>
+</materials>

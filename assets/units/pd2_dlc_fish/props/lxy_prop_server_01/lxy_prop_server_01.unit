@@ -1,0 +1,16 @@
+<unit type="lxy" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_dlc_fish/props/lxy_prop_server_01/lxy_prop_server_01" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on effect="effects/particles/environment/steam_01" />   		
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+	<sounds>
+		<default_soundsource source="rp_lxy_prop_server_01"/>
+		<soundsource name="snd" source="snd_01" />
+	</sounds>
+</unit>
