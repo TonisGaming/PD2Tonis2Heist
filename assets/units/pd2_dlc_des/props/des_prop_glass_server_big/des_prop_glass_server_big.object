@@ -1,0 +1,17 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big" orientation_object="rp_des_prop_glass_server_big" />
+	<sequence_manager file="units/pd2_dlc_des/props/des_prop_glass_server_big/des_prop_glass_server_big" />
+	<bodies>
+		<body name="body_glass_01" enabled="true" template="window">
+			<object name="e_glass_01" />
+			<object name="c_glass_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="glass_breakable">
+		<decal_mesh name="dm_glass_breakable_01" enabled="true" material="glass_breakable" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_glass_01" enabled="true" />
+		<object name="g_glass_01_cracked" enabled="false" />
+	</graphics>
+</dynamic_object>
