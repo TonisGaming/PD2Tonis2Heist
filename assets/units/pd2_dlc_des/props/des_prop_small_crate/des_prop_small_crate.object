@@ -1,0 +1,40 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate" orientation_object="rp_des_prop_small_crate" />
+	<sequence_manager file="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate" />
+	<animations>
+		<animation_group name="anim_lid" enabled="false">
+			<object name="e_crate_lid" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_des_prop_small_crate" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_collision_01" enabled="true" template="animated">
+			<object name="e_crate_lid" />
+			<object name="c_box_lid" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+		<decal_mesh name="dm_wood_01" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<graphic_group name="grp_box" enabled="true">
+			<object name="g_crate_lid" enabled="true" />
+			<object name="g_crate" enabled="true" />
+			<object name="g_decal1" enabled="true" />
+		</graphic_group>
+		<graphic_group name="grp_crowbar" enabled="true">
+			<lod_object name="lod_crowbar">
+				<object name="g_icon_crowbar_lod0" enabled="true"  max_distance="300" />
+				<object name="g_icon_crowbar_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+	</graphics>
+</dynamic_object>

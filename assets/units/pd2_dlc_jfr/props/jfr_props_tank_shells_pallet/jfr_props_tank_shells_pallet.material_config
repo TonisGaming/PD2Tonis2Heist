@@ -1,0 +1,14 @@
+<materials version="3">
+    <material name="Default" render_template="generic" version="2"/>
+    <material name="mat_casing" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_jfr/props/jfr_props_tank_shells_pallet/textures/shell_casing_df"/>
+        <bump_normal_texture file="units/pd2_dlc_jfr/props/jfr_props_tank_shells_pallet/textures/shell_casing_nm"/>
+    </material>
+    <material name="mat_tank_shells" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_jfr/props/jfr_props_tank_shells_pallet/textures/mat_88_shell_df"/>
+        <bump_normal_texture file="units/pd2_dlc_jfr/props/jfr_props_tank_shells_pallet/textures/mat_88_shell_nm"/>
+        <material_texture file="units/pd2_dlc_jfr/props/jfr_props_tank_shells_pallet/textures/mat_88_shell_gsm"/>
+        <reflection_texture type="cubemap" file="environments/cubemaps/cubemap_gold"/>
+    </material>
+</materials>
+

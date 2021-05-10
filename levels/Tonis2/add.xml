@@ -602,8 +602,120 @@
 		<unit path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_server_03" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_dark/props/drk_mobile_sever_rack/drk_prop_mobile_server_rack_a" type="unit">
-		<unit path="units/pd2_dlc_dark/props/drk_mobile_sever_rack/drk_prop_mobile_server_rack_a" unload="true"/>
-		<object path="units/pd2_dlc_dark/props/drk_mobile_sever_rack/drk_prop_mobile_server_rack_a" unload="true"/>
 		<material_config path="units/pd2_dlc_dark/props/drk_mobile_sever_rack/drk_prop_mobile_server_rack_a" unload="true"/>
+		<object path="units/pd2_dlc_dark/props/drk_mobile_sever_rack/drk_prop_mobile_server_rack_a" unload="true"/>
+		<unit path="units/pd2_dlc_dark/props/drk_mobile_sever_rack/drk_prop_mobile_server_rack_a" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jfr/props/jfr_prop_crate_c/jfr_prop_crate_c" type="unit">
+		<material_config path="units/pd2_dlc_jfr/props/jfr_prop_crate_c/jfr_prop_crate_c" unload="true"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_prop_crate_c/jfr_prop_crate_c" unload="true"/>
+		<unit path="units/pd2_dlc_jfr/props/jfr_prop_crate_c/jfr_prop_crate_c" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_16m" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour" unload="true"/>
+		<object path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_16m" unload="true"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_16m" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m_corner_45_out" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour" unload="true"/>
+		<object path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m_corner_45_out" unload="true"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_harbour/ind_ext_harbour_side_4m_corner_45_out" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/bnk/bnk_int_shelf_a" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int" unload="true"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_shelf_a" unload="true"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_shelf_a" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/com_int_basement/com_int_basement_ceiling_a_2x2m" type="unit">
+		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_wall" unload="true"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_ceiling_a_2x2m" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_ceiling_a_2x2m" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jfr/props/jfr_props_ammos_boxes/jfr_props_ammos_boxes_05" type="unit">
+		<material_config path="units/pd2_dlc_jfr/props/jfr_props_ammos_boxes/jfr_props_ammos_boxes" unload="true"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_props_ammos_boxes/jfr_props_ammos_boxes_05" unload="true"/>
+		<unit path="units/pd2_dlc_jfr/props/jfr_props_ammos_boxes/jfr_props_ammos_boxes_05" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest" unload="true"/>
+		<material_config path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
+		<object path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
+		<unit path="units/pd2_dlc_peta/props/pta_interactable_electric_box/pta_interactable_electric_box" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jfr/props/jfr_props_wpn_m1911/jfr_props_wpn_m1911" type="unit">
+		<material_config path="units/pd2_dlc_jfr/props/jfr_props_wpn_m1911/jfr_props_wpn_m1911" unload="true"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_props_wpn_m1911/jfr_props_wpn_m1911" unload="true"/>
+		<unit path="units/pd2_dlc_jfr/props/jfr_props_wpn_m1911/jfr_props_wpn_m1911" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jfr/props/jfr_props_ammos_boxes/jfr_props_ammos_boxes_06" type="unit">
+		<material_config path="units/pd2_dlc_jfr/props/jfr_props_ammos_boxes/jfr_props_ammos_boxes" unload="true"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_props_ammos_boxes/jfr_props_ammos_boxes_06" unload="true"/>
+		<unit path="units/pd2_dlc_jfr/props/jfr_props_ammos_boxes/jfr_props_ammos_boxes_06" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jfr/props/jfr_props_tank_shells_pallet/jfr_props_tank_shells_pallet" type="unit">
+		<material_config path="units/pd2_dlc_jfr/props/jfr_props_tank_shells_pallet/jfr_props_tank_shells_pallet" unload="true"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_props_tank_shells_pallet/jfr_props_tank_shells_pallet" unload="true"/>
+		<unit path="units/pd2_dlc_jfr/props/jfr_props_tank_shells_pallet/jfr_props_tank_shells_pallet" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jfr/props/jfr_prop_crate_a/jfr_prop_crate_a" type="unit">
+		<material_config path="units/pd2_dlc_jfr/props/jfr_prop_crate_a/jfr_prop_crate_a" unload="true"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_prop_crate_a/jfr_prop_crate_a" unload="true"/>
+		<unit path="units/pd2_dlc_jfr/props/jfr_prop_crate_a/jfr_prop_crate_a" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jfr/props/jfr_prop_crate_b/jfr_prop_crate_b" type="unit">
+		<material_config path="units/pd2_dlc_jfr/props/jfr_prop_crate_b/jfr_prop_crate_b" unload="true"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_prop_crate_b/jfr_prop_crate_b" unload="true"/>
+		<unit path="units/pd2_dlc_jfr/props/jfr_prop_crate_b/jfr_prop_crate_b" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate" unload="true"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_small_crate/des_prop_small_crate" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jfr/props/jfr_props_wpn_m1918/jfr_props_wpn_m1918" type="unit">
+		<material_config path="units/pd2_dlc_jfr/props/jfr_props_wpn_m1918/jfr_props_wpn_m1918" unload="true"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_props_wpn_m1918/jfr_props_wpn_m1918" unload="true"/>
+		<unit path="units/pd2_dlc_jfr/props/jfr_props_wpn_m1918/jfr_props_wpn_m1918" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jfr/props/jfr_props_wpn_thompson/jfr_props_wpn_thompson" type="unit">
+		<material_config path="units/pd2_dlc_jfr/props/jfr_props_wpn_thompson/jfr_props_wpn_thompson" unload="true"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_props_wpn_thompson/jfr_props_wpn_thompson" unload="true"/>
+		<unit path="units/pd2_dlc_jfr/props/jfr_props_wpn_thompson/jfr_props_wpn_thompson" unload="true"/>
+	</add>
+	<add path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_hightech" type="unit">
+		<material_config path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server" unload="true"/>
+		<object path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_hightech" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_security_servers/gen_prop_security_server_hightech" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jfr/props/jfr_prop_crate_ammo_a/jfr_prop_crate_ammo_a" type="unit">
+		<material_config path="units/pd2_dlc_jfr/props/jfr_prop_crate_ammo_a/jfr_prop_crate_ammo_a" unload="true"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_prop_crate_ammo_a/jfr_prop_crate_ammo_a" unload="true"/>
+		<unit path="units/pd2_dlc_jfr/props/jfr_prop_crate_ammo_a/jfr_prop_crate_ammo_a" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_collision/dev_collision_1x1m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_1x1m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_1x1m" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_shoutout_raid/architecture/gen_bdrop_docks/gen_bdrop_docks" type="unit">
+		<material_config path="units/pd2_dlc_shoutout_raid/architecture/gen_bdrop_docks/gen_bdrop_docks" unload="true"/>
+		<object path="units/pd2_dlc_shoutout_raid/architecture/gen_bdrop_docks/gen_bdrop_docks" unload="true"/>
+		<unit path="units/pd2_dlc_shoutout_raid/architecture/gen_bdrop_docks/gen_bdrop_docks" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_cage/props/ind_prop_cardealership_barrels/ind_prop_cardealership_barrel_closed" type="unit">
+		<bnk path="soundbanks/regular_car_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_cage/props/ind_prop_cardealership_barrels/ind_prop_cardealership_barrels" unload="true"/>
+		<object path="units/pd2_dlc_cage/props/ind_prop_cardealership_barrels/ind_prop_cardealership_barrel_closed" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere_unit" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_cage/props/ind_prop_cardealership_barrels/ind_prop_cardealership_barrel_closed" unload="true"/>
+		<unit path="units/pd2_dlc_cage/props/ind_prop_cardealership_barrels/ind_prop_cardealership_barrel_closed" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc1/props/str_prop_alley_graffiti/str_prop_decal_graffitti_stingertag" type="unit">
+		<unit path="units/pd2_dlc1/props/str_prop_alley_graffiti/str_prop_decal_graffitti_stingertag" unload="true"/>
+		<object path="units/pd2_dlc1/props/str_prop_alley_graffiti/str_prop_decal_graffitti_stingertag" unload="true"/>
+		<material_config path="units/pd2_dlc1/props/str_prop_alley_graffiti/str_prop_decal_graffitti_stingertag" unload="true"/>
 	</add>
 </table>

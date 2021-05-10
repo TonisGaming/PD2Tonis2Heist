@@ -25,21 +25,14 @@
 			<file file="environments/default.environment" type="custom_xml"/>
 		</include>
 		<packages>
-			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
-			<value_node value="levels/narratives/butcher/thebomb/stage_2/level_art/level_art"/>
 			<value_node value="levels/narratives/e_election_day/stage_2/world/world"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_2/level_art/level_art"/>
+			<value_node value="levels/narratives/h_firestarter/stage_1/world/world"/>
 			<value_node value="levels/narratives/bain/help/env_art/env_art"/>
-			<value_node value="levels/narratives/h_firestarter/stage_1/world/world"/>
-			<value_node value="levels/narratives/h_firestarter/stage_1/world/world"/>
-			<value_node value="levels/narratives/bain/rvd/stage2/world/world"/>
-			<value_node value="levels/narratives/vlad/shout/world/world"/>
-			<value_node value="levels/narratives/e_election_day/stage_1/world"/>
-			<value_node value="levels/instances/unique/pet_powerbox/world/world"/>
-			<value_node value="levels/instances/unique/crojob/crowbar_crate/world/world"/>
-			<value_node value="levels/instances/unique/des/des_crate_002/world/world"/>
-			<value_node value="levels/narratives/dentist/mus/world/world"/>
-			<value_node value="levels/instances/unique/dark/train_numbers/world/world"/>
-			<value_node value="levels/narratives/e_election_day/stage_3/world/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/world/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/world"/>
+			<value_node value="levels/narratives/h_alex_must_die/stage_3/pc_only/pc_only"/>
+			<value_node value="levels/narratives/bain/nail/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

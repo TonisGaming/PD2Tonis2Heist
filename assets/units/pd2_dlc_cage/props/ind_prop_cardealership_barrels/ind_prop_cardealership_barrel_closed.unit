@@ -1,0 +1,12 @@
+<unit type="ind" slot="1">
+	<object file="units/pd2_dlc_cage/props/ind_prop_cardealership_barrels/ind_prop_cardealership_barrel_closed" />
+	<network sync="bodies"/>
+	<dependencies>
+		<depends_on physic_effect="physic_effects/push_sphere_unit" />
+		<depends_on bnk="soundbanks/regular_car_sfx" />
+ 	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

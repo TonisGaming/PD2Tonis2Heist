@@ -1,0 +1,6 @@
+<unit type="jfr" slot="1">
+    <object file="units/pd2_dlc_jfr/props/jfr_props_wpn_m1911/jfr_props_wpn_m1911" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>
