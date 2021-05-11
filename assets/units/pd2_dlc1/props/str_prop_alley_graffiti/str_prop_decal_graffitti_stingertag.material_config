@@ -1,5 +1,0 @@
-<materials version="3">
-    <material name="mat_stingertag" render_template="decal:DIFFUSE_TEXTURE" version="2">
-        <diffuse_texture file="units/pd2_dlc1/props/str_prop_alley_graffiti/str_prop_decal_graffitti_stingertag_df"/>
-    </material>
-</materials>

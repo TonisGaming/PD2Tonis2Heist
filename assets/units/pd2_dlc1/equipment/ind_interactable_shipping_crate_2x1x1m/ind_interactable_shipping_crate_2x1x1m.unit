@@ -5,7 +5,6 @@
 	<extensions>
 		<extension name="unit_data" 	class="ScriptUnitData" />
 		<extension name="damage" 		class="UnitDamage" />
-		<!--<extension name="attention" class="AIAttentionObject" />-->
 		<extension name="interaction" class="UseInteractionExt">
 			<var name="tweak_data" value="crate_loot" />
 			<var name="_interact_object" value="spawn"/>
