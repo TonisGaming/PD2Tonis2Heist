@@ -791,4 +791,17 @@
 		<effect load="true" path="effects/payday2/environment/parts/thermal_fire" unload="true"/>
 		<effect load="true" path="effects/payday2/environment/parts/thermal_spark" unload="true"/>
 	</add>
+	<!-- START OF CUSTOM BREAKABLE SERVERS -->
+	<add unload_on_restart="true">
+		<unit				path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable" unload="true" load="true"/>
+		<object				path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable" unload="true"/>
+		<material_config	path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable" unload="true"/>
+		<unit				path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable_debris" unload="true" load="true"/>
+		<object				path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable_debris" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable_debris" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable_debris" unload="true"/>
+	</add>
+	<!-- END OF CUSTOM BREAKABLE SERVERS -->
 </table>
