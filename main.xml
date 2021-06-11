@@ -9,6 +9,8 @@
 		</assets>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="gamesetup.lua" source_file="lib/setups/gamesetup"/>
+			<hook file="playerstandard.lua" source_file="lib/units/beings/player/states/playerstandard"/>
 		</hooks>
 		<include directory="levels/Tonis2">
 			<file file="world.world" type="binary"/>

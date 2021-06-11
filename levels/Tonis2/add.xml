@@ -804,4 +804,44 @@
 		<sequence_manager	path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable_debris" unload="true"/>
 	</add>
 	<!-- END OF CUSTOM BREAKABLE SERVERS -->
+	<!--Mantle Point-->
+	<add unload_on_restart="true">
+		<unit load="true" path="units/pd2_mod_pdm/props/mantle_point/mantle_point" unload="true"/>
+		<object path="units/pd2_mod_pdm/props/mantle_point/mantle_point" unload="true"/>
+		<model path="units/pd2_mod_pdm/props/mantle_point/mantle_point" unload="true"/>
+		<material_config path="units/pd2_mod_pdm/props/mantle_point/mantle_point" unload="true"/>
+		<sequence_manager path="units/pd2_mod_pdm/props/mantle_point/mantle_point" unload="true"/>
+
+		<unit load="true" path="units/pd2_mod_pdm/props/mantle_indicator_rope_long/mantle_indicator_rope_long" unload="true"/>
+		<object path="units/pd2_mod_pdm/props/mantle_indicator_rope_long/mantle_indicator_rope_long" unload="true"/>
+		<model path="units/pd2_mod_pdm/props/mantle_indicator_rope_long/mantle_indicator_rope_long" unload="true"/>
+		<material_config path="units/pd2_mod_pdm/props/mantle_indicator_rope_long/mantle_indicator_rope_long" unload="true"/>
+		<texture load="true" path="units/pd2_mod_pdm/props/mantle_indicator_rope_long/rope_df" unload="true"/>
+		<texture load="true" path="units/pd2_mod_pdm/props/mantle_indicator_rope_long/rope_nm" unload="true"/>
+
+		<unit load="true" path="units/pd2_mod_pdm/props/mantle_indicator_rope_short/mantle_indicator_rope_short" unload="true"/>
+		<object path="units/pd2_mod_pdm/props/mantle_indicator_rope_short/mantle_indicator_rope_short" unload="true"/>
+		<model path="units/pd2_mod_pdm/props/mantle_indicator_rope_short/mantle_indicator_rope_short" unload="true"/>
+		
+		<unit load="true" path="units/pd2_mod_pdm/props/mantle_indicator_decal/mantle_indicator_decal" unload="true"/>
+		<object path="units/pd2_mod_pdm/props/mantle_indicator_decal/mantle_indicator_decal" unload="true"/>
+		<model path="units/pd2_mod_pdm/props/mantle_indicator_decal/mantle_indicator_decal" unload="true"/>
+		<material_config path="units/pd2_mod_pdm/props/mantle_indicator_decal/mantle_indicator_decal" unload="true"/>
+		<material_config path="units/pd2_mod_pdm/props/mantle_indicator_decal/mantle_indicator_decal_blue" unload="true"/>
+		<texture load="true" path="units/pd2_mod_pdm/props/mantle_indicator_decal/mantle_indicator_decal_df" unload="true"/>
+		<texture load="true" path="units/pd2_mod_pdm/props/mantle_indicator_decal/mantle_indicator_decal_op" unload="true"/>
+		<texture load="true" path="units/pd2_mod_pdm/props/mantle_indicator_decal/mantle_indicator_decal_blue_df" unload="true"/>
+		<sequence_manager path="units/pd2_mod_pdm/props/mantle_indicator_decal/mantle_indicator_decal" unload="true"/>
+	</add>
+
+	<!--Grapple Point-->
+	<add  unload_on_restart="true">
+		<unit load="true" path="units/pd2_mod_pdm/props/grapple_point/grapple_point" unload="true"/>
+		<object path="units/pd2_mod_pdm/props/grapple_point/grapple_point" unload="true"/>
+		<model path="units/pd2_mod_pdm/props/grapple_point/grapple_point" unload="true"/>
+		<sequence_manager path="units/pd2_mod_pdm/props/grapple_point/grapple_point" unload="true"/>
+		<material_config path="units/pd2_mod_pdm/props/grapple_point/grapple_point" unload="true"/>
+		<texture load="true" path="units/pd2_mod_pdm/props/grapple_point/gui_grapple_hook" unload="true"/>
+		<bnk path="soundbanks/zipline" unload="true"/>
+	</add>
 </table>

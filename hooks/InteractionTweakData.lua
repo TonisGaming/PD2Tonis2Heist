@@ -14,4 +14,29 @@ Hooks:PostHook(InteractionTweakData, "init", "tonis2_interactions", function(sel
 		blocked_hint = "no_ecm"
 	}
 	
+	self.mantle_point = {
+		text_id = "hud_int_press_mantle_point",
+		interact_distance = 100,
+		axis = "y",
+		start_active = true
+	}
+	self.mantle_point_2 = {
+		text_id = "hud_int_press_mantle_point",
+		interact_distance = 200,
+		axis = "y",
+		start_active = true
+	}
+	self.grapple_point = {
+		text_id = "hud_int_hold_grapple_point",
+		interact_distance = 200,
+		timer = 1,
+		force_update_position = true,
+		axis = "x",
+		contour = "interactable_icon",
+		start_active = true,
+		sound_start = "bar_remove_rope_start",
+		sound_cancel = "bar_remove_rope_cancel",
+		sound_done = "bar_remove_rope_finish"
+	}
+	
 end)
