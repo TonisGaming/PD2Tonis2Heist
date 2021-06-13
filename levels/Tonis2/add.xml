@@ -785,44 +785,38 @@
 		<object path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic" unload="true"/>
 		<material_config path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic" unload="true"/>
 		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic" unload="true"/>
-		<gui path="guis/timer_gui" unload="true"/>
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<effect load="true" path="effects/payday2/environment/thermal_lance" unload="true"/>
 		<effect load="true" path="effects/payday2/environment/parts/thermal_fire" unload="true"/>
 		<effect load="true" path="effects/payday2/environment/parts/thermal_spark" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
 	</add>
-	<!-- START OF CUSTOM BREAKABLE SERVERS -->
 	<add unload_on_restart="true">
-		<unit				path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable" unload="true" load="true"/>
-		<object				path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable" unload="true"/>
-		<model				path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable" unload="true"/>
-		<material_config	path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable" unload="true"/>
-		<sequence_manager	path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable" unload="true"/>
-		<unit				path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable_debris" unload="true" load="true"/>
-		<object				path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable_debris" unload="true"/>
-		<model				path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable_debris" unload="true"/>
-		<sequence_manager	path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable_debris" unload="true"/>
+		<unit load="true" path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable" unload="true"/>
+		<object path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable" unload="true"/>
+		<model path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable" unload="true"/>
+		<sequence_manager path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable" unload="true"/>
+		<unit load="true" path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable_debris" unload="true"/>
+		<object path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable_debris" unload="true"/>
+		<model path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable_debris" unload="true"/>
+		<sequence_manager path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable_debris" unload="true"/>
+		<material_config path="units/pd2_mod_custom/cus_server_rack_breakable/cus_server_rack_breakable" unload="true"/>
 	</add>
-	<!-- END OF CUSTOM BREAKABLE SERVERS -->
-	<!--Mantle Point-->
 	<add unload_on_restart="true">
 		<unit load="true" path="units/pd2_mod_pdm/props/mantle_point/mantle_point" unload="true"/>
 		<object path="units/pd2_mod_pdm/props/mantle_point/mantle_point" unload="true"/>
 		<model path="units/pd2_mod_pdm/props/mantle_point/mantle_point" unload="true"/>
 		<material_config path="units/pd2_mod_pdm/props/mantle_point/mantle_point" unload="true"/>
 		<sequence_manager path="units/pd2_mod_pdm/props/mantle_point/mantle_point" unload="true"/>
-
 		<unit load="true" path="units/pd2_mod_pdm/props/mantle_indicator_rope_long/mantle_indicator_rope_long" unload="true"/>
 		<object path="units/pd2_mod_pdm/props/mantle_indicator_rope_long/mantle_indicator_rope_long" unload="true"/>
 		<model path="units/pd2_mod_pdm/props/mantle_indicator_rope_long/mantle_indicator_rope_long" unload="true"/>
 		<material_config path="units/pd2_mod_pdm/props/mantle_indicator_rope_long/mantle_indicator_rope_long" unload="true"/>
 		<texture load="true" path="units/pd2_mod_pdm/props/mantle_indicator_rope_long/rope_df" unload="true"/>
 		<texture load="true" path="units/pd2_mod_pdm/props/mantle_indicator_rope_long/rope_nm" unload="true"/>
-
 		<unit load="true" path="units/pd2_mod_pdm/props/mantle_indicator_rope_short/mantle_indicator_rope_short" unload="true"/>
 		<object path="units/pd2_mod_pdm/props/mantle_indicator_rope_short/mantle_indicator_rope_short" unload="true"/>
 		<model path="units/pd2_mod_pdm/props/mantle_indicator_rope_short/mantle_indicator_rope_short" unload="true"/>
-		
 		<unit load="true" path="units/pd2_mod_pdm/props/mantle_indicator_decal/mantle_indicator_decal" unload="true"/>
 		<object path="units/pd2_mod_pdm/props/mantle_indicator_decal/mantle_indicator_decal" unload="true"/>
 		<model path="units/pd2_mod_pdm/props/mantle_indicator_decal/mantle_indicator_decal" unload="true"/>
@@ -833,15 +827,50 @@
 		<texture load="true" path="units/pd2_mod_pdm/props/mantle_indicator_decal/mantle_indicator_decal_blue_df" unload="true"/>
 		<sequence_manager path="units/pd2_mod_pdm/props/mantle_indicator_decal/mantle_indicator_decal" unload="true"/>
 	</add>
-
-	<!--Grapple Point-->
-	<add  unload_on_restart="true">
-		<unit load="true" path="units/pd2_mod_pdm/props/grapple_point/grapple_point" unload="true"/>
-		<object path="units/pd2_mod_pdm/props/grapple_point/grapple_point" unload="true"/>
-		<model path="units/pd2_mod_pdm/props/grapple_point/grapple_point" unload="true"/>
-		<sequence_manager path="units/pd2_mod_pdm/props/grapple_point/grapple_point" unload="true"/>
-		<material_config path="units/pd2_mod_pdm/props/grapple_point/grapple_point" unload="true"/>
-		<texture load="true" path="units/pd2_mod_pdm/props/grapple_point/gui_grapple_hook" unload="true"/>
+	<add unload_on_restart="true">
 		<bnk path="soundbanks/zipline" unload="true"/>
+		<material_config path="units/pd2_mod_pdm/props/grapple_point/grapple_point" unload="true"/>
+		<model path="units/pd2_mod_pdm/props/grapple_point/grapple_point" unload="true"/>
+		<object path="units/pd2_mod_pdm/props/grapple_point/grapple_point" unload="true"/>
+		<sequence_manager path="units/pd2_mod_pdm/props/grapple_point/grapple_point" unload="true"/>
+		<texture load="true" path="units/pd2_mod_pdm/props/grapple_point/gui_grapple_hook" unload="true"/>
+		<unit load="true" path="units/pd2_mod_pdm/props/grapple_point/grapple_point" unload="true"/>
+	</add>
+	<add path="units/payday2/props/gen_prop_displaywall/gen_prop_displaywall" type="unit">
+		<material_config path="units/payday2/props/gen_prop_displaywall/gen_prop_displaywall" unload="true"/>
+		<object path="units/payday2/props/gen_prop_displaywall/gen_prop_displaywall" unload="true"/>
+		<unit path="units/payday2/props/gen_prop_displaywall/gen_prop_displaywall" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jfr/props/jfr_crate_wine/jfr_crate_wine" type="unit">
+		<unit path="units/pd2_dlc_jfr/props/jfr_crate_wine/jfr_crate_wine" unload="true"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_crate_wine/jfr_crate_wine" unload="true"/>
+		<unit path="units/pd2_dlc_jfr/props/jfr_crate_wine_bag/jfr_crate_wine_bag" unload="true"/>
+		<object path="units/pd2_dlc_jfr/props/jfr_crate_wine_bag/jfr_crate_wine_bag" unload="true"/>
+		<material_config path="units/pd2_dlc_jfr/props/jfr_crate_wine/jfr_crate_wine" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_jfr/props/jfr_crate_wine/jfr_crate_wine" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_jewelry_jewels/spawn_prop_jewelry_box_01" type="unit">
+		<unit path="units/payday2/props/com_prop_jewelry_jewels/spawn_prop_jewelry_box_01" unload="true"/>
+		<object path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box_01" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_jewelry_jewels/spawn_prop_jewelry_box_03" type="unit">
+		<unit path="units/payday2/props/com_prop_jewelry_jewels/spawn_prop_jewelry_box_03" unload="true"/>
+		<object path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box_03" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_jewelry_jewels/spawn_prop_jewelry_box_02" type="unit">
+		<unit path="units/payday2/props/com_prop_jewelry_jewels/spawn_prop_jewelry_box_02" unload="true"/>
+		<object path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box_02" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box" unload="true"/>
+	</add>
+	<add path="units/payday2/props/com_prop_jewelry_jewels/spawn_prop_jewelry_box_04" type="unit">
+		<unit path="units/payday2/props/com_prop_jewelry_jewels/spawn_prop_jewelry_box_04" unload="true"/>
+		<object path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box_04" unload="true"/>
+		<material_config path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box" unload="true"/>
+		<sequence_manager path="units/payday2/props/com_prop_jewelry_jewels/com_prop_jewelry_box" unload="true"/>
 	</add>
 </table>
