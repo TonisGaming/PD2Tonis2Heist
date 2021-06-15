@@ -1,0 +1,69 @@
+<table>
+	<unit>
+		<body name="'body_static'">
+			<endurance bullet="1" >
+				<run_sequence name="'int_seq_burn'"/>
+				<run_sequence name="'int_seq_reset_bullet_endurance'"/>
+			</endurance>
+			<endurance damage="35">
+				<run_sequence name="'int_seq_explode_barrel'" start_time="3/30"/>
+			</endurance>
+		</body>
+		<body name="'body_dynamic'">
+			<endurance damage="35">
+				<run_sequence name="'int_seq_explode_barrel'" start_time="3/30"/>
+			</endurance>
+			<endurance collision="1">
+				<run_sequence name="'int_seq_reset_collision_endurance'"/>
+				<run_sequence name="'int_seq_car_hit'"/>
+			</endurance>
+		</body>
+		
+		<sequence editable_state="true" filter="body( 'body_static' ):enabled()" name="'int_seq_make_dynamic'" once="true" triggable="true">
+			<slot slot="11"/>
+			<body enabled="false" name="'body_static'"/>
+			<body enabled="true" name="'body_dynamic'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'int_seq_burn'" triggable="true">
+			<run_sequence name="'once_big_fire'" />
+			<effect align="dest_normal" name="'units/pd2_mod_custom/cus_explosive_propane_tank/small_burning'" parent="object('rp_root')" position="pos - object_pos('rp_root')" store_id_list_var="'burning_id_list'"/>
+			<run_sequence name="'int_seq_explode_barrel'" start_time="4"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'once_big_fire'" once="true" triggable="false">
+			<sound action="'play'" event="'flamethrower_npc_fire'" object="'e_fire'"/>
+			<effect name="'units/pd2_mod_custom/cus_explosive_propane_tank/large_burning'" parent="object('e_fire')" store_id_list_var="'burning_id_list'"/>
+		</sequence>
+		
+		<sequence editable_state="false" name=" 'int_seq_explode_barrel' " once="true" triggable="false">
+			<stop_effect id_list_var="'burning_id_list'" instant="true"/>
+			<body enabled="false" name="'body_static'"/>
+			<body enabled="false" name="'body_dynamic'"/>
+			<function extension="'base'" function="'detonate'" param1="object_pos( 'rp_root' )" param2="800" param3="300" param4="25"/>
+			<sound action="'play'" event="'flamethrower_npc_fire_stop'" object="'e_fire'"/>
+			<sound action="'play'" event="'hit_oil_drum'" object="'rp_root'"/>
+			<graphic_group name="'grp_all'" visibility="false"/>
+			<decal_mesh enabled="false" name="'c_c'"/>
+			
+			<!-- <spawn_unit name="'units/pd2_dlc_shoutout_raid/props/gen_explosive_barrel/spawn_barrel_debris'" position="object_pos('rp_root')" rotation="rot(0, 0, rand()*360)"/> -->
+			<physic_effect name="'physic_effects/push_sphere'" param1="50" param2="3" target="dest_unit:get_object( Idstring('rp_root') )"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'int_seq_car_hit'" triggable="false">
+			<sound action="'play'" event="'hit_oil_drum'" object="'rp_root'"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'int_seq_reset_collision_endurance'" triggable="false">
+			<set_damage collision="0"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'int_seq_reset_bullet_endurance'" triggable="false">
+			<set_damage bullet="0"/>
+		</sequence>
+		
+		<sequence name=" 'car_destructable' ">
+			<run_sequence name="'int_seq_make_dynamic'"/>
+		</sequence>
+	</unit>
+</table>
