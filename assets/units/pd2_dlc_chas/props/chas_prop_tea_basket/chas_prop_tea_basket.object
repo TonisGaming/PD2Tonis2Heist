@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_chas/props/chas_prop_tea_basket/chas_prop_tea_basket" orientation_object="rp_chas_prop_tea_basket" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_chas_prop_tea_basket" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_02" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="thin_layer">
+		<decal_mesh name="dm_thin_material" enabled="true" material="thin_layer" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_mullplan" enabled="true" />
+		<lod_object name="lod_g_basket">
+			<object name="g_basket_lod0" enabled="true" max_distance="500" />
+			<object name="g_basket_lod1" enabled="true" />
+		</lod_object>
+	</graphics>
+</dynamic_object>

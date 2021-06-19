@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<unit type="spawn" slot="1">
+	<object file="units/payday2/props/bnk_prop_security_moneycounter/spawn_bucket_of_money" />
+	<network sync="spawn" />
+	<dependencies>
+		<depends_on effect="effects/payday2/particles/grab/grab_money" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="base" class="SmallLootBase">
+			<var name="small_loot" value="spawn_bucket_of_money" />
+			<var name="skip_remove_unit" value="false" />
+		</extension>
+		<extension name="interaction" class="SmallLootInteractionExt">
+			<var name="tweak_data" value="money_small_take" />
+			<var name="_interact_object" value="interact"/>
+			<var name="_ray_object_names" type="table" >
+					<var value="interact"/>
+			</var>
+			<var name="_remove_on_interact" value="true" />
+			<!-- <var name="_global_event" value="pku_money" /> -->
+		</extension>
+	</extensions>
+</unit>

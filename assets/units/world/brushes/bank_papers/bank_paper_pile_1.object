@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/brushes/bank_papers/bank_papers" orientation_object="rp_bank_paper_pile_1" />
+  <graphics>
+    <object name="g_bank_paper_pile_1" enabled="true" instance_struct="world_tm"/>
+  </graphics>
+</dynamic_object>

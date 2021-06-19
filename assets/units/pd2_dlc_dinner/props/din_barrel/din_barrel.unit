@@ -1,0 +1,8 @@
+<unit type="din" slot="1">
+	<object file="units/pd2_dlc_dinner/props/din_barrel/din_barrel" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

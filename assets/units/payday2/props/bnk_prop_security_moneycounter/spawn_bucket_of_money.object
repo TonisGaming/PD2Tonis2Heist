@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/props/bnk_prop_security_moneycounter/bnk_prop_security_moneycounter" orientation_object="rp_spawn_bucket_of_money" />
+	<sequence_manager file="units/payday2/props/bnk_prop_security_moneycounter/spawn_bucket_of_money" />
+
+	<graphics>
+		<object name="g_money"  enabled="true" />    
+	</graphics>
+</dynamic_object> 

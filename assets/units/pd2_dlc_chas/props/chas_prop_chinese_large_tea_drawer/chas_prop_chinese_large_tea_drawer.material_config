@@ -1,0 +1,13 @@
+<materials version="3">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP"  name="mat_tea_drawer" version="2">
+        <diffuse_texture file="units/pd2_dlc_chas/props/chas_prop_chinese_large_tea_drawer/chas_prop_chinese_large_tea_drawer_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chas/props/chas_prop_chinese_large_tea_drawer/chas_prop_chinese_large_tea_drawer_nm"/>
+        <material_texture file="units/pd2_dlc_chas/props/chas_prop_chinese_large_tea_drawer/chas_prop_chinese_large_tea_drawer_gsma"/>
+      <reflection_texture global_texture="current_global_texture" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_tea_drawer_lod" version="2">
+        <diffuse_texture file="units/pd2_dlc_chas/props/chas_prop_chinese_large_tea_drawer/chas_prop_chinese_large_tea_drawer_df" mip="4"/>
+        <bump_normal_texture file="units/pd2_dlc_chas/props/chas_prop_chinese_large_tea_drawer/chas_prop_chinese_large_tea_drawer_nm" mip="4"/>
+        <material_texture file="units/pd2_dlc_chas/props/chas_prop_chinese_large_tea_drawer/chas_prop_chinese_large_tea_drawer_gsma"/>
+    </material>
+</materials>

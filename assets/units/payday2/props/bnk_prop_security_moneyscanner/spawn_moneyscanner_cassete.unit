@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<unit type="spawn" slot="1">
+	<object file="units/payday2/props/bnk_prop_security_moneyscanner/spawn_moneyscanner_cassete" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="base" class="SmallLootBase">
+			<var name="small_loot" value="gen_atm" />
+			<var name="skip_remove_unit" value="false" />
+		</extension>
+		<extension name="interaction" class="SmallLootInteractionExt">
+			<var name="tweak_data" value="money_scanner" />
+			<!-- <var name="_global_event" value="pku_atm" /> -->
+		</extension>
+	</extensions>
+</unit>

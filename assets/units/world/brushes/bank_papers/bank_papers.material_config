@@ -1,0 +1,5 @@
+<materials version="3">
+    <material name="bank_papers" render_template="generic:DIFFUSE_TEXTURE:INSTANCED" version="2">
+        <diffuse_texture file="units/world/brushes/bank_papers/bank_papers_df"/>
+    </material>
+</materials>

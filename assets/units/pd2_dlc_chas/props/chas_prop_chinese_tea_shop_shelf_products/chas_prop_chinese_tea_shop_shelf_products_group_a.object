@@ -1,0 +1,41 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_chas/props/chas_prop_chinese_tea_shop_shelf_products/chas_prop_chinese_tea_shop_shelf_products" orientation_object="rp_chas_prop_chinese_tea_shop_shelf_products_group_a" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_chas_prop_chinese_tea_shop_shelf_products_group_a" />
+			<object name="c_box_010" collision_type="box" padding="-2.5" />
+			<object name="c_box_011" collision_type="box" padding="-2.5" />
+			<object name="c_box_012" collision_type="box" padding="-2.5" />
+			<object name="c_box_013" collision_type="box" padding="-2.5" />
+			<object name="c_box_014" collision_type="box" padding="-2.5" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_015" collision_type="box" padding="-2.5" />
+			<object name="c_box_016" collision_type="box" padding="-2.5" />
+			<object name="c_box_017" collision_type="box" padding="-2.5" />
+			<object name="c_box_018" collision_type="box" padding="-2.5" />
+			<object name="c_box_019" collision_type="box" padding="-2.5" />
+			<object name="c_box_020" collision_type="box" padding="-2.5" />
+			<object name="c_box_021" collision_type="box" padding="-2.5" />
+			<object name="c_box_022" collision_type="box" padding="-2.5" />
+			<object name="c_box_023" collision_type="box" padding="-2.5" />
+			<object name="c_box_024" collision_type="box" padding="-2.5" />
+			<object name="c_box_025" collision_type="box" padding="-2.5" />
+			<object name="c_box_026" collision_type="box" padding="-2.5" />
+			<object name="c_box_027" collision_type="box" padding="-2.5" />
+			<object name="c_box_028" collision_type="box" padding="-2.5" />
+			<object name="c_box_029" collision_type="box" padding="-2.5" />
+			<object name="c_box_030" collision_type="box" padding="-2.5" />
+			<object name="c_box_031" collision_type="box" padding="-2.5" />
+			<object name="c_box_032" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<lod_object name="lod_g">
+			<object name="g_lod0" enabled="true" max_distance="1500" />
+			<object name="g_lod1" enabled="true" />
+		</lod_object>
+	</graphics>
+</dynamic_object>
