@@ -1,0 +1,7 @@
+<materials version="3">
+	<material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" decal_material="metal" version="2" name="mtr_wst_prop_int_carpet">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/props/western/wst_prop_int_carpet/wst_prop_int_carpet_df"/>
+        <bump_normal_texture file="units/world/props/western/wst_prop_int_carpet/wst_prop_int_carpet_nm"/>
+    </material>
+</materials>

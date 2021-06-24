@@ -1,0 +1,31 @@
+<materials version="3">
+    <material render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:NORMALMAP" name="mat_carpet_dining_hall" version="2">
+        <diffuse_texture file="units/pd2_dlc_fex/props/fex_prop_carpets/fex_prop_carpet_dining_hall_df"/>
+        <bump_normal_texture file="units/pd2_dlc_vit/architecture/tilling_textures/vit_carpet_vertextint/vit_carpet_crosshall_red_nm"/>
+        <variable type="scalar" name="alpha_ref" value="0"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_bedroom_rug" version="2">
+        <diffuse_texture file="units/pd2_dlc_fex/props/fex_prop_carpets/fex_prop_carpet_bedroom_rug_df"/>
+        <bump_normal_texture file="units/pd2_dlc_vit/architecture/tilling_textures/vit_carpet_vertextint/vit_carpet_crosshall_red_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_int_carpet" version="2">
+        <diffuse_texture file="units/pd2_dlc_fex/props/fex_prop_carpets/fex_prop_carpet_corridor_01_df"/>
+        <bump_normal_texture file="units/pd2_dlc_vit/architecture/tilling_textures/vit_carpet_vertextint/vit_carpet_crosshall_red_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_rug_table_chair" version="2">
+        <diffuse_texture file="units/pd2_dlc_fex/props/fex_prop_carpets/fex_prop_carpet_03_df"/>
+        <bump_normal_texture file="units/pd2_dlc_vit/architecture/tilling_textures/vit_carpet_vertextint/vit_carpet_crosshall_red_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_rug_red_01_lod" version="2">
+        <diffuse_texture file="units/pd2_dlc_fex/props/fex_prop_carpets/fex_prop_carpet_corridor_01_df" mip="4"/>
+        <bump_normal_texture file="units/pd2_dlc_vit/architecture/tilling_textures/vit_carpet_vertextint/vit_carpet_crosshall_red_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_rug_blue_01" version="2">
+        <diffuse_texture file="units/pd2_dlc_fex/props/fex_prop_carpets/fex_prop_carpet_corridor_03_df"/>
+        <bump_normal_texture file="units/pd2_dlc_vit/architecture/tilling_textures/vit_carpet_vertextint/vit_carpet_crosshall_red_nm"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mat_rug_blue_01_lod" version="2">
+        <diffuse_texture file="units/pd2_dlc_fish/lxy_prop_rug_01/lxy_prop_rug_blue_01_df" mip="4"/>
+        <bump_normal_texture file="units/pd2_dlc_fish/lxy_prop_rug_01/lxy_prop_rug_blue_01_nm" mip="4"/>
+    </material>
+</materials>

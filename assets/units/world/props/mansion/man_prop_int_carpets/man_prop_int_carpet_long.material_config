@@ -1,0 +1,10 @@
+<materials version="3">
+    <material version="2" decal_material="cloth" name="carpet_long" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <bump_normal_texture file="units/world/props/mansion/man_prop_int_carpets/man_prop_int_carpet_long_nm"/>
+        <diffuse_texture file="units/world/props/mansion/man_prop_int_carpets/man_prop_int_carpet_long_df"/>
+    </material>
+    <material version="2" decal_material="cloth" name="carpet_long_lod" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <bump_normal_texture file="units/world/props/mansion/man_prop_int_carpets/man_prop_int_carpet_long_nm" mip="3"/>
+        <diffuse_texture file="units/world/props/mansion/man_prop_int_carpets/man_prop_int_carpet_long_df" mip="3"/>
+    </material>
+</materials>

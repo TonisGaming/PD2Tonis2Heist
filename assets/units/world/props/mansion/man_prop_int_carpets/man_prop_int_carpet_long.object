@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/mansion/man_prop_int_carpets/man_prop_int_carpet_long" orientation_object="rp_man_prop_int_carpet_long" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+      <object name="rp_man_prop_int_carpet_long" />
+      <object name="c_man_prop_int_carpet_long_box" collision_type="box" padding="-2.5"/>
+    </body>
+  </bodies>
+  
+  <decal_surfaces default_material="cloth_stuffed">
+    <decal_mesh name="g_man_prop_int_carpet_long" enabled="true" material="cloth_stuffed"/>
+  </decal_surfaces>
+  
+  <graphics>
+    <lod_object name="lod_wood_floor">
+          <object enabled="true" name="g_man_prop_int_carpet_long" >
+          <material materials="carpet_long" max_distance="1000"/>
+            <material materials="carpet_long_lod"  />
+       </object>
+    </lod_object>
+  </graphics>
+</dynamic_object> 
