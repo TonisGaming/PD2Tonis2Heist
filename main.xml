@@ -1,39 +1,20 @@
 <table name="Tonis2">
 	<level ai_group_type="america" id="Tonis2" max_bags="54">
 		<add file="levels/Tonis2/add.xml"/>
-		<assets>
-			<asset name="ammo_bag"/>
-			<asset name="health_bag"/>
-			<asset name="grenade_crate"/>
-			<asset name="bodybags_bag"/>
-		</assets>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="EquipmentsTweakData.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
 			<hook file="gamesetup.lua" source_file="lib/setups/gamesetup"/>
 			<hook file="playerstandard.lua" source_file="lib/units/beings/player/states/playerstandard"/>
+			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
+			<hook file="worldholder.lua" source_file="lib/utils/dev/editor/worldholder"/>
+			<hook file="coreportalmanager.lua" source_file="core/lib/managers/coreportalmanager"/>
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
 		</hooks>
-		<include directory="levels/Tonis2">
-			<file file="world.world" type="binary"/>
-			<file file="continents.continents" type="binary"/>
-			<file file="mission.mission" type="binary"/>
-			<file file="nav_manager_data.nav_data" type="binary"/>
-			<file file="world_sounds.world_sounds" type="binary"/>
-			<file file="world_cameras.world_cameras" type="binary"/>
-			<file file="editor_only/editor_only.continent" type="binary"/>
-			<file file="editor_only/editor_only.mission" type="binary"/>
-			<file file="world/world.continent" type="binary"/>
-			<file file="world/world.mission" type="binary"/>
-			<file file="cover_data.cover_data" type="binary"/>
-			<file file="environments/default.environment" type="custom_xml"/>
-		</include>
 		<packages>
-			<value_node value="levels/narratives/e_election_day/stage_2/world/world"/>
-			<value_node value="levels/narratives/butcher/thebomb/stage_2/level_art/level_art"/>
-			<value_node value="levels/narratives/h_firestarter/stage_1/world/world"/>
 			<value_node value="levels/instances/unique/dark/train_numbers/world/world"/>
-			<value_node value="levels/narratives/bain/shadow_raid/world"/>
-			<value_node value="levels/narratives/bain/help/env_art/env_art"/>
-			<value_node value="levels/narratives/dentist/hox/stage_2/world"/>
+			<value_node value="levels/instances/unique/are_exfil_puzzle/world/world"/>
+			<value_node value="levels/instances/unique/chca/chca_heli_drop/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -103,7 +84,7 @@
 	</level>
 	<instance id="inst_crate_wide">
 		<add file="levels/inst_crate_wide/add.xml"/>
-		<include directory="levels/inst_crate_wide">
+		<include directory="levels/instance/inst_crate_wide">
 			<file file="world.world" type="generic_xml"/>
 			<file file="world/world.continent" type="custom_xml"/>
 			<file file="world/world.mission" type="generic_xml"/>
@@ -114,7 +95,7 @@
 	</instance>
 	<instance id="inst_crate_small">
 		<add file="levels/inst_crate_small/add.xml"/>
-		<include directory="levels/inst_crate_small">
+		<include directory="levels/instance/inst_crate_small">
 			<file file="world.world" type="generic_xml"/>
 			<file file="world/world.continent" type="custom_xml"/>
 			<file file="world/world.mission" type="generic_xml"/>
@@ -123,9 +104,24 @@
 		</include>
 		<packages/>
 	</instance>
+	<instance id="ton_locked_murkycontainer">
+		<packages/>
+	</instance>
+	<Achievements id="tonis2_package"/>
+	<AddFiles directory="assets">
+		<texture path="textures/test1"/>
+	</AddFiles>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
+	<Sounds directory="assets/audio/vo">
+		<sound id="Tonis2_vo_gensec5" path="tonis/Tonis2_vo_gensec5.ogg" subtitle_id="Tonis2_vo_gensec5"/>
+		<sound id="Tonis2_vo_21" path="tonis/21.ogg" subtitle_id="Tonis2_vo_21"/>
+		<sound id="Tonis2_vo_23" path="tonis/23.ogg" subtitle_id="Tonis2_vo_23"/>
+		<sound id="Tonis2_vo_11" path="tonis/11.ogg" subtitle_id="Tonis2_vo_11"/>
+		<sound id="Tonis2_vo_31" path="tonis/31.ogg" subtitle_id="Tonis2_vo_31"/>
+	</Sounds>
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Tonis" name_id="contract_tonis" package="packages/contact_bain"/>
 	<narrative briefing_event="" contact="Tonis" id="Tonis2">
 		<chain>
 			<table level_id="Tonis2" type="d" type_id="heist_type_assault"/>

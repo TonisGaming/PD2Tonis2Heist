@@ -1,0 +1,31 @@
+<table>
+	<objective description="ton2_obj_1_desc" id="ton2_obj_1" text="ton2_obj_1"/>
+	<objective description="ton2_obj_2_desc" id="ton2_obj_2" text="ton2_obj_2"/>
+	<objective description="ton2_obj_gensec1_desc" id="ton2_obj_gensec1" text="ton2_obj_gensec1"/>
+	<objective description="ton2_obj_murky1_desc" id="ton2_obj_murky1" text="ton2_obj_murky1"/>
+	<objective description="ton2_obj_gensec2_desc" id="ton2_obj_gensec2" text="ton2_obj_gensec2"/>
+	<objective description="ton2_obj_gensec3_desc" id="ton2_obj_gensec3" text="ton2_obj_gensec3"/>
+	<objective description="ton2_obj_murky2_desc" id="ton2_obj_murky2" text="ton2_obj_murky2"/>
+	<objective description="ton2_obj_murky3_desc" id="ton2_obj_murky3" text="ton2_obj_murky3"/>
+	<objective description="ton2_obj_murky4s_desc" id="ton2_obj_murky4s" text="ton2_obj_murky4s"/>
+	<objective description="ton2_obj_gensec3c_desc" id="ton2_obj_gensec3c" text="ton2_obj_gensec3c"/>
+	<objective description="ton2_obj_gensec4_desc" id="ton2_obj_gensec4" text="ton2_obj_gensec4"/>
+	<objective amount="6" description="ton2_obj_gensec5_desc" id="ton2_obj_gensec5" text="ton2_obj_gensec5"/>
+	<objective description="ton2_obj_gensec3d_desc" id="ton2_obj_gensec3d" text="ton2_obj_gensec3d"/>
+	<objective description="ton2_obj_gensec6s_desc" id="ton2_obj_gensec6s" text="ton2_obj_gensec6s"/>
+	<objective description="ton2_obj_escape_desc" id="ton2_obj_escape" text="ton2_obj_escape"/>
+	<objective description="ton2_obj_murky4l_desc" id="ton2_obj_murky4l" text="ton2_obj_murky4l"/>
+	<objective description="ton2_obj_murky5s_desc" id="ton2_obj_murky5s" text="ton2_obj_murky5s"/>
+	<objective description="ton2_obj_murky5l_desc" id="ton2_obj_murky5l" text="ton2_obj_murky5l"/>
+	<objective description="ton2_obj_murky5lfail_desc" id="ton2_obj_murky5lfail" text="ton2_obj_murky5lfail"/>
+	<objective description="ton2_obj_murky1l_desc" id="ton2_obj_murky1l" text="ton2_obj_murky1l"/>
+	<objective description="ton2_obj_murky2l_desc" id="ton2_obj_murky2l" text="ton2_obj_murky2l"/>
+	<objective description="ton2_obj_murky3l_desc" id="ton2_obj_murky3l" text="ton2_obj_murky3l"/>
+	<objective description="ton2_obj_murky4lalt_desc" id="ton2_obj_murky4lalt" text="ton2_obj_murky4lalt"/>
+	<objective description="ton2_obj_murky5l2_desc" id="ton2_obj_murky5l2" text="ton2_obj_murky5l2"/>
+	<objective description="ton2_obj_gensec2l_desc" id="ton2_obj_gensec2l" text="ton2_obj_gensec2l"/>
+	<objective description="ton2_obj_gensec3l_desc" id="ton2_obj_gensec3l" text="ton2_obj_gensec3l"/>
+	<objective description="ton2_obj_gensec6l_desc" id="ton2_obj_gensec6l" text="ton2_obj_gensec6l"/>
+	<objective description="ton2_obj_murky4l2alt_desc" id="ton2_obj_murky4l2alt" text="ton2_obj_murky4l2alt"/>
+	<objective description="ton2_obj_murkyaltescape_desc" id="ton2_obj_murkyaltescape" text="ton2_obj_murkyaltescape"/>
+</table>

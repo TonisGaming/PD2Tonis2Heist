@@ -5,7 +5,7 @@ function MantleInteractionExt:init(unit, ...)
 	self._is_mantle_point = true
 end
 function MantleInteractionExt:can_select(player)
-    if player:movement():m_head_pos().z > self._unit:position().z + 40 then
+    if player:movement():m_head_pos().z > self._unit:position().z + 100 then
         return false
     end
 	return MantleInteractionExt.super.can_select(self, player)
