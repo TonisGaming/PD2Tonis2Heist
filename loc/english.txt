@@ -57,7 +57,7 @@
 	"ton2_obj_murky2_desc":"Murkywater are getting ready to ship the information we're looking for away in a shipping container. Check the locked containers, you'll probably require a blowtorch",
 	"ton2_obj_murky1":"Hack into the Murkywater database",
 	"ton2_obj_murky2l_desc":"There's a high ranking officer in the building. Hit the button to unlock his office and kill him.",
-	"ton2_obj_2l" : "Destroy the local server farm",
+	"ton2_obj_gensec2l" : "Destroy the local server farm",
 	"ton2_obj_gensec2l_desc" : "While I'm thinking of a way into the vault to get the hard drive, why don't you destroy their local server farm. It should set them back heavily.",
 	"ton2_obj_gensec3l" : "Overheat the cooling system",
 	"ton2_obj_gensec3l_desc" : "GenSec has a failsafe in place, so when the vault reaches too high of a temperature it opens to not destroy the contents. We're going to abuse that failsafe, find some crowbars to jam the vents.",
@@ -74,5 +74,14 @@
 	"Tonis2_vo_21" : "21",
 	"Tonis2_vo_23" : "23",
 	"Tonis2_vo_11" : "11",
-	"Tonis2_vo_31" : "31"
+	"Tonis2_vo_31" : "31",
+	"ton2_obj_gensec5" : "Destroy or secure the evidence",
+	"ton2_obj_gensec5_desc" : "Either secure the evidence in a truck nearby or destroy it anyway possible, throw it in the water or do it oldschool Firestarter style.",
+	"ton2_obj_gensec6l" : "Place the C4 around the warehouse",
+	"ton2_obj_gensec6l_desc" : "We have no more use for their warehouse, so lets just destroy it. Monetary damage is good damage.",
+	"ton2_obj_gensec7l" : "Get to a safe distance",
+	"ton2_obj_gensec7l_desc" : "Get to a safe distance before I blow the explosives.",
+	"contract_tonis" : "Daniel",
+	"hud_int_press_mantle_point": "Press $BTN_INTERACT to climb",
+	"tonis2_interact_crowbar" : "Hold $BTN_INTERACT to jam the ventilator"
 }

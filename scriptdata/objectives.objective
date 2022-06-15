@@ -25,7 +25,8 @@
 	<objective description="ton2_obj_murky5l2_desc" id="ton2_obj_murky5l2" text="ton2_obj_murky5l2"/>
 	<objective description="ton2_obj_gensec2l_desc" id="ton2_obj_gensec2l" text="ton2_obj_gensec2l"/>
 	<objective description="ton2_obj_gensec3l_desc" id="ton2_obj_gensec3l" text="ton2_obj_gensec3l"/>
-	<objective description="ton2_obj_gensec6l_desc" id="ton2_obj_gensec6l" text="ton2_obj_gensec6l"/>
+	<objective amount="10" description="ton2_obj_gensec6l_desc" id="ton2_obj_gensec6l" text="ton2_obj_gensec6l"/>
 	<objective description="ton2_obj_murky4l2alt_desc" id="ton2_obj_murky4l2alt" text="ton2_obj_murky4l2alt"/>
 	<objective description="ton2_obj_murkyaltescape_desc" id="ton2_obj_murkyaltescape" text="ton2_obj_murkyaltescape"/>
+	<objective description="ton2_obj_gensec7l_desc" id="ton2_obj_gensec7l" text="ton2_obj_gensec7l"/>
 </table>
