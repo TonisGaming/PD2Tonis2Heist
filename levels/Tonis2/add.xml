@@ -13699,9 +13699,259 @@
 		<unit path="units/pd2_dlc_mex/props/mex_prop_sign_close_door/mex_prop_sign_close_door"/>
 	</add>
 	<add from_db="true" path="units/world/architecture/apartment/door/apartment_door_reinforced_01" type="unit">
-		<unit path="units/world/architecture/apartment/door/apartment_door_reinforced_01"/>
-		<object path="units/world/architecture/apartment/door/apartment_door_reinforced_01"/>
 		<material_config path="units/world/architecture/apartment/door/apartment_door_reinforced_01"/>
+		<object path="units/world/architecture/apartment/door/apartment_door_reinforced_01"/>
 		<sequence_manager path="units/world/architecture/apartment/door/apartment_door_reinforced_01"/>
+		<unit path="units/world/architecture/apartment/door/apartment_door_reinforced_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_02" type="unit">
+		<object path="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_02"/>
+		<material_config path="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_01"/>
+		<sequence_manager path="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_02"/>
+		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_in"/>
+		<effect load="true" path="effects/payday2/particles/wood/wood_door_shotgun_dmg_out"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<effect load="true" path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<effect load="true" path="effects/payday2/particles/explosions/shapecharger_explosion"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/smoke"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/fire_smoke_mid"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks"/>
+		<effect load="true" path="effects/payday2/particles/explosions/smoke_explosion/dark_smoke_big"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<unit path="units/payday2/props/gen_prop_door_ind_01/gen_prop_door_ind_02"/>
+	</add>
+	<add from_db="true" path="environments/pd2_env_chas/pd2_env_chas_ext" type="environment">
+		<environment path="environments/pd2_env_chas/pd2_env_chas_ext"/>
+		<material_config path="core/environments/skies/sky_dah_night/sky_dah_night"/>
+		<scene path="core/environments/skies/sky_dah_night/sky_dah_night"/>
+	</add>
+	<add from_db="true" path="environments/pd2_env_night/pd2_env_night" type="environment">
+		<environment path="environments/pd2_env_night/pd2_env_night"/>
+		<material_config path="core/environments/skies/sky_2100_moon/sky_2100_moon"/>
+		<scene path="core/environments/skies/sky_2100_moon/sky_2100_moon"/>
+	</add>
+	<add from_db="true" path="environments/pd2_kosugi/pd2_kosugi" type="environment">
+		<environment path="environments/pd2_kosugi/pd2_kosugi"/>
+		<material_config path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+		<scene path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/vent_tunnel/vent_tunnel_90_hor" type="unit">
+		<material_config path="units/world/props/apartment/vent_tunnel/vent_tunnel"/>
+		<object path="units/world/props/apartment/vent_tunnel/vent_tunnel_90_hor"/>
+		<unit path="units/world/props/apartment/vent_tunnel/vent_tunnel_90_hor"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/vent_tunnel/vent_tunnel_straight" type="unit">
+		<material_config path="units/world/props/apartment/vent_tunnel/vent_tunnel"/>
+		<object path="units/world/props/apartment/vent_tunnel/vent_tunnel_straight"/>
+		<unit path="units/world/props/apartment/vent_tunnel/vent_tunnel_straight"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/vent_tunnel/vent_tunnel_straight_x2" type="unit">
+		<material_config path="units/world/props/apartment/vent_tunnel/vent_tunnel"/>
+		<object path="units/world/props/apartment/vent_tunnel/vent_tunnel_straight_x2"/>
+		<unit path="units/world/props/apartment/vent_tunnel/vent_tunnel_straight_x2"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_vent1_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<object path="units/payday2/architecture/lux/lux_int_vent1_a"/>
+		<unit path="units/payday2/architecture/lux/lux_int_vent1_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_help/architecture/ind_ext_level/hlp_ext_level_1_02_2m_v2_vent" type="unit">
+		<material_config path="units/pd2_dlc_help/architecture/ind_ext_level/hlp_ext_level"/>
+		<object path="units/pd2_dlc_help/architecture/ind_ext_level/hlp_ext_level_1_02_2m_v2_vent"/>
+		<unit path="units/pd2_dlc_help/architecture/ind_ext_level/hlp_ext_level_1_02_2m_v2_vent"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_vent1_c" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<object path="units/payday2/architecture/lux/lux_int_vent1_c"/>
+		<unit path="units/payday2/architecture/lux/lux_int_vent1_c"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_vent" type="unit">
+		<material_config path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_roof_window_01"/>
+		<object path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_vent"/>
+		<unit path="units/pd2_dlc1/architecture/res_ext_motel/res_ext_motel_vent"/>
+	</add>
+	<add from_db="true" path="units/world/props/bank/bank_vent/bank_vent" type="unit">
+		<material_config path="units/world/props/bank/bank_vent/bank_vent"/>
+		<object path="units/world/props/bank/bank_vent/bank_vent"/>
+		<unit path="units/world/props/bank/bank_vent/bank_vent"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_rooftop/vent_large1" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_rooftop/vent_large1"/>
+		<object path="units/pd2_dlc2/csgo_models/props_rooftop/vent_large1"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_rooftop/vent_large1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_vents/vent_large_grill001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_vents/vent_large_grill001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_vents/vent_large_grill001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_vents/vent_large_grill001"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/diamondheist/props/diamondheist_roof_airvent_01" type="unit">
+		<material_config path="units/world/architecture/diamondheist/props/diamondheist_roof_01"/>
+		<object path="units/world/architecture/diamondheist/props/diamondheist_roof_airvent_01"/>
+		<unit path="units/world/architecture/diamondheist/props/diamondheist_roof_airvent_01"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/diamondheist/props/diamondheist_roof_airvent_02" type="unit">
+		<material_config path="units/world/architecture/diamondheist/props/diamondheist_roof_01"/>
+		<object path="units/world/architecture/diamondheist/props/diamondheist_roof_airvent_02"/>
+		<unit path="units/world/architecture/diamondheist/props/diamondheist_roof_airvent_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/props/bry_prop_hallway_vent/bry_prop_hallway_vent_a" type="unit">
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_hallway_vent/bry_prop_hallway_vent_a"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_hallway_vent/bry_prop_hallway_vent_a"/>
+		<sequence_manager path="units/pd2_dlc_berry/props/bry_prop_hallway_vent/bry_prop_hallway_vent_a"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_hallway_vent/bry_prop_hallway_vent_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_vent/cas_prop_vent_shaft" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_vent/cas_prop_vent_shaft"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_vent/cas_prop_vent_shaft"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_vent/cas_prop_vent_shaft"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_vent/cas_prop_vent_shaft"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_vents/dah_vent_01" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_vents/dah_vent_01"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_vents/dah_vent_01"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_vents/dah_vent_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_hvh/props/hvh_prop_vent_locations/hvh_prop_vent_location_01" type="unit">
+		<material_config path="units/pd2_dlc_hvh/architecture/hvh_big_shootingroom/hvh_big_shootingroom"/>
+		<object path="units/pd2_dlc_hvh/props/hvh_prop_vent_locations/hvh_prop_vent_location_01"/>
+		<unit path="units/pd2_dlc_hvh/props/hvh_prop_vent_locations/hvh_prop_vent_location_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/lcm_prop_rooftop/lcm_prop_rooftop_vent" type="unit">
+		<material_config path="units/payday2/props/lcm_prop_rooftop/lcm_prop_rooftop"/>
+		<object path="units/payday2/props/lcm_prop_rooftop/lcm_prop_rooftop_vent"/>
+		<unit path="units/payday2/props/lcm_prop_rooftop/lcm_prop_rooftop_vent"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_vent_a" type="unit">
+		<material_config path="units/payday2/props/off_prop_ceiling/off_prop_ceiling"/>
+		<object path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_vent_a"/>
+		<unit path="units/payday2/props/off_prop_ceiling/off_prop_ceiling_vent_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_tag/props/tag_prop_vent_radiator_floor/tag_prop_vent_radiator_floor" type="unit">
+		<material_config path="units/pd2_dlc_tag/props/tag_prop_vent_radiator_floor/tag_prop_vent_radiator_floor"/>
+		<object path="units/pd2_dlc_tag/props/tag_prop_vent_radiator_floor/tag_prop_vent_radiator_floor"/>
+		<unit path="units/pd2_dlc_tag/props/tag_prop_vent_radiator_floor/tag_prop_vent_radiator_floor"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_vent_5" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_1"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_vent_5"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_vent_5"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_vent_1" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_1_inst"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_vent_1"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_vent_1"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_vent_2" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_1_inst"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_vent_2"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_vent_2"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_vent_3" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_1_inst"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_vent_3"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_vent_3"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_vent_4" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_1"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_vent_4"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_vent_4"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_vent_6" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_1"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_vent_6"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_vent_6"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_vent_7" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_1"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_vent_7"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/secret_stash_vent_7"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_vent_7"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_vent_7_shaft" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_1"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_vent_7_shaft"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_vent_7_shaft"/>
+	</add>
+	<add from_db="true" path="units/vehicles/secret_stash_crane_vehicle_event/secret_stash_crane_event_crane" type="unit">
+		<material_config path="units/vehicles/secret_stash_crane_vehicle_event/secret_stash_crane_event_crane"/>
+		<object path="units/vehicles/secret_stash_crane_vehicle_event/secret_stash_crane_event_crane"/>
+		<sequence_manager path="units/vehicles/secret_stash_crane_vehicle_event/secret_stash_crane_event_crane"/>
+		<unit path="units/vehicles/secret_stash_crane_vehicle_event/secret_stash_crane_event_crane"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht/cargo/lxy_vent_cargo_2" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht/cargo/cargo"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht/cargo/lxy_vent_cargo_2"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht/cargo/lxy_vent_cargo_2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_ac_vents" type="unit">
+		<material_config path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_ceiling"/>
+		<object path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_ac_vents"/>
+		<unit path="units/pd2_dlc_lxy/architecture/yacht_dhruva/ceiling/lxy_int_ceiling_ac_vents"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/vent_tunnel/vent_tunnel_90_vert" type="unit">
+		<material_config path="units/world/props/apartment/vent_tunnel/vent_tunnel"/>
+		<object path="units/world/props/apartment/vent_tunnel/vent_tunnel_90_vert"/>
+		<unit path="units/world/props/apartment/vent_tunnel/vent_tunnel_90_vert"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/vent_tunnel/vent_tunnel_straight_x3" type="unit">
+		<material_config path="units/world/props/apartment/vent_tunnel/vent_tunnel"/>
+		<object path="units/world/props/apartment/vent_tunnel/vent_tunnel_straight_x3"/>
+		<unit path="units/world/props/apartment/vent_tunnel/vent_tunnel_straight_x3"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_duct_1_a" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_vent"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_duct_1_a"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_duct_1_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_duct_3_a" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_vent"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_duct_3_a"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_duct_3_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_duct_3_a_curve" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_vent"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_duct_3_a_curve"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_duct_3_a_curve"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_duct_2_a" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_2"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_duct_2_a"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_duct_2_a"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_duct_3_a_end" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_2"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_duct_3_a_end"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_duct_3_a_end"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_duct_1_a" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_2"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_duct_1_a"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_duct_1_a"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_duct_1_a_curve" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_2"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_duct_1_a_curve"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_duct_1_a_curve"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_duct_1_b_curve" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_2"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_duct_1_b_curve"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_duct_1_b_curve"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m"/>
+		<material_config path="core/material_configs/hub_elements"/>
 	</add>
 </table>
