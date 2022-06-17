@@ -13950,8 +13950,69 @@
 		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_1x3m"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m"/>
-		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m"/>
 		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_turbine_vent_1" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_rooftop_1"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_turbine_vent_1"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/secret_stash_turbine_vent_1"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_turbine_vent_1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/parts/bor_prop_garage_assembly_part_engine" type="unit">
+		<material_config path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/parts/bor_prop_garage_assembly_parts"/>
+		<object path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/parts/bor_prop_garage_assembly_part_engine"/>
+		<sequence_manager path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/parts/bor_prop_garage_assembly_parts"/>
+		<unit path="units/pd2_dlc_born/props/bor_prop_garage_bike_assembly/parts/bor_prop_garage_assembly_part_engine"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/props/bor_prop_garage_engine_hdshovelhead/bor_prop_garage_engine_hdshovelhead" type="unit">
+		<material_config path="units/pd2_dlc_born/props/bor_prop_garage_engine_hdshovelhead/bor_prop_garage_engine_hdshovelhead"/>
+		<object path="units/pd2_dlc_born/props/bor_prop_garage_engine_hdshovelhead/bor_prop_garage_engine_hdshovelhead"/>
+		<unit path="units/pd2_dlc_born/props/bor_prop_garage_engine_hdshovelhead/bor_prop_garage_engine_hdshovelhead"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/props/bor_prop_garage_enginestand/bor_prop_garage_enginestand" type="unit">
+		<material_config path="units/pd2_dlc_born/props/bor_prop_garage_enginestand/bor_prop_garage_enginestand"/>
+		<object path="units/pd2_dlc_born/props/bor_prop_garage_enginestand/bor_prop_garage_enginestand"/>
+		<unit path="units/pd2_dlc_born/props/bor_prop_garage_enginestand/bor_prop_garage_enginestand"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/generator_hose/first_hose/first_hose" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_cro/generator_hose/first_hose/first_hose"/>
+		<object path="units/pd2_dlc_cro/generator_hose/first_hose/first_hose"/>
+		<sequence_manager path="units/pd2_dlc_cro/generator_hose/first_hose/first_hose"/>
+		<unit path="units/pd2_dlc_cro/generator_hose/first_hose/first_hose"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/generator_hose/lower_group_wagon_008/lower_group_wagon_008" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_cro/generator_hose/first_hose/first_hose"/>
+		<object path="units/pd2_dlc_cro/generator_hose/lower_group_wagon_008/lower_group_wagon_008"/>
+		<sequence_manager path="units/pd2_dlc_cro/generator_hose/lower_group_wagon_008/lower_group_wagon_008"/>
+		<unit path="units/pd2_dlc_cro/generator_hose/lower_group_wagon_008/lower_group_wagon_008"/>
+	</add>
+	<add from_db="true" path="units/payday2/vehicles/tst_cargoship/tst_cargoship" type="unit">
+		<material_config path="units/payday2/vehicles/tst_cargoship/tst_cargoship"/>
+		<object path="units/payday2/vehicles/tst_cargoship/tst_cargoship"/>
+		<unit path="units/payday2/vehicles/tst_cargoship/tst_cargoship"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/vehicles/veh_cargo_ship_sand/veh_cargo_ship_sand" type="unit">
+		<material_config path="units/pd2_dlc_sand/vehicles/veh_cargo_ship_sand/veh_cargo_ship_sand"/>
+		<object path="units/pd2_dlc_sand/vehicles/veh_cargo_ship_sand/veh_cargo_ship_sand"/>
+		<unit path="units/pd2_dlc_sand/vehicles/veh_cargo_ship_sand/veh_cargo_ship_sand"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_ceiling_2x2m_a_low" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_ceiling_2x2m_a_low"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_ceiling_2x2m_a_low"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_ceiling_skylight" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_ceiling_skylight"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_ceiling_skylight"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_ceiling2x2_a" type="unit">
+		<unit path="units/payday2/architecture/bnk/bnk_int_ceiling2x2_a"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_ceiling2x2_a"/>
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
 	</add>
 </table>

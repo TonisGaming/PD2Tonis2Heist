@@ -13,9 +13,9 @@
 	<objective amount="6" description="ton2_obj_gensec5_desc" id="ton2_obj_gensec5" text="ton2_obj_gensec5"/>
 	<objective description="ton2_obj_gensec3d_desc" id="ton2_obj_gensec3d" text="ton2_obj_gensec3d"/>
 	<objective description="ton2_obj_gensec6s_desc" id="ton2_obj_gensec6s" text="ton2_obj_gensec6s"/>
-	<objective description="ton2_obj_escape_desc" id="ton2_obj_escape" text="ton2_obj_escape"/>
+	<objective description="ton2_obj_escape_vanwait_desc" id="ton2_obj_escape_vanwait" text="ton2_obj_escape_vanwait"/>
 	<objective description="ton2_obj_murky4l_desc" id="ton2_obj_murky4l" text="ton2_obj_murky4l"/>
-	<objective description="ton2_obj_murky5s_desc" id="ton2_obj_murky5s" text="ton2_obj_murky5s"/>
+	<objective amount="7" description="ton2_obj_murky5s_desc" id="ton2_obj_murky5s" text="ton2_obj_murky5s"/>
 	<objective description="ton2_obj_murky5l_desc" id="ton2_obj_murky5l" text="ton2_obj_murky5l"/>
 	<objective description="ton2_obj_murky5lfail_desc" id="ton2_obj_murky5lfail" text="ton2_obj_murky5lfail"/>
 	<objective description="ton2_obj_murky1l_desc" id="ton2_obj_murky1l" text="ton2_obj_murky1l"/>
@@ -29,4 +29,5 @@
 	<objective description="ton2_obj_murky4l2alt_desc" id="ton2_obj_murky4l2alt" text="ton2_obj_murky4l2alt"/>
 	<objective description="ton2_obj_murkyaltescape_desc" id="ton2_obj_murkyaltescape" text="ton2_obj_murkyaltescape"/>
 	<objective description="ton2_obj_gensec7l_desc" id="ton2_obj_gensec7l" text="ton2_obj_gensec7l"/>
+	<objective description="ton2_obj_escape_desc" id="ton2_obj_escape" text="ton2_obj_escape"/>
 </table>
