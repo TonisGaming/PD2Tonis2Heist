@@ -14011,8 +14011,89 @@
 		<unit path="units/payday2/architecture/bnk/bnk_int_ceiling_skylight"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_ceiling2x2_a" type="unit">
-		<unit path="units/payday2/architecture/bnk/bnk_int_ceiling2x2_a"/>
-		<object path="units/payday2/architecture/bnk/bnk_int_ceiling2x2_a"/>
 		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_ceiling2x2_a"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_ceiling2x2_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_fortifications/traffic_barrier001" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_fortifications/traffic_barrier001"/>
+		<object path="units/pd2_dlc2/csgo_models/props_fortifications/traffic_barrier001"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_fortifications/traffic_barrier001"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_barrier_small/are_prop_barrier_small" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_barrier_small/are_prop_barrier_small"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_barrier_small/are_prop_barrier_small"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_barrier_small/are_prop_barrier_small"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_barrier_small/are_prop_barrier_small"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier_4m" type="unit">
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier_4m"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_construction_waterbarrier/brb_prop_construction_waterbarrier_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_wondow_barrier_small_01/brb_window_barrier_small_01" type="unit">
+		<material_config path="units/pd2_dlc_brb/props/brb_wondow_barrier_small_01/brb_window_barrier_small_01"/>
+		<object path="units/pd2_dlc_brb/props/brb_wondow_barrier_small_01/brb_window_barrier_small_01"/>
+		<unit path="units/pd2_dlc_brb/props/brb_wondow_barrier_small_01/brb_window_barrier_small_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier_a" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier_a"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_lobby_barrier/cas_prop_lobby_barrier_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_garage_barriergate/com_prop_garage_barriergate" type="unit">
+		<material_config path="units/payday2/props/com_prop_garage_barriergate/com_prop_garage_barriergate"/>
+		<object path="units/payday2/props/com_prop_garage_barriergate/com_prop_garage_barriergate"/>
+		<unit path="units/payday2/props/com_prop_garage_barriergate/com_prop_garage_barriergate"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/props/rvd_prop_street_barrier_pole/rvd_prop_street_barrier_pole" type="unit">
+		<material_config path="units/pd2_dlc_rvd/props/rvd_prop_street_barrier_pole/rvd_prop_street_barrier_pole"/>
+		<object path="units/pd2_dlc_rvd/props/rvd_prop_street_barrier_pole/rvd_prop_street_barrier_pole"/>
+		<unit path="units/pd2_dlc_rvd/props/rvd_prop_street_barrier_pole/rvd_prop_street_barrier_pole"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_construction_waterbarrier_4m/str_prop_construction_waterbarrier_4m" type="unit">
+		<material_config path="units/payday2/props/str_prop_construction_waterbarrier_4m/str_prop_construction_waterbarrier_4m"/>
+		<object path="units/payday2/props/str_prop_construction_waterbarrier_4m/str_prop_construction_waterbarrier_4m"/>
+		<unit path="units/payday2/props/str_prop_construction_waterbarrier_4m/str_prop_construction_waterbarrier_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/props/pex_prop_runway_fence_cloth/pex_prop_runway_fence_cloth" type="unit">
+		<material_config path="units/pd2_dlc_pex/props/pex_prop_runway_fence_cloth/pex_prop_runway_fence_cloth"/>
+		<object path="units/pd2_dlc_pex/props/pex_prop_runway_fence_cloth/pex_prop_runway_fence_cloth"/>
+		<unit path="units/pd2_dlc_pex/props/pex_prop_runway_fence_cloth/pex_prop_runway_fence_cloth"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_nails/props/nls_prop_methlab_filtercloth/nls_prop_methlab_filterbucket" type="unit">
+		<material_config path="units/pd2_dlc_nails/props/nls_prop_methlab_filtercloth/nls_prop_methlab_filterbucket"/>
+		<object path="units/pd2_dlc_nails/props/nls_prop_methlab_filtercloth/nls_prop_methlab_filterbucket"/>
+		<unit path="units/pd2_dlc_nails/props/nls_prop_methlab_filtercloth/nls_prop_methlab_filterbucket"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/res_prop_kitchen_chair_cloth/res_prop_kitchen_chair_cloth" type="unit">
+		<material_config path="units/payday2/props/res_prop_kitchen_chair_cloth/res_prop_kitchen_chair_cloth"/>
+		<object path="units/payday2/props/res_prop_kitchen_chair_cloth/res_prop_kitchen_chair_cloth"/>
+		<unit path="units/payday2/props/res_prop_kitchen_chair_cloth/res_prop_kitchen_chair_cloth"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/res_prop_kitchen_table_cloth/res_prop_kitchen_table_cloth" type="unit">
+		<material_config path="units/payday2/props/res_prop_kitchen_table_cloth/res_prop_kitchen_table_cloth"/>
+		<object path="units/payday2/props/res_prop_kitchen_table_cloth/res_prop_kitchen_table_cloth"/>
+		<unit path="units/payday2/props/res_prop_kitchen_table_cloth/res_prop_kitchen_table_cloth"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/props/uno_prop_murky_clothes_bag/uno_prop_murky_clothes_03" type="unit">
+		<material_config path="units/pd2_dlc_uno/props/uno_prop_murky_clothes_bag/uno_prop_murky_clothes_03"/>
+		<object path="units/pd2_dlc_uno/props/uno_prop_murky_clothes_bag/uno_prop_murky_clothes_03"/>
+		<unit path="units/pd2_dlc_uno/props/uno_prop_murky_clothes_bag/uno_prop_murky_clothes_03"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_cloth_roof" type="unit">
+		<material_config path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_cloth_roof"/>
+		<object path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_cloth_roof"/>
+		<unit path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_cloth_roof"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/kitchen_counter/apartment_dishcloth" type="unit">
+		<material_config path="units/world/props/apartment/kitchen_counter/apartment_dishcloth"/>
+		<object path="units/world/props/apartment/kitchen_counter/apartment_dishcloth"/>
+		<unit path="units/world/props/apartment/kitchen_counter/apartment_dishcloth"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_cloth_4x4" type="unit">
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_cloth_4x4"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_cloth_4x4"/>
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_renovation"/>
 	</add>
 </table>

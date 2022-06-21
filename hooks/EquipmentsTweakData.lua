@@ -3,7 +3,9 @@ Hooks:PostHook(EquipmentsTweakData, "init", "tonis2_equipment", function(self, t
 	self.specials.tonis2_containerlock = {
 		sync_possession = true,
 		icon = "equipment_born_tool",
-		text_id = "hud_tonis2_containerlock"
+		text_id = "hud_tonis2_containerlock",
+		max_quantity = 2,
+		quantity = 2
 	}
 	
 end)

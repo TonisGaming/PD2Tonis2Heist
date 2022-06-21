@@ -1,4 +1,5 @@
 {
+	"tonis2_nocrowbar" : "You require a crowbar for this action",
 	"tonis2_action_usefiles":"Hold $BTN_INTERACT to fax the files",
 	"ton2_obj_murky5l_desc":"That's the servers destroyed, but now, lets destroy their goods. Make it hurt real good.",
 	"ton2_obj_gensec3":"Gain entry into the vault",
@@ -85,5 +86,10 @@
 	"ton2_obj_gensec7l_desc" : "Get to a safe distance before I blow the explosives.",
 	"contract_tonis" : "Daniel",
 	"hud_int_press_mantle_point": "Press $BTN_INTERACT to climb",
-	"tonis2_interact_crowbar" : "Hold $BTN_INTERACT to jam the ventilator"
+	"tonis2_interact_crowbar" : "Hold $BTN_INTERACT to jam the ventilator",
+	"Tonis2_vo_spawn" : "Alright, this is how far as I can get you. Find a way into the compound.",
+	"Tonis2_vo_enter" : "That's the easy part out of the way, find a way down. Murkywater or GenSec, it's your choice or hell, why not even both.",
+	"Tonis2_vo_gensec1" : "For a security company, GenSec sure is vulnerable. Patch me in and I'll find a way into the vault for the documents.",
+	"Tonis2_vo_murky1l" : "God damnit, Murkywater pulled the power. If we're gonna want to do anything we gotta get the power up, there should be a generator somewhere near. Fuel it and then lets find a way in.",
+	"Tonis2_vo_murky1s" : "Murkywater is tight on security, tapping straight into their servers would blow our cover. Find a terminal and I'll find us a safe way in."
 }

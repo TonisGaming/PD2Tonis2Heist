@@ -1,4 +1,24 @@
 <table name="Tonis2">
+	<PrePlanning>
+		<plans>
+			<plan id="escape_plan"/>
+			<plan id="tonis2tut"/>
+		</plans>
+		<categories>
+			<category id="tonis2tut" name_id="menu_pp_cat_tonis2tut" desc_id="menu_pp_cat_tonis2tut_desc" plan="tonis2tut" icon="45" total="1" prio="1"/>
+		</categories>
+		<types>
+			<type id="tonis2tut_test" name_id="tonis2tut_test" desc_id="tonis2tut_test_desc" pos_not_important="true" category="tonis2tut" icon="45" total="1" budget_cost="0" post_event="gus_preplan_12" prio="1"/>
+			<type id="tonis2tut_testachiev" name_id="tonis2tut_testachiev" desc_id="tonis2tut_testachiev_desc" pos_not_important="true" category="tonis2tut" icon="45" total="1" budget_cost="0" post_event="gus_preplan_12" prio="1"/>
+			<type id="tonis2tut_testachiev_not" name_id="tonis2tut_testachiev_not" desc_id="tonis2tut_testachiev_not_desc" pos_not_important="true" category="tonis2tut" icon="45" total="1" budget_cost="999" post_event="gus_preplan_12" prio="1"/>
+		</types>
+		<locations>
+			<location id="Tonis2" mission_briefing_texture="textures/test1" total_budget="10">
+				<table texture="textures/test1" name_id="menu_pp_Tonis2_a" rotation="0" map_size="1" map_x="0" map_y="0" x1="0" y1="0" x2="0" y2="0"/>
+				<start_location group="a" zoom="1" x="1024" y="1024"/>
+			</location>
+		</locations>
+	</PrePlanning>
 	<level ai_group_type="america" id="Tonis2" max_bags="54">
 		<add file="levels/Tonis2/add.xml"/>
 		<hooks directory="hooks">
@@ -8,8 +28,6 @@
 			<hook file="playerstandard.lua" source_file="lib/units/beings/player/states/playerstandard"/>
 			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="worldholder.lua" source_file="lib/utils/dev/editor/worldholder"/>
-			<hook file="coreportalmanager.lua" source_file="core/lib/managers/coreportalmanager"/>
-			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
 		</hooks>
 		<packages>
 			<value_node value="levels/instances/unique/dark/train_numbers/world/world"/>
@@ -120,6 +138,11 @@
 		<sound id="Tonis2_vo_23" path="tonis/23.ogg" subtitle_id="Tonis2_vo_23"/>
 		<sound id="Tonis2_vo_11" path="tonis/11.ogg" subtitle_id="Tonis2_vo_11"/>
 		<sound id="Tonis2_vo_31" path="tonis/31.ogg" subtitle_id="Tonis2_vo_31"/>
+		<sound id="Tonis2_vo_spawn" path="tonis/ton2_vo_spawn.ogg" subtitle_id="Tonis2_vo_spawn"/>
+		<sound id="Tonis2_vo_enter" path="tonis/ton2_vo_enter.ogg" subtitle_id="Tonis2_vo_enter"/>
+		<sound id="Tonis2_vo_murky1s" path="tonis/ton2_vo_murky1s.ogg" subtitle_id="Tonis2_vo_murky1s"/>
+		<sound id="Tonis2_vo_murky1l" path="tonis/ton2_vo_murky1l.ogg" subtitle_id="Tonis2_vo_murky1l"/>
+		<sound id="Tonis2_vo_gensec1" path="tonis/ton2_vo_gensec1.ogg" subtitle_id="Tonis2_vo_gensec1"/>
 	</Sounds>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Tonis" name_id="contract_tonis" package="packages/contact_bain"/>
 	<narrative briefing_event="" contact="Tonis" id="Tonis2">
