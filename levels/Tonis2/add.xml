@@ -14092,8 +14092,134 @@
 		<unit path="units/world/props/apartment/kitchen_counter/apartment_dishcloth"/>
 	</add>
 	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_cloth_4x4" type="unit">
-		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_cloth_4x4"/>
-		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_cloth_4x4"/>
 		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_renovation"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_cloth_4x4"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_cloth_4x4"/>
+	</add>
+	<add unload_on_restart="true">
+		<material_config path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext"/>
+		<material_config path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_blue"/>
+		<material_config path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_yellow"/>
+		<material_config path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_red"/>
+		<material_config path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_green"/>
+		<texture path="units/pd2_mod_warehouse/architecture/warehouse_ext/ext_grey_df" unload="true"/>
+		<texture path="units/pd2_mod_warehouse/architecture/warehouse_ext/ext_blue_df" unload="true"/>
+		<texture path="units/pd2_mod_warehouse/architecture/warehouse_ext/ext_yellow_df" unload="true"/>
+		<texture path="units/pd2_mod_warehouse/architecture/warehouse_ext/ext_red_df" unload="true"/>
+		<texture path="units/pd2_mod_warehouse/architecture/warehouse_ext/ext_green_df" unload="true"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_bottom_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_bottom_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_bottom_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_bottom_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_top_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_top_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_top_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x1_top_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_corner_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_corner_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_corner_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_corner_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_door_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_door_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_door_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_door_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_bottom_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_bottom_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_bottom_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_bottom_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_bottom_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_window_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_window_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_window_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x4_top_window_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x6_big_door_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x6_big_door_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x6_big_door_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x6_big_door_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill_b"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill_b"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill_b" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_roof_fill_b"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_corner_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_corner_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_corner_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_corner_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_door_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_door_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_door_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_door_v2"/>
+		<model path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_v2"/>
+		<object path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_v2"/>
+		<unit load="true" path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_v2" unload="true"/>
+		<cooked_physics path="units/pd2_mod_warehouse/architecture/warehouse_ext/warehouse_ext_4x2_top_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x4_bottom_window" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind"/>
+		<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x4_bottom_window"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x4_bottom_window"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x1_top_red_v2" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x1_top_red_v2"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_dock_bld/ind_ext_dock_bld_4x1_top_red_v2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/props/editable_text_euro_stencil/editable_text_euro_stencil" type="unit">
+		<font path="fonts/font_euro_stencil"/>
+		<material_config path="units/pd2_dlc_arena/props/editable_text_eurostile/editable_text_eurostile"/>
+		<object path="units/pd2_dlc_berry/props/editable_text_euro_stencil/editable_text_euro_stencil"/>
+		<unit path="units/pd2_dlc_berry/props/editable_text_euro_stencil/editable_text_euro_stencil"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_city_swat_1/ene_city_swat_1" type="unit">
+		<unit path="units/payday2/characters/ene_city_swat_1/ene_city_swat_1"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+		<animation_states path="anims/units/enemies/cop/std"/>
+		<animation_states path="anims/units/enemies/cop/civilian"/>
+		<object path="units/payday2/characters/ene_city_swat_1/ene_city_swat_1"/>
+		<material_config path="units/payday2/characters/ene_city_swat_1/ene_city_swat_1"/>
+		<sequence_manager path="units/payday2/characters/ragdoll"/>
+		<animation_def path="anims/units/enemies/cop/cop_def"/>
+		<animation_subset path="anims/units/enemies/cop/std"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
+		<animation_subset path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<bnk path="soundbanks/regular_vox"/>
+		<unit path="units/payday2/characters/ene_acc_city_swat_helmet/ene_acc_city_swat_helmet"/>
+		<object path="units/payday2/characters/ene_acc_city_swat_helmet/ene_acc_city_swat_helmet"/>
+		<material_config path="units/payday2/characters/ene_acc_city_swat_helmet/ene_acc_city_swat_helmet"/>
+		<unit path="units/payday2/weapons/wpn_npc_g36/wpn_npc_g36"/>
+		<object path="units/payday2/weapons/wpn_npc_g36/wpn_npc_g36"/>
+		<material_config path="units/payday2/weapons/wpn_npc_g36/wpn_npc_g36"/>
+		<sequence_manager path="units/payday2/weapons/wpn_npc_g36/wpn_npc_g36"/>
+		<effect load="true" path="effects/particles/weapons/rifle/muzzleflash_3dp"/>
+		<effect load="true" path="effects/particles/weapons/sniper_trail"/>
+		<bnk path="soundbanks/weapon_g36"/>
+		<unit load="true" path="units/payday2/characters/ene_city_swat_1/ene_city_swat_1_husk"/>
+		<unit path="units/payday2/characters/ene_acc_fbi_swat_helmet/ene_acc_fbi_swat_helmet"/>
+		<object path="units/payday2/characters/ene_acc_fbi_swat_helmet/ene_acc_fbi_swat_helmet"/>
+		<material_config path="units/payday2/characters/ene_acc_fbi_swat_helmet/ene_acc_fbi_swat_helmet"/>
 	</add>
 </table>
