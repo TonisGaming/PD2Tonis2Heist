@@ -39,6 +39,9 @@
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>
+		<xml>
+			<file path="scriptdata/sounds_tonis2.xml"/>
+		</xml>
 	</level>
 	<level ai_group_type="america" id="inst_crate_wide" max_bags="54">
 		<add file="levels/inst_crate_wide/add.xml"/>
@@ -132,51 +135,8 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
-	<Sounds directory="assets/audio/vo">
-		<sound id="Tonis2_vo_gensec5" path="tonis/Tonis2_vo_gensec5.ogg" subtitle_id="Ton2_vo_gensec5"/>
-		<sound id="Tonis2_vo_21" path="tonis/ton2_vo_21.ogg" subtitle_id="Ton2_vo_21"/>
-		<sound id="Tonis2_vo_23" path="tonis/ton2_vo_23.ogg" subtitle_id="Ton2_vo_23"/>
-		<sound id="Tonis2_vo_11" path="tonis/ton2_vo_11.ogg" subtitle_id="Ton2_vo_11"/>
-		<sound id="Tonis2_vo_31" path="tonis/ton2_vo_31.ogg" subtitle_id="Ton2_vo_31"/>
-		<sound id="Tonis2_vo_spawn" path="tonis/ton2_vo_spawn.ogg" subtitle_id="Ton2_vo_spawn"/>
-		<sound id="Tonis2_vo_enter" path="tonis/ton2_vo_enter.ogg" subtitle_id="Ton2_vo_enter"/>
-		<sound id="Tonis2_vo_murky1s" path="tonis/ton2_vo_murky1s.ogg" subtitle_id="Ton2_vo_murky1s"/>
-		<sound id="Tonis2_vo_murky1l" path="tonis/ton2_vo_murky1l.ogg" subtitle_id="Ton2_vo_murky1l"/>
-		<sound id="Tonis2_vo_murky_generatorfound" path="tonis/ton2_vo_murky_generatorfound.ogg" subtitle_id="Ton2_vo_murky_generatorfound"/>
-		<sound id="Tonis2_vo_murky_generator_90seconds" path="tonis/ton2_vo_murky_generator_90seconds.ogg" subtitle_id="Ton2_vo_murky_generator_90seconds"/>
-		<sound id="Tonis2_vo_murky_generator_45seconds" path="tonis/ton2_vo_murky_generator_45seconds.ogg" subtitle_id="Ton2_vo_murky_generator_45seconds"/>
-		<sound id="Tonis2_vo_murky_generator_empty" path="tonis/ton2_vo_murky_generator_empty.ogg" subtitle_id="Ton2_vo_murky_generator_empty"/>
-		<sound id="Tonis2_vo_murky1sfirewall1" path="tonis/ton2_vo_murky1sfirewall1.ogg" subtitle_id="Ton2_vo_murky1sfirewall1"/>
-		<sound id="Tonis2_vo_murky1sfirewall2" path="tonis/ton2_vo_murky1sfirewall2.ogg" subtitle_id="Ton2_vo_murky1sfirewall2"/>
-		<sound id="Tonis2_vo_murky1sfirewall3" path="tonis/ton2_vo_murky1sfirewall3.ogg" subtitle_id="Ton2_vo_murky1sfirewall3"/>
-		<sound id="Tonis2_vo_murky1sfirewall4" path="tonis/ton2_vo_murky1sfirewall4.ogg" subtitle_id="Ton2_vo_murky1sfirewall4"/>
-		<sound id="Tonis2_vo_murky2s" path="tonis/ton2_vo_murky2s.ogg" subtitle_id="Ton2_vo_murky2s"/>
-		<sound id="Tonis2_vo_murky2l" path="tonis/ton2_vo_murky2l.ogg" subtitle_id="Ton2_vo_murky2l"/>
-		<sound id="Tonis2_vo_murky3s" path="tonis/ton2_vo_murky3s.ogg" subtitle_id="Ton2_vo_murky3s"/>
-		<sound id="Tonis2_vo_murky3l" path="tonis/ton2_vo_murky3l.ogg" subtitle_id="Ton2_vo_murky3l"/>
-		<sound id="Tonis2_vo_murky3s_half" path="tonis/ton2_vo_murky3s_half.ogg" subtitle_id="Ton2_vo_murky3s_half"/>
-		<sound id="Tonis2_vo_murky3s_done" path="tonis/ton2_vo_murky3s_done.ogg" subtitle_id="Ton2_vo_murky3s_done"/>
-		<sound id="Tonis2_vo_murky4s" path="tonis/ton2_vo_murky4s.ogg" subtitle_id="Ton2_vo_murky4s"/>
-		<sound id="Tonis2_vo_murky4l" path="tonis/ton2_vo_murky4l.ogg" subtitle_id="Ton2_vo_murky4l"/>
-		<sound id="Tonis2_vo_murky4lalt" path="tonis/ton2_vo_murky4lalt.ogg" subtitle_id="Ton2_vo_murky4lalt"/>
-		<sound id="Tonis2_vo_gensec1" path="tonis/ton2_vo_gensec1.ogg" subtitle_id="Ton2_vo_gensec1"/>
-		<sound id="Tonis2_vo_gensec2s" path="tonis/ton2_vo_gensec2s.ogg" subtitle_id="Ton2_vo_gensec2s"/>
-		<sound id="Tonis2_vo_gensec2s_found1" path="tonis/ton2_vo_gensec2s_found1.ogg" subtitle_id="Ton2_vo_gensec2s_found1"/>
-		<sound id="Tonis2_vo_gensec2s_receive1" path="tonis/ton2_vo_gensec2s_receive1.ogg" subtitle_id="Ton2_vo_gensec2s_receive1"/>
-		<sound id="Tonis2_vo_gensec2s_found2" path="tonis/ton2_vo_gensec2s_found2.ogg" subtitle_id="Ton2_vo_gensec2s_found2"/>
-		<sound id="Tonis2_vo_gensec3s" path="tonis/ton2_vo_gensec3s.ogg" subtitle_id="Ton2_vo_gensec3s"/>
-		<sound id="Tonis2_vo_gensec3_fail" path="tonis/ton2_vo_gensec3_fail.ogg" subtitle_id="Ton2_vo_gensec3_fail"/>
-		<sound id="Tonis2_vo_gensec3c" path="tonis/ton2_vo_gensec3c.ogg" subtitle_id="Ton2_vo_gensec3c"/>
-		<sound id="Tonis2_vo_gensec4" path="tonis/ton2_vo_gensec4.ogg" subtitle_id="Ton2_vo_gensec4"/>
-		<sound id="Tonis2_vo_gensec2l" path="tonis/ton2_vo_gensec2l.ogg" subtitle_id="Ton2_vo_gensec2l"/>
-		<sound id="Tonis2_vo_gensec3l" path="tonis/ton2_vo_gensec3l.ogg" subtitle_id="Ton2_vo_gensec3l"/>
-		<sound id="Tonis2_vo_gensec3l_25" path="tonis/ton2_vo_gensec3l_25.ogg" subtitle_id="Ton2_vo_gensec3l_25"/>
-		<sound id="Tonis2_vo_gensec3l_50" path="tonis/ton2_vo_gensec3l_50.ogg" subtitle_id="Ton2_vo_gensec3l_50"/>
-		<sound id="Tonis2_vo_gensec3l_75" path="tonis/ton2_vo_gensec3l_75.ogg" subtitle_id="Ton2_vo_gensec3l_75"/>
-		<sound id="Tonis2_vo_gensec4l" path="tonis/ton2_vo_gensec4l.ogg" subtitle_id="Ton2_vo_gensec4l"/>
-	</Sounds>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Tonis" name_id="contract_tonis" package="packages/contact_bain"/>
-	<narrative briefing_event="" contact="Tonis" id="Tonis2">
+	<narrative briefing_event="" contact="Tonis" id="Tonis2" name_id="heist_Tonis2_hl" name_id="heist_Tonis2">
 		<chain>
 			<table level_id="Tonis2" type="d" type_id="heist_type_assault"/>
 		</chain>
