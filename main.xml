@@ -1,7 +1,6 @@
 <table name="Tonis2">
 	<PrePlanning>
 		<plans>
-			<plan id="escape_plan"/>
 			<plan id="tonis2tut"/>
 		</plans>
 		<categories>

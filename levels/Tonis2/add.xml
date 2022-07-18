@@ -14283,8 +14283,110 @@
 		<unit path="units/world/brushes/trash/trash_brush_03"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_boathouse/ranc_ext_boathouse" type="unit">
-		<unit path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_boathouse/ranc_ext_boathouse"/>
-		<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_boathouse/ranc_ext_boathouse"/>
 		<material_config path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_boathouse/ranc_ext_boathouse"/>
+		<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_boathouse/ranc_ext_boathouse"/>
+		<unit path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_boathouse/ranc_ext_boathouse"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_8x3m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_boar_button" type="unit">
+		<material_config path="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_buttons"/>
+		<object path="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_boar_button"/>
+		<sequence_manager path="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_buttons"/>
+		<unit path="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_boar_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mill/ind_int_wall_button/ind_int_wall_button" type="unit">
+		<material_config path="units/pd2_dlc_mill/ind_int_wall_button/ind_int_wall_button"/>
+		<object path="units/pd2_dlc_mill/ind_int_wall_button/ind_int_wall_button"/>
+		<sequence_manager path="units/pd2_dlc_mill/ind_int_wall_button/ind_int_wall_button"/>
+		<unit path="units/pd2_dlc_mill/ind_int_wall_button/ind_int_wall_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button" type="unit">
+		<material_config path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_prop_keypad"/>
+		<object path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button"/>
+		<sequence_manager path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button"/>
+		<unit path="units/pd2_dlc_bph/props/bph_prop_keypad/bph_interactable_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_button" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_button"/>
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_button_no_contour"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_button"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_button"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_keypad/cas_prop_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_vault_button/cas_prop_vault_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_props_reset_button/chl_props_reset_button" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_props_reset_button/chl_props_reset_button"/>
+		<object path="units/pd2_dlc_chill/props/chl_props_reset_button/chl_props_reset_button"/>
+		<unit path="units/pd2_dlc_chill/props/chl_props_reset_button/chl_props_reset_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_laser_panel/des_prop_laser_panel"/>
+		<object path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel"/>
+		<unit path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button"/>
+		<sequence_manager path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/props/ranc_int_fire_button/ranc_inte_fire_button" type="unit">
+		<material_config path="units/pd2_dlc_ranc/props/ranc_int_fire_button/ranc_inte_fire_button"/>
+		<object path="units/pd2_dlc_ranc/props/ranc_int_fire_button/ranc_inte_fire_button"/>
+		<sequence_manager path="units/pd2_dlc_ranc/props/ranc_int_fire_button/ranc_inte_fire_button"/>
+		<unit path="units/pd2_dlc_ranc/props/ranc_int_fire_button/ranc_inte_fire_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/props/sand_prop_keypad/sand_interactable_button" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_sand/props/sand_prop_keypad/sand_prop_keypad"/>
+		<object path="units/pd2_dlc_sand/props/sand_prop_keypad/sand_interactable_button"/>
+		<sequence_manager path="units/pd2_dlc_sand/props/sand_prop_keypad/sand_interactable_button"/>
+		<unit path="units/pd2_dlc_sand/props/sand_prop_keypad/sand_interactable_button"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button" type="unit">
+		<material_config path="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button"/>
+		<object path="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button"/>
+		<sequence_manager path="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button"/>
+		<unit path="units/payday2/props/str_prop_com_generic_button/str_prop_com_generic_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_drive/props/str_prop_keypad_button/str_prop_keypad_button" type="unit">
+		<material_config path="units/pd2_dlc_drive/props/str_prop_keypad_button/str_prop_keypad_button"/>
+		<material_config path="units/pd2_dlc_drive/props/str_prop_keypad_button/str_prop_keypad_button_contour"/>
+		<object path="units/pd2_dlc_drive/props/str_prop_keypad_button/str_prop_keypad_button"/>
+		<sequence_manager path="units/pd2_dlc_drive/props/str_prop_keypad_button/str_prop_keypad_button"/>
+		<unit path="units/pd2_dlc_drive/props/str_prop_keypad_button/str_prop_keypad_button"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button" type="unit">
+		<unit path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button"/>
+		<object path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button"/>
+		<material_config path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button"/>
+		<sequence_manager path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button"/>
 	</add>
 </table>
