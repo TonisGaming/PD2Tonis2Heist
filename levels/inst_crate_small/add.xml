@@ -160,4 +160,9 @@
 		<material_config force="true" path="units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag" unload="true"/>
 		<sequence_manager force="true" path="units/payday2/pickups/gen_pku_toolbag/gen_pku_toolbag" unload="true"/>
 	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" type="unit">
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a"/>
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+	</add>
 </table>

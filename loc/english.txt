@@ -77,6 +77,8 @@
 	"ton2_obj_escape_vanexit_desc" : "The van is ready to leave with you and your loot, or you can stay for more.",
 	"ton2_obj_escape" : "Escape is Available",
 	"ton2_obj_escape_desc" : "Your escape is here. Secure extra loot, continue your objectives or escape.",
+	"ton2_obj_murky4l_noalt" : "Secure the Servers",
+	"ton2_obj_murky4l_noalt_desc" : "Seeing Twitch is already here, no point in sending Bile. Secure the servers in the van.",
 	"Ton2_vo_21" : "21",
 	"Ton2_vo_23" : "23",
 	"Ton2_vo_11" : "11",

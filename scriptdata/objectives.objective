@@ -31,4 +31,5 @@
 	<objective description="ton2_obj_gensec7l_desc" id="ton2_obj_gensec7l" text="ton2_obj_gensec7l"/>
 	<objective description="ton2_obj_escape_desc" id="ton2_obj_escape" text="ton2_obj_escape"/>
 	<objective description="ton2_obj_escape_vanexit_desc" id="ton2_obj_escape_vanexit" text="ton2_obj_escape_vanexit"/>
+	<objective amount="2" description="ton2_obj_murky4l_noalt_desc" id="ton2_obj_murky4l_noalt" text="ton2_obj_murky4l_noalt"/>
 </table>

@@ -1,23 +1,4 @@
 <table name="Tonis2">
-	<PrePlanning>
-		<plans>
-			<plan id="tonis2tut"/>
-		</plans>
-		<categories>
-			<category id="tonis2tut" name_id="menu_pp_cat_tonis2tut" desc_id="menu_pp_cat_tonis2tut_desc" plan="tonis2tut" icon="45" total="1" prio="1"/>
-		</categories>
-		<types>
-			<type id="tonis2tut_test" name_id="tonis2tut_test" desc_id="tonis2tut_test_desc" pos_not_important="true" category="tonis2tut" icon="45" total="1" budget_cost="0" post_event="gus_preplan_12" prio="1"/>
-			<type id="tonis2tut_testachiev" name_id="tonis2tut_testachiev" desc_id="tonis2tut_testachiev_desc" pos_not_important="true" category="tonis2tut" icon="45" total="1" budget_cost="0" post_event="gus_preplan_12" prio="1"/>
-			<type id="tonis2tut_testachiev_not" name_id="tonis2tut_testachiev_not" desc_id="tonis2tut_testachiev_not_desc" pos_not_important="true" category="tonis2tut" icon="45" total="1" budget_cost="999" post_event="gus_preplan_12" prio="1"/>
-		</types>
-		<locations>
-			<location id="Tonis2" mission_briefing_texture="textures/test1" total_budget="10">
-				<table texture="textures/test1" name_id="menu_pp_Tonis2_a" rotation="0" map_size="1" map_x="0" map_y="0" x1="0" y1="0" x2="0" y2="0"/>
-				<start_location group="a" zoom="1" x="1024" y="1024"/>
-			</location>
-		</locations>
-	</PrePlanning>
 	<level ai_group_type="america" id="Tonis2" max_bags="54">
 		<add file="levels/Tonis2/add.xml"/>
 		<hooks directory="hooks">
@@ -50,20 +31,6 @@
 			<asset name="grenade_crate"/>
 			<asset name="score_cit_intel"/>
 		</assets>
-		<include directory="levels/inst_crate_wide">
-			<file file="world.world" type="generic_xml"/>
-			<file file="continents.continents" type="custom_xml"/>
-			<file file="mission.mission" type="custom_xml"/>
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
-			<file file="world_sounds.world_sounds" type="generic_xml"/>
-			<file file="world_cameras.world_cameras" type="custom_xml"/>
-			<file file="editor_only/editor_only.continent" type="custom_xml"/>
-			<file file="editor_only/editor_only.mission" type="generic_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
-			<file file="cover_data.cover_data" type="custom_xml"/>
-			<file file="environments/default.environment" type="custom_xml"/>
-		</include>
 		<packages/>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -79,20 +46,6 @@
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
 		</assets>
-		<include directory="levels/inst_crate_small">
-			<file file="world.world" type="generic_xml"/>
-			<file file="continents.continents" type="custom_xml"/>
-			<file file="mission.mission" type="custom_xml"/>
-			<file file="nav_manager_data.nav_data" type="generic_xml"/>
-			<file file="world_sounds.world_sounds" type="generic_xml"/>
-			<file file="world_cameras.world_cameras" type="custom_xml"/>
-			<file file="editor_only/editor_only.continent" type="custom_xml"/>
-			<file file="editor_only/editor_only.mission" type="generic_xml"/>
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
-			<file file="cover_data.cover_data" type="custom_xml"/>
-			<file file="environments/default.environment" type="custom_xml"/>
-		</include>
 		<packages>
 			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
 		</packages>
@@ -134,8 +87,27 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
+	<PrePlanning>
+		<categories>
+			<category desc_id="menu_pp_cat_tonis2tut_desc" icon="45" id="tonis2tut" name_id="menu_pp_cat_tonis2tut" plan="tonis2tut" prio="1" total="1"/>
+		</categories>
+		<locations>
+			<location id="Tonis2" mission_briefing_texture="textures/test1" total_budget="10">
+				<table map_size="1" map_x="0" map_y="0" name_id="menu_pp_Tonis2_a" rotation="0" texture="textures/test1" x1="0" x2="0" y1="0" y2="0"/>
+				<start_location group="a" x="1024" y="1024" zoom="1"/>
+			</location>
+		</locations>
+		<plans>
+			<plan id="tonis2tut"/>
+		</plans>
+		<types>
+			<type budget_cost="0" category="tonis2tut" desc_id="tonis2tut_test_desc" icon="45" id="tonis2tut_test" name_id="tonis2tut_test" pos_not_important="true" post_event="gus_preplan_12" prio="1" total="1"/>
+			<type budget_cost="0" category="tonis2tut" desc_id="tonis2tut_testachiev_desc" icon="45" id="tonis2tut_testachiev" name_id="tonis2tut_testachiev" pos_not_important="true" post_event="gus_preplan_12" prio="1" total="1"/>
+			<type budget_cost="999" category="tonis2tut" desc_id="tonis2tut_testachiev_not_desc" icon="45" id="tonis2tut_testachiev_not" name_id="tonis2tut_testachiev_not" pos_not_important="true" post_event="gus_preplan_12" prio="1" total="1"/>
+		</types>
+	</PrePlanning>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Tonis" name_id="contract_tonis" package="packages/contact_bain"/>
-	<narrative briefing_event="" contact="Tonis" id="Tonis2" name_id="heist_Tonis2_hl" name_id="heist_Tonis2">
+	<narrative briefing_event="" contact="Tonis" id="Tonis2" name_id="heist_Tonis2">
 		<chain>
 			<table level_id="Tonis2" type="d" type_id="heist_type_assault"/>
 		</chain>
