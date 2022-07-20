@@ -6,7 +6,6 @@
 			<hook file="EquipmentsTweakData.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
 			<hook file="gamesetup.lua" source_file="lib/setups/gamesetup"/>
 			<hook file="playerstandard.lua" source_file="lib/units/beings/player/states/playerstandard"/>
-			<hook file="carrytweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="worldholder.lua" source_file="lib/utils/dev/editor/worldholder"/>
 		</hooks>
 		<packages>
