@@ -13,8 +13,6 @@
 			<entry key="group_state" type="string" value="besiege"/>
 		</entry>
 	</entry>
-	<entry key="camera_bookmarks" type="table">
-	</entry>
 	<entry key="environment" type="table">
 		<entry key="cubemap_gizmos" type="table">
 		</entry>
