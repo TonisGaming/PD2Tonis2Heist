@@ -49,6 +49,18 @@ Hooks:PostHook(InteractionTweakData, "init", "tonis2_interactions", function(sel
 		sound_done = "bar_c4_apply_finished"
 	}
 	
+	self.tonis2_closecapsule = {
+		text_id = "tonis2_closecapsule",
+		action_text_id = "tonis2_closecapsule_action",
+		timer = 1.25
+	}
+	
+	self.tonis2_pushcapsule = {
+		text_id = "tonis2_pushcapsule",
+		action_text_id = "tonis2_pushcapsule_action",
+		timer = 2
+	}
+	
 	self.tonis2_pickuplock = {
 		text_id = "tonis2_pickuplock",
 		action_text_id = "tonis2_pickuplock_action",

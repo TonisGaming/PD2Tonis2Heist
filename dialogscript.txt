@@ -35,7 +35,8 @@
 "ton2_vo_murky5s" : "Now that they're oblivious to their data being gone, lets do a bit more damage and sabotage their cargo. Plant C4 on the marked cargo, try to not get caught.", -
 "ton2_vo_murky5l2" : "There's a Murkywater ship that just departed and we, are gonna sink it. Set up some ziplines and fly away.", -
 "ton2_vo_murky5l2_enter" : "There's a hatch at the bow of the ship. Climb down and be ready for resistance.", -
-"ton2_vo_murky5l2_plant" : "Get to the engines and plant the C4. Then run for your life, if you don't want a watery grave.", -
+"ton2_vo_murky5l2_plant" : "Get to the engines and plant the C4.",
+"ton2_vo_murky5l2_run" : "Run for your life, if you don't want a watery grave.",
 "ton2_vo_murky5l2_blow" : "Boom! That's one large shipment of Murkywater goods down the drain. You can collect your loot in the container and then use it to leave.", -
 "ton2_vo_gensec1" : "For a security company, GenSec sure is vulnerable. Patch me in and I'll find a way into the vault for the documents.", -
 "ton2_vo_gensec2s" : "Looks like there's a code for the vault. First, I need you to find the GenSec authorization manifest in the office building, so we can even use the code.", -
@@ -56,7 +57,7 @@
 "ton2_vo_gensec3l_50" : "Should be about half way done, getting closer.", -
 "ton2_vo_gensec3l_75" : "Just a bit more, get ready for a hot breeze of air.", -
 "ton2_vo_gensec4l" : "God is it hot, just get the hard drive and then we can deal with the physical content.", -
-"ton2_vo_gensec5" : "Alright, that's the hard drive, but we're gonna need to deal with the evidence now, it'll gain us a favor with a certain someone. Either destroy it or secure it, I'll leave that up to you.", -
+"ton2_vo_gensec5" : "Alright, that's the hard drive, but we're gonna need to deal with the evidence now, it'll gain us a favor with a certain someone. Either drown it, burn it or secure it, in the life boats, I'll leave that up to you.",
 "ton2_vo_gensec6l" : "We have no more use for anything GenSec around here. Plant C4 around the warehouse, we're gonna burn it to the ground. Don't forget about the loot though, it may be optional, but as they say, greed is good.", -
 "ton2_vo_gensec6s" : "Alright, as GenSec has a wide variety of clientell, we'll be bugging their product, so we can abuse it as a backdoor in the future. You never know where these will end up.", -
 "ton2_vo_gensec7l" ; "The C4 is primed and ready to blow, get to a safe distance guys!", -

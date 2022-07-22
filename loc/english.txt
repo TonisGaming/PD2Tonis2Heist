@@ -39,6 +39,8 @@
 	"ton2_obj_gensec2_desc":"Gensec seems to be storing the location of the information on paper. Check the file cabinets and fax them to me, so we can find the target info",
 	"Tonis2_vo_gensec5":"Gensec also has some evidence on a certain jackass that I know. Deal with it to uhhh.... lets call it gaining a favour.",
 	"tonis2_opendoor":"Hold $BTN_INTERACT to open the door",
+	"tonis2_closecapsule":"Hold $BTN_INTERACT to close the life boat capsule",
+	"tonis2_pushcapsule":"Hold $BTN_INTERACT to push the life boat capsule",
 	"ton2_obj_gensec2":"Search through Gensecs paperwork",
 	"tonis2_closedoor":"Hold $BTN_INTERACT to close the door",
 	"menu_pp_cat_tonis2tut":"Mechanic Tutorial",
