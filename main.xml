@@ -118,7 +118,7 @@
 		<loc file="english.txt" language="english"/>
 	</Localization>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Tonis" name_id="contract_tonis" package="packages/contact_bain"/>
-	<narrative briefing_event="" contact="Tonis" id="Tonis2" name_id="heist_Tonis2">
+	<narrative brief_id="heist_tonis2_crimenet" contact="Tonis" id="Tonis2" name_id="heist_Tonis2">
 		<chain>
 			<table level_id="Tonis2" type="d" type_id="heist_type_assault"/>
 		</chain>

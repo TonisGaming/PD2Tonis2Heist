@@ -2855,7 +2855,7 @@
 		<unit path="units/payday2/props/gen_prop_square_drop_marker_2x1/gen_prop_square_drop_marker_2x1" unload="true"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc1/characters/ene_security_gensec_1/ene_security_gensec_1" type="unit">
-		<unit path="units/pd2_dlc1/characters/ene_security_gensec_1/ene_security_gensec_1" unload="true"/>
+		<unit load="true" path="units/pd2_dlc1/characters/ene_security_gensec_1/ene_security_gensec_1" unload="true"/>
 		<animation_states path="anims/units/enemies/cop/std" unload="true"/>
 		<animation_states path="anims/units/enemies/cop/civilian" unload="true"/>
 		<animation_subset path="anims/units/enemies/cop/std" unload="true"/>
@@ -10106,7 +10106,7 @@
 		<unit path="units/pd2_dlc_help/props/hlp_interactable_wheel_timer/hlp_interactable_wheel_timer"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_murkywater_1/ene_murkywater_1" type="unit">
-		<unit path="units/payday2/characters/ene_murkywater_1/ene_murkywater_1"/>
+		<unit load="true" path="units/payday2/characters/ene_murkywater_1/ene_murkywater_1"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/std"/>
@@ -12414,7 +12414,7 @@
 		<unit path="units/payday2/characters/ene_acc_security_cap/ene_acc_security_cap"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_security_1/ene_security_1" type="unit">
-		<unit path="units/payday2/characters/ene_security_1/ene_security_1"/>
+		<unit load="true" path="units/payday2/characters/ene_security_1/ene_security_1"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/std"/>
@@ -12443,7 +12443,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_security_2/ene_security_2" type="unit">
-		<unit path="units/payday2/characters/ene_security_2/ene_security_2"/>
+		<unit load="true" path="units/payday2/characters/ene_security_2/ene_security_2"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<object path="units/payday2/characters/ene_security_2/ene_security_2"/>
@@ -12475,7 +12475,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_security_3/ene_security_3" type="unit">
-		<unit path="units/payday2/characters/ene_security_3/ene_security_3"/>
+		<unit load="true" path="units/payday2/characters/ene_security_3/ene_security_3"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/std"/>
@@ -12504,7 +12504,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_security_4/ene_security_4" type="unit">
-		<unit path="units/payday2/characters/ene_security_4/ene_security_4"/>
+		<unit load="true" path="units/payday2/characters/ene_security_4/ene_security_4"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/std"/>
@@ -12533,7 +12533,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_security_5/ene_security_5" type="unit">
-		<unit path="units/payday2/characters/ene_security_5/ene_security_5"/>
+		<unit load="true" path="units/payday2/characters/ene_security_5/ene_security_5"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/std"/>
@@ -12562,7 +12562,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_security_6/ene_security_6" type="unit">
-		<unit path="units/payday2/characters/ene_security_6/ene_security_6"/>
+		<unit load="true" path="units/payday2/characters/ene_security_6/ene_security_6"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/std"/>
@@ -12591,7 +12591,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_security_7/ene_security_7" type="unit">
-		<unit path="units/payday2/characters/ene_security_7/ene_security_7"/>
+		<unit load="true" path="units/payday2/characters/ene_security_7/ene_security_7"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<object path="units/payday2/characters/ene_security_7/ene_security_7"/>
@@ -12623,7 +12623,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/payday2/characters/ene_security_8/ene_security_8" type="unit">
-		<unit path="units/payday2/characters/ene_security_8/ene_security_8"/>
+		<unit load="true" path="units/payday2/characters/ene_security_8/ene_security_8"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/std"/>
@@ -14384,9 +14384,148 @@
 		<unit path="units/pd2_dlc_drive/props/str_prop_keypad_button/str_prop_keypad_button"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button" type="unit">
-		<unit path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button"/>
-		<object path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button"/>
 		<material_config path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button"/>
+		<object path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button"/>
 		<sequence_manager path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button"/>
+		<unit path="units/pd2_dlc1/architecture/bnk_ext_garage/bnk_ext_garage_door_button"/>
+	</add>
+	<add>
+		<unit path="units/pd2_mod_custom/cus_loot_grenades/cases/cus_loot_grenades_case" unload="true"/>
+		<object path="units/pd2_mod_custom/cus_loot_grenades/cases/cus_loot_grenades_case" unload="true"/>
+		<model path="units/pd2_mod_custom/cus_loot_grenades/cases/cus_loot_grenades_case" unload="true"/>
+		<material_config path="units/pd2_mod_custom/cus_loot_grenades/cases/cus_loot_grenades_case" unload="true"/>
+		<sequence_manager path="units/pd2_mod_custom/cus_loot_grenades/cases/cus_loot_grenades_case" unload="true"/>
+		<unit path="units/pd2_mod_custom/cus_loot_grenades/cases/cus_loot_grenades_case_z_axis" unload="true"/>
+		<object path="units/pd2_mod_custom/cus_loot_grenades/cases/cus_loot_grenades_case_z_axis" unload="true"/>
+		<model path="units/pd2_mod_custom/cus_loot_grenades/cases/cus_loot_grenades_case_z_axis" unload="true"/>
+		<sequence_manager path="units/pd2_mod_custom/cus_loot_grenades/cases/cus_loot_grenades_case_z_axis" unload="true"/>
+		<unit load="true" path="units/pd2_mod_custom/cus_loot_grenades/weapons/cus_loot_grenades_spawn" unload="true"/>
+		<unit load="true" path="units/pd2_mod_custom/cus_loot_grenades/weapons/cus_loot_grenades_spawn_z_axis" unload="true"/>
+		<object path="units/pd2_mod_custom/cus_loot_grenades/weapons/cus_loot_grenades" unload="true"/>
+		<model path="units/pd2_mod_custom/cus_loot_grenades/weapons/cus_loot_grenades" unload="true"/>
+		<material_config path="units/pd2_mod_custom/cus_loot_grenades/weapons/cus_loot_grenades" unload="true"/>
+		<sequence_manager path="units/pd2_mod_custom/cus_loot_grenades/weapons/cus_loot_grenades" unload="true"/>
+		<unit load="true" path="units/pd2_mod_custom/cus_loot_grenades/weapons/cus_loot_grenades_static" unload="true"/>
+		<unit load="true" path="units/pd2_mod_custom/cus_loot_grenades/weapons/cus_loot_grenades_static_z_axis" unload="true"/>
+		<object path="units/pd2_mod_custom/cus_loot_grenades/weapons/cus_loot_grenades_static" unload="true"/>
+		<model path="units/pd2_mod_custom/cus_loot_grenades/weapons/cus_loot_grenades_static" unload="true"/>
+		<bnk from_db="true" path="soundbanks/regular_sfx" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mad/equipment/mad_interactable_door_keycard/mad_interactable_door_keycard" type="unit">
+		<unit path="units/pd2_dlc_mad/equipment/mad_interactable_door_keycard/mad_interactable_door_keycard"/>
+		<object path="units/pd2_dlc_mad/equipment/mad_interactable_door_keycard/mad_interactable_door_keycard"/>
+		<material_config path="units/pd2_dlc_mad/equipment/mad_interactable_door_keycard/mad_interactable_door_keycard"/>
+		<sequence_manager path="units/pd2_dlc_mad/equipment/mad_interactable_door_keycard/mad_interactable_door_keycard"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<unit path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<object path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<material_config path="units/pickups/pickup_bank_manager_key/pickup_bank_manager_key"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_controldevice_retinascanner"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader"/>
+		<sequence_manager path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_control_device_keycard_reader/dah_prop_control_device_keycard_reader"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_controldevice_retinascanner"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard"/>
+		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard_b" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_controldevice_retinascanner"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard_b"/>
+		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard_b"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_panicroom/mcm_prop_panicroom_control_device_keycard_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/props/mex_prop_keycard_reader/mex_prop_keycard_reader" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_mex/props/mex_prop_keycard_reader/mex_prop_keycard_reader"/>
+		<object path="units/pd2_dlc_mex/props/mex_prop_keycard_reader/mex_prop_keycard_reader"/>
+		<sequence_manager path="units/pd2_dlc_mex/props/mex_prop_keycard_reader/mex_prop_keycard_reader"/>
+		<unit path="units/pd2_dlc_mex/props/mex_prop_keycard_reader/mex_prop_keycard_reader"/>
+	</add>
+	<add>
+		<unit from_db="true" load="true" path="units/dev_tools/mission_elements/point_interaction/interaction_dummy"/>
+	</add>
+	<add from_db="true" path="units/equipment/money_bag/money_bag_medium" type="unit">
+		<material_config path="units/equipment/money_bag/equipment_bags"/>
+		<object path="units/equipment/money_bag/money_bag_medium"/>
+		<sequence_manager path="units/equipment/money_bag/money_bag_medium"/>
+		<unit path="units/equipment/money_bag/money_bag_medium"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_lootbag_empty/gen_prop_lootbag_empty" type="unit">
+		<material_config path="units/payday2/props/gen_prop_lootbag_empty/gen_prop_lootbag_empty"/>
+		<object path="units/payday2/props/gen_prop_lootbag_empty/gen_prop_lootbag_empty"/>
+		<unit path="units/payday2/props/gen_prop_lootbag_empty/gen_prop_lootbag_empty"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bph/props/bph_prop_bain_bag/bph_prop_bain_bag" type="unit">
+		<material_config path="units/pd2_dlc_bph/props/bph_prop_bain_bag/bph_prop_bain_bag"/>
+		<object path="units/pd2_dlc_bph/props/bph_prop_bain_bag/bph_prop_bain_bag"/>
+		<unit path="units/pd2_dlc_bph/props/bph_prop_bain_bag/bph_prop_bain_bag"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_jewelry_bag/jewelry_bags_small_1" type="unit">
+		<material_config path="units/payday2/props/com_prop_jewelry_bag/jewelry_bag"/>
+		<object path="units/payday2/props/com_prop_jewelry_bag/jewelry_bags_small_1"/>
+		<unit path="units/payday2/props/com_prop_jewelry_bag/jewelry_bags_small_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_jewelry_bag/jewelry_bags_small_2" type="unit">
+		<material_config path="units/payday2/props/com_prop_jewelry_bag/jewelry_bag"/>
+		<object path="units/payday2/props/com_prop_jewelry_bag/jewelry_bags_small_2"/>
+		<unit path="units/payday2/props/com_prop_jewelry_bag/jewelry_bags_small_2"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_gear_bag/cas_prop_gear_bag" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_gear_bag/cas_prop_gear_bag"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_gear_bag/cas_prop_gear_bag"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_gear_bag/cas_prop_gear_bag"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_gear_bag/cas_prop_gear_bag"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/props/rvd_prop_diamond_bag/rvd_prop_diamond_bag" type="unit">
+		<material_config path="units/pd2_dlc_rvd/props/rvd_prop_diamond_bag/rvd_prop_diamond_bag"/>
+		<object path="units/pd2_dlc_rvd/props/rvd_prop_diamond_bag/rvd_prop_diamond_bag"/>
+		<sequence_manager path="units/pd2_dlc_rvd/props/rvd_prop_diamond_bag/rvd_prop_diamond_bag"/>
+		<unit path="units/pd2_dlc_rvd/props/rvd_prop_diamond_bag/rvd_prop_diamond_bag"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/props/rvd_prop_diamond_bag/rvd_prop_diamond_bag_02" type="unit">
+		<material_config path="units/pd2_dlc_rvd/props/rvd_prop_diamond_bag/rvd_prop_diamond_bag"/>
+		<object path="units/pd2_dlc_rvd/props/rvd_prop_diamond_bag/rvd_prop_diamond_bag_02"/>
+		<sequence_manager path="units/pd2_dlc_rvd/props/rvd_prop_diamond_bag/rvd_prop_diamond_bag_02"/>
+		<unit path="units/pd2_dlc_rvd/props/rvd_prop_diamond_bag/rvd_prop_diamond_bag_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_cokebagvaria/sfm_prop_cokebagvaria" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_cokebagvaria/sfm_prop_cokebagvaria"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_cokebagvaria/sfm_prop_cokebagvaria"/>
+		<sequence_manager path="units/pd2_dlc_friend/props/sfm_prop_cokebagvaria/sfm_prop_cokebagvaria"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_cokebagvaria/sfm_prop_cokebagvaria"/>
+	</add>
+	<add from_db="true" path="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static" type="unit">
+		<material_config path="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static"/>
+		<object path="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static"/>
+		<unit path="units/payday2/pickups/gen_pku_methbag_static/gen_pku_methbag_static"/>
+	</add>
+	<add path="units/pd2_dlc_fish/lxy_prop_boat_capsule_01/lxy_prop_life_boat_capsule_dynamic" type="unit">
+		<unit path="units/pd2_dlc_fish/lxy_prop_boat_capsule_01/lxy_prop_life_boat_capsule_dynamic" unload="true"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_boat_capsule_01/lxy_prop_life_boat_capsule_dynamic" unload="true"/>
 	</add>
 </table>

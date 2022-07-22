@@ -1,5 +1,6 @@
 {
-	"heist_Tonis2_brief" : "Oh man, it sure has been a hot minute huh? Well, I finally got a new job, but that old intel fell through, so, we're just going to hit GenSec and Murkywater head on. \nThis port is the weakest link, that I could find for both GenSec and Murkywater, so we're going to abuse that weak link. Either hit GenSec, Murkywater or both, it's completely your choice, I just want the info and why don't we do a bit of damage aswell. \n\nStealth is an option",
+	"heist_tonis2_crimenet" : "Oh man, it sure has been a hot minute huh? \n\nWell, a new opportunity to make some cash has shown itself, and it'll involve two of your favorite companies, GenSec and Murkywater. Interested?",
+	"heist_Tonis2_brief" : "Oh man, it sure has been a hot minute huh? Well, I finally got a new job, but that old intel fell through, so, we're just going to hit GenSec and Murkywater head on. \n\nThis port is the weakest link, that I could find for both GenSec and Murkywater, so we're going to abuse that weak link. We need their info, to find any potential future targets and of course, just to throw some salt on the wound, why don't we also cause some chaos. \n\nEither hit GenSec, Murkywater or both, it's completely your choice, just make sure to get the job done in one piece.",
 	"contact_tonis" : "Daniel",
 	"heist_Tonis2" : "Triple Threat",
 	"heist_Tonis2_name" : "Powerhouse Waterfront",

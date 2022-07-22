@@ -1,6 +1,11 @@
+"heist_Tonis2_brief" : "Oh man, it sure has been a hot minute huh? Well, I finally got a new job, but that old intel fell through, so, we're just going to hit GenSec and Murkywater head on. \n\nThis port is the weakest link, that I could find for both GenSec and Murkywater, so we're going to abuse that weak link. We need their info, to find any potential future targets and of course, just to throw some salt on the wound, why don't we also cause some chaos. \n\nEither hit GenSec, Murkywater or both, it's completely your choice, just make sure to get the job done in one piece.",
 "ton2_vo_spawn" : "Alright, this is how far as I can get you. Find a way into the compound.", -
 "ton2_vo_enter" : "That's the easy part out of the way, find a way down. Murkywater or GenSec, it's your choice or hell, why not even both.", -
-"ton2_vo_manifestbreaker" : "This should kill the ports cameras, and possibly some GenSec ones, as they're on the same network.",
+"ton2_vo_gensecbreaker" : "Just pull the plug and GenSec will be completely blind.", -
+"ton2_vo_murkybreaker" : "I heard that Murkywater are trying to hide their camera rooms in plain sight, keep an eye out.", -
+"ton2_vo_manifestbreaker" : "This should kill the ports cameras, and possibly some GenSec ones, as they're on the same network.", -
+"ton2_vo_firstextraloot" : "This'll cost them a penny, but it will make us a dime.", -
+"" : "",
 "ton2_vo_gensec_done" : "Now that we're done with GenSec, maybe you'll want to go after Murkywater aswell?",
 "ton2_vo_murky_done" : "Our good old PMC friends are done and dusted, but perhaps you want to deal with a poor security company now?",
 "ton2_vo_murky1s" : "Murkywater is tight on security, tapping straight into their servers would blow our cover. Find a terminal and I'll find us a safe way in.", -
@@ -12,6 +17,7 @@
 "ton2_vo_murky1l_hack1" : "Alright, power's back on. Wire me in to a terminal, I'll find the info.", -
 "ton2_vo_murky1l_hack1_half" : "Half way there, just hold on.", -
 "ton2_vo_murky1l_hack1_done" : "I'm gonna need to get the encryption keys. Wire me straight into their servers, shouldn't take too long.", -
+"ton2_vo_murky1l_hack2_nopower" : "That isn't really gonna help, if there's no power, is it?",
 "ton2_vo_murky1sfirewall1" : "We've hit a firewall, go find a box to rewire for access.", -
 "ton2_vo_murky1sfirewall2" : "How many firewalls are in this system? You're gonna need to rewire a box to bypass it.", -
 "ton2_vo_murky1sfirewall3" : "Why does a random Murkywater location like this have so many hoops to jump through? Find another box to rewire.", -

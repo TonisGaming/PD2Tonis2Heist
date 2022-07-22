@@ -1,0 +1,68 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_fish/lxy_prop_boat_capsule_01/lxy_prop_life_boat_capsule" orientation_object="rp_lxy_prop_life_boat_capsule" />
+	<sequence_manager file="units/pd2_dlc_fish/lxy_prop_boat_capsule_01/lxy_prop_life_boat_capsule" />
+	<animations>
+		<animation_group name="anims_lid" enabled="false">
+			<object name="anim_lid" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_static" enabled="true" template="dynamic">
+			<object name="rp_lxy_prop_life_boat_capsule" />
+			<object name="c_convex_02" collision_type="convex" padding="-2.5" mass="500" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" mass="500" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" mass="500" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" mass="500" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" mass="500" />
+		</body>
+		<body name="body_animated_lid" enabled="true" template="static">
+			<object name="anim_lid" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+		</body>
+	</bodies>
+
+	<decal_surfaces >
+		<decal_mesh name="dm_metal_capsule" enabled="true" material="metal" />
+		<decal_mesh name="dm_metal_capsule_lid" enabled="true" material="metal" />
+		<decal_mesh name="dm_thin_layer" enabled="true" material="rubber" />
+	</decal_surfaces>
+
+	<graphics>
+
+		<graphic_group name="belt_grp" enabled="false" visibility="false">
+			<lod_object name="lod_g_belt">
+				<object name="g_belt_lod0" enabled="true" max_distance="1500" />
+				<object name="g_belt_lod1" enabled="true" />
+			</lod_object>			
+		</graphic_group>	
+
+		<graphic_group name="main_grp" enabled="true" visibility="true">	
+			<lod_object name="lod_g_capsule">
+				<object name="g_capsule_lod0" enabled="true" max_distance="800" />
+				<object name="g_capsule_lod1" enabled="true" max_distance="1200" />
+				<object name="g_capsule_lod2" enabled="true" />
+			</lod_object>			
+		</graphic_group>
+
+		<graphic_group name="capsule_grp" enabled="true" visibility="true">
+			<lod_object name="lod_g_capsule_lid">
+				<object name="g_capsule_lid_lod0" enabled="true" max_distance="800" />
+				<object name="g_capsule_lid_lod1" enabled="true" max_distance="1200" />
+				<object name="g_capsule_lid_lod2" enabled="true" />
+			</lod_object>
+			<object name="s_s_capsule_lid" enabled="true" shadow_caster="true" />			
+		</graphic_group>
+
+		<graphic_group name="icons" enabled="false">
+			<lod_object name="lod_icon">
+				<object name="g_icon_lod0" enabled="true"  max_distance="400" />
+				<object name="g_icon_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+		
+		<object name="s_s_capsule" enabled="true" shadow_caster="true" />
+		<object name="s_s" enabled="true" shadow_caster="true" />
+			
+
+	</graphics>
+</dynamic_object>
