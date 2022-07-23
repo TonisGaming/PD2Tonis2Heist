@@ -3015,6 +3015,30 @@
 				<entry key="unit_id" type="number" value="107"/>
 			</entry>
 		</entry>
+		<entry index="108" type="table">
+			<entry key="ai_editor_data" type="table">
+				<entry key="detection_mul" type="number" value="1"/>
+				<entry key="location_id" type="string" value="location_unknown"/>
+				<entry key="suspicion_mul" type="number" value="1"/>
+				<entry key="visibilty_exlude_filter" type="table">
+				</entry>
+				<entry key="visibilty_include_filter" type="table">
+				</entry>
+			</entry>
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="2035.89 7531.45 3.72529e-007"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/nav_surface/nav_surface"/>
+				<entry key="name_id" type="string" value="nav_surface_107"/>
+				<entry key="position" type="vector3" value="2035.89 7531.45 3.72529e-007"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="108"/>
+			</entry>
+		</entry>
 	</entry>
 	<entry key="ai_nav_graphs" type="table">
 		<entry key="file" type="string" value="nav_manager_data"/>
@@ -3046,6 +3070,10 @@
 		</entry>
 	</entry>
 	<entry key="camera_bookmarks" type="table">
+		<entry key="THUMBNAILPICTURELOCATION" type="table">
+			<entry key="position" type="vector3" value="4297.59 -864.395 572.576"/>
+			<entry key="rotation" type="quaternion" value="0.0283627 0.000358868 -0.0126466 -0.999518"/>
+		</entry>
 		<entry key="shipinside" type="table">
 			<entry key="position" type="vector3" value="-1574.54 -8460.03 389.941"/>
 			<entry key="rotation" type="quaternion" value="-0.000399701 0.0122079 0.99939 -0.0327212"/>
@@ -9471,7 +9499,6 @@
 					<entry index="108054" type="boolean" value="true"/>
 					<entry index="108055" type="boolean" value="true"/>
 					<entry index="108063" type="boolean" value="true"/>
-					<entry index="108069" type="boolean" value="true"/>
 					<entry index="108245" type="boolean" value="true"/>
 					<entry index="108252" type="boolean" value="true"/>
 					<entry index="108287" type="boolean" value="true"/>

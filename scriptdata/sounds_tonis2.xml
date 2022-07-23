@@ -1,5 +1,15 @@
 <table>
 	<Sounds directory="assets/audio/vo">
+		<sound id="Tonis2_vo_manifestbreaker" path="tonis/ton2_vo_manifestbreaker.ogg" subtitle_id="Ton2_vo_manifestbreaker"/>
+		<sound id="Tonis2_vo_gensecbreaker" path="tonis/ton2_vo_gensecbreaker.ogg" subtitle_id="Ton2_vo_gensecbreaker"/>
+		<sound id="Tonis2_vo_murkybreaker" path="tonis/ton2_vo_murkybreaker.ogg" subtitle_id="Ton2_vo_murkybreaker"/>
+		<sound id="Tonis2_vo_firstextraloot" path="tonis/ton2_vo_firstextraloot.ogg" subtitle_id="Ton2_vo_firstextraloot"/>
+		<sound id="Tonis2_vo_brief" path="tonis/ton2_vo_brief.ogg"/>
+		<sound id="Tonis2_vo_secret" path="tonis/ton2_vo_secret.ogg" subtitle_id="Ton2_vo_secret"/>
+		<sound id="Tonis2_vo_secret2" path="tonis/ton2_vo_secret2.ogg" subtitle_id="Ton2_vo_secret2"/>
+		<sound id="Tonis2_vo_murky_done" path="tonis/ton2_vo_murky_done.ogg" subtitle_id="Ton2_vo_murky_done"/>
+		<sound id="Tonis2_vo_gensec_done" path="tonis/ton2_vo_gensec_done.ogg" subtitle_id="Ton2_vo_gensec_done"/>
+		<sound id="Tonis2_vo_murky5l2_run" path="tonis/ton2_vo_murky5l2_run.ogg" subtitle_id="Ton2_vo_murky5l2_run"/>
 		<sound id="Tonis2_vo_21" path="tonis/ton2_vo_21.ogg" subtitle_id="Ton2_vo_21"/>
 		<sound id="Tonis2_vo_23" path="tonis/ton2_vo_23.ogg" subtitle_id="Ton2_vo_23"/>
 		<sound id="Tonis2_vo_11" path="tonis/ton2_vo_11.ogg" subtitle_id="Ton2_vo_11"/>
@@ -11,6 +21,7 @@
 		<sound id="Tonis2_vo_murky1l_hack1" path="tonis/ton2_vo_murky1l_hack1.ogg" subtitle_id="Ton2_vo_murky1l_hack1"/>
 		<sound id="Tonis2_vo_murky1l_hack1_half" path="tonis/ton2_vo_murky1l_hack1_half.ogg" subtitle_id="Ton2_vo_murky1l_hack1_half"/>
 		<sound id="Tonis2_vo_murky1l_hack1_done" path="tonis/ton2_vo_murky1l_hack1_done.ogg" subtitle_id="Ton2_vo_murky1l_hack1_done"/>
+		<sound id="Tonis2_vo_murky1l_hack2_nopower" path="tonis/ton2_vo_murky1l_hack2_nopower.ogg" subtitle_id="Ton2_vo_murky1l_hack2_nopower"/>
 		<sound id="Tonis2_vo_murky_generatorfound" path="tonis/ton2_vo_murky_generatorfound.ogg" subtitle_id="Ton2_vo_murky_generatorfound"/>
 		<sound id="Tonis2_vo_murky_generator_90seconds" path="tonis/ton2_vo_murky_generator_90seconds.ogg" subtitle_id="Ton2_vo_murky_generator_90seconds"/>
 		<sound id="Tonis2_vo_murky_generator_45seconds" path="tonis/ton2_vo_murky_generator_45seconds.ogg" subtitle_id="Ton2_vo_murky_generator_45seconds"/>

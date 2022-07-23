@@ -70,15 +70,6 @@ Hooks:PostHook(InteractionTweakData, "init", "tonis2_interactions", function(sel
 		sound_done = "bar_c4_apply_finished"
 	}
 	
-	self.tonis2_bagammo = {
-		text_id = "tonis2_bagammo",
-		action_text_id = "tonis2_bagammo_action",
-		timer = 2,
-		sound_start = "bar_c4_apply",
-		sound_interupt = "bar_c4_apply_cancel",
-		sound_done = "bar_c4_apply_finished"
-	}
-	
 	self.tonis2_crowbar = {
 		icon = "equipment_crowbar",
 		text_id = "tonis2_interact_crowbar",
