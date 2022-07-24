@@ -1,0 +1,55 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_ton/anim_boat_capsule/anim_boat_capsule" orientation_object="rp_lxy_prop_life_boat_capsule" />
+	<sequence_manager file="units/pd2_mod_ton/anim_boat_capsule/anim_boat_capsule" />
+	<animations>
+		<animation_group name="anim_yeet" enabled="false">
+			<object name="anim_capsule_fall" />
+			<!-- <object name="anim_string" /> -->
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_anim" enabled="true" template="animated">
+			<object name="anim_capsule_fall" />
+			<object name="c_capsule" collision_type="capsule" padding="-2.5" />
+		</body>
+		<!-- <body name="body_animated_lid" enabled="true" template="static">
+			<object name="anim_lid" />
+			<object name="c_convex_01" collision_type="convex" padding="-2.5" />
+		</body>
+		<body name="body_static_boat" enabled="true" template="static">
+			<object name="rp_lxy_prop_life_boat_capsule" />
+			<object name="c_box_05" collision_type="box" />
+		</body> -->
+	</bodies>
+
+	<decal_surfaces >
+		<decal_mesh name="g_capsule_bottom" enabled="true" material="metal" />
+		<decal_mesh name="g_capsule_top" enabled="true" material="metal" />
+		<decal_mesh name="g_frame" enabled="true" material="metal" />
+	</decal_surfaces>
+
+	<graphics>
+		<object name="g_frame" enabled="true" shadow_caster="true"/>
+
+		<graphic_group name="grp_capsule" enabled="true">
+			<object name="g_capsule_bottom" enabled="true" shadow_caster="true"/>
+			<object name="g_capsule_top" enabled="true" shadow_caster="true"/>
+			<!-- <object name="g_string" enabled="true" shadow_caster="true"/> -->
+			<object name="g_belt" enabled="false" shadow_caster="false"/>
+		</graphic_group>
+
+		<graphic_group name="icons" enabled="false">
+			<lod_object name="lod_icon">
+				<object name="g_icon_lod0" enabled="true"  max_distance="400" />
+				<object name="g_icon_lod1" enabled="true" />
+			</lod_object>
+		</graphic_group>
+
+	</graphics>
+</dynamic_object>

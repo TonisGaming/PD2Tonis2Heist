@@ -1,0 +1,55 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+			<!-- <graphic_group name="'icons'" visibility="true"/> -->
+		</sequence>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+			<!-- <graphic_group name="'icons'" visibility="false"/> -->
+		</sequence>
+		<sequence editable_state="false" name="'interact'" triggable="false">
+			<run_sequence name="'yeet'"/>
+			<!-- <graphic_group name="'icons'" visibility="false"/> -->
+		</sequence>
+
+		<sequence editable_state="true" name="'yeet'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim_yeet'" to="220/30" speed="1"/>
+			<interaction enabled="false"/>
+			<run_sequence name="'done'" start_time="220/30"/>
+			<run_sequence name="'hide_capsule'" start_time="220/30"/>
+		</sequence>
+
+		<sequence editable_state="false" name="'done'" triggable="true"/>
+
+		<sequence editable_state="true" name="'hide_all'" triggable="true">
+			<graphic_group name="'grp_capsule'" visibility="false"/>
+			<object name="'g_frame'" enabled="false"/>
+			<body name="'body_static'" enabled="false"/>
+			<body name="'body_anim'" enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide_capsule'" triggable="true">
+			<graphic_group name="'grp_capsule'" visibility="false"/>
+			<body name="'body_anim'" enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_all'" triggable="true">
+			<graphic_group name="'grp_capsule'" visibility="true"/>
+			<object name="'g_frame'" enabled="true"/>
+			<body name="'body_static'" enabled="true"/>
+			<body name="'body_anim'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'__reset__'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim_yeet'" to="0/30" speed="0"/>
+			<graphic_group name="'grp_capsule'" visibility="true"/>
+			<interaction enabled="false"/>
+			<body name="'body_anim'" enabled="true"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'show_strap'" triggable="true">
+			<object name="'g_belt'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide_strap'" triggable="true">
+			<object name="'g_belt'" enabled="false"/>
+		</sequence>
+	</unit>
+</table>

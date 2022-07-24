@@ -1,0 +1,14 @@
+<unit type="ton" slot="1">
+	<object file="units/pd2_mod_ton/anim_boat_capsule/anim_boat_capsule" />
+	<network sync="spawn" />
+	<dependencies>
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="tonis2_pushcapsule" />
+			<var name="_interact_object" value="interact"/>
+		</extension>
+	</extensions>
+</unit>

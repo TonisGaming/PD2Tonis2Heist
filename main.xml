@@ -136,7 +136,21 @@
 	</instance>
 	<AddFiles directory="assets">
 		<texture path="textures/test1"/>
-		<texture path="textures/CustomAchievements/TonCont_pack"/>
+		<texture path="textures/CustomAchievements/T2icon"/>
+		<texture path="textures/CustomAchievements/T2normal"/>
+		<texture path="textures/CustomAchievements/T2hard"/>
+		<texture path="textures/CustomAchievements/T2veryhard"/>
+		<texture path="textures/CustomAchievements/T2OVK"/>
+		<texture path="textures/CustomAchievements/T2mayhem"/>
+		<texture path="textures/CustomAchievements/T2DW"/>
+		<texture path="textures/CustomAchievements/T2DS"/>
+		<texture path="textures/CustomAchievements/T2DSOD"/>
+		<texture path="textures/CustomAchievements/T2secret"/>
+		<texture path="textures/CustomAchievements/T2propane"/>
+		<texture path="textures/CustomAchievements/T2PlanB"/>
+		<texture path="textures/CustomAchievements/T2PlanC"/>
+		<texture path="textures/CustomAchievements/T2mantlepoint"/>
+		<texture path="textures/CustomAchievements/T2scorchmayhem"/>
 		<texture path="textures/MantlepointPolaroid"/>
 		<texture path="textures/MoreMantlepointPolaroid"/>
 		<texture path="textures/StealthLootDropPolaroid"/>
@@ -144,20 +158,21 @@
 		<texture path="textures/tonis2_icon" unload="true"/>
 		<texture path="textures/tonis2_loading" unload="true"/>
 	</AddFiles>
-	<Achievements icon="textures/CustomAchievements/TonCont_pack" id="tonis2_package">
-		<achievement icon="textures/CustomAchievements/TonCont_pack" id="tonis2_propane" rank="4" reward_amount="20" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/TonCont_pack" id="tonis2_DWloot" rank="4" reward_amount="20" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/TonCont_pack" id="tonis2_normal" rank="1" reward_amount="2" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/TonCont_pack" id="tonis2_hard" rank="1" reward_amount="3" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/TonCont_pack" id="tonis2_veryhard" rank="2" reward_amount="4" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/TonCont_pack" id="tonis2_OVK" rank="2" reward_amount="5" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/TonCont_pack" id="tonis2_mayhem" rank="3" reward_amount="6" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/TonCont_pack" id="tonis2_DW" rank="3" reward_amount="7" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/TonCont_pack" id="tonis2_DS" rank="4" reward_amount="8" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/TonCont_pack" id="tonis2_DSOD" rank="4" reward_amount="8" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/TonCont_pack" id="tonis2_planC" rank="4" reward_amount="8" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/TonCont_pack" id="tonis2_mantlepoint" rank="2" reward_amount="6" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/TonCont_pack" id="tonis2_secret" rank="4" reward_amount="8" reward_type="cc" hidden_achievement="true"/>
+	<Achievements icon="textures/CustomAchievements/T2icon" id="tonis2_package">
+		<achievement icon="textures/CustomAchievements/T2propane" id="tonis2_propane" rank="4" reward_amount="20" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2normal" id="tonis2_normal" rank="1" reward_amount="2" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2hard" id="tonis2_hard" rank="1" reward_amount="3" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2veryhard" id="tonis2_veryhard" rank="2" reward_amount="4" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2OVK" id="tonis2_OVK" rank="2" reward_amount="5" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2mayhem" id="tonis2_mayhem" rank="3" reward_amount="6" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2DW" id="tonis2_DW" rank="3" reward_amount="7" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2DS" id="tonis2_DS" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2DSOD" id="tonis2_DSOD" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2PlanC" id="tonis2_planC" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2PlanB" id="tonis2_planB" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2mantlepoint" id="tonis2_mantlepoint" rank="2" reward_amount="6" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2scorchmayhem" id="tonis2_scorchmayhem" rank="2" reward_amount="6" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2secret" id="tonis2_secret" rank="4" reward_amount="8" reward_type="cc" hidden_achievement="true"/>
 	</Achievements>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
@@ -222,7 +237,7 @@
 			<value_node value="60000"/>
 		</payout>
 	</narrative>
-	<Sounds auto_pause="true" directory="assets/sounds">
-		<sound id="heist_tonis2_crimenet_brief" path="vo/heist_tonis2_crimenet_brief.ogg"/>
+	<Sounds auto_pause="true" directory="assets/audio">
+		<sound id="heist_tonis2_crimenet_brief" path="vo/tonis/heist_tonis2_crimenet_brief.ogg"/>
 	</Sounds>
 </table>

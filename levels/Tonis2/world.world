@@ -5892,6 +5892,14 @@
 						<entry key="type" type="string" value="box"/>
 						<entry key="width" type="number" value="1650"/>
 					</entry>
+					<entry index="8" type="table">
+						<entry key="depth" type="number" value="420"/>
+						<entry key="height" type="number" value="1000"/>
+						<entry key="position" type="vector3" value="2218 4102.09 -399.758"/>
+						<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
+						<entry key="type" type="string" value="box"/>
+						<entry key="width" type="number" value="600"/>
+					</entry>
 				</entry>
 			</entry>
 			<entry key="MurkyBasement" type="table">
