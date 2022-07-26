@@ -1,5 +1,0 @@
-<materials version="3">
-    <material render_template="generic:DIFFUSE_TEXTURE" name="shadow_caster" version="2">
-        <diffuse_texture file="units/pd2_dlc_help/props/hlp_black_plane/black_df"/>
-    </material>
-</materials>

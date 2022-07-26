@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<unit type="brush" slot="29">
-  <mass>
-    <spawn in="1300" method="pool" out="1800" />
-  </mass>
-  <object file="units/world/brushes/bank_papers/bank_paper_pile_1" />
-</unit>

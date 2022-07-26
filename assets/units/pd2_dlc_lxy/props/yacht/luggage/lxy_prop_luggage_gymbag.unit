@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<unit type="lxy" slot="1">
-  <object file="units/pd2_dlc_lxy/props/yacht/luggage/lxy_prop_luggage_gymbag" />
-  <extensions>
-    <extension name="unit_data" class="ScriptUnitData" />
-  </extensions>
-</unit>

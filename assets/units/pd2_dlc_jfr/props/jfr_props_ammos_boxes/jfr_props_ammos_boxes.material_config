@@ -1,8 +1,0 @@
-<materials version="3">
-    <material name="ammo_02" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
-        <diffuse_texture file="units/pd2_dlc_jfr/props/jfr_props_ammos_boxes/ammo_grey_df"/>
-        <bump_normal_texture file="units/pd2_dlc_jfr/props/jfr_props_ammos_boxes/ammo_nm"/>
-        <material_texture file="units/pd2_dlc_jfr/props/jfr_props_ammos_boxes/ammo_gsm"/>
-    </material>
-    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
-</materials>

@@ -1,8 +1,0 @@
-<materials version="3">
-    <material name="m1911" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
-        <diffuse_texture file="units/pd2_dlc_jfr/props/jfr_props_wpn_m1911/wpn_fps_pis_m1911_df"/>
-        <bump_normal_texture file="units/pd2_dlc_jfr/props/jfr_props_wpn_m1911/wpn_fps_pis_m1911_nm"/>
-        <material_texture file="units/pd2_dlc_jfr/props/jfr_props_wpn_m1911/wpn_fps_pis_m1911_gsm"/>
-    </material>
-</materials>
-

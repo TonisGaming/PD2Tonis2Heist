@@ -1,6 +1,0 @@
-<unit type="chas" slot="1">
-	<object file="units/pd2_dlc_chas/props/chas_prop_tea_basket/chas_prop_tea_basket" />
-	<extensions>
-		<extension name="unit_data" class="ScriptUnitData" />
-	</extensions>
-</unit>

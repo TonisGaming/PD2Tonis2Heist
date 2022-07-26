@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<unit type="bnk" slot="1">
-	<object file="units/payday2/decals/bnk_decal_papers_2/bnk_decal_papers_2" />
-	<extensions>
-		<extension name="unit_data" class="ScriptUnitData" />
-	</extensions>
-</unit>
