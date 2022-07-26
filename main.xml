@@ -1,33 +1,33 @@
 <table name="Tonis2">
-	<level ai_group_type="america" briefing_dialog="Tonis2_vo_brief" id="Tonis2" max_bags="54" load_screen="textures/tonis2_loading" ghost_bonus="0.2">
+	<level ai_group_type="america" briefing_dialog="Tonis2_vo_brief" ghost_bonus="0.2" id="Tonis2" load_screen="textures/tonis2_loading" max_bags="54">
+		<add file="levels/Tonis2/add.xml"/>
 		<assets>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
+			<extragas money_lock="100000" name_id="menu_asset_tonis2_extragas" no_mystery="true" texture="textures/ExtraGasPolaroid" unlock_desc_id="tonis2_extragas_desc" visible_if_locked="true">
+				<stages>
+					<value_node value="Tonis2"/>
+				</stages>
+			</extragas>
+			<extraoutsiderope money_lock="25000" name_id="menu_asset_tonis2_extraropeoutside" no_mystery="true" texture="textures/MoreMantlepointPolaroid" unlock_desc_id="tonis2_extraoutsiderope_desc" visible_if_locked="true">
+				<stages>
+					<value_node value="Tonis2"/>
+				</stages>
+			</extraoutsiderope>
 			<mantlepoint name_id="menu_asset_tonis2_mantlepoint" no_mystery="true" texture="textures/MantlepointPolaroid">
 				<stages>
 					<value_node value="Tonis2"/>
 				</stages>
 			</mantlepoint>
-			<extraoutsiderope name_id="menu_asset_tonis2_extraropeoutside" no_mystery="true" unlock_desc_id="tonis2_extraoutsiderope_desc" money_lock="25000" visible_if_locked="true" texture="textures/MoreMantlepointPolaroid">
+			<stealthloot money_lock="60000" name_id="menu_asset_tonis2_stealthloot" no_mystery="true" texture="textures/StealthLootDropPolaroid" unlock_desc_id="tonis2_stealthloot_desc" visible_if_locked="true">
 				<stages>
 					<value_node value="Tonis2"/>
 				</stages>
-			</extraoutsiderope>
-			<stealthloot name_id="menu_asset_tonis2_stealthloot" unlock_desc_id="tonis2_stealthloot_desc" no_mystery="true" money_lock="60000" visible_if_locked="true" texture="textures/StealthLootDropPolaroid">
-				<upgrade_lock upgrade="additional_assets" category="player"/>
-				<stages>
-					<value_node value="Tonis2"/>
-				</stages>
+				<upgrade_lock category="player" upgrade="additional_assets"/>
 			</stealthloot>
-			<extragas name_id="menu_asset_tonis2_extragas" no_mystery="true" unlock_desc_id="tonis2_extragas_desc" money_lock="100000" visible_if_locked="true" texture="textures/ExtraGasPolaroid">
-				<stages>
-					<value_node value="Tonis2"/>
-				</stages>
-			</extragas>
 		</assets>
-		<add file="levels/Tonis2/add.xml"/>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="EquipmentsTweakData.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
@@ -39,6 +39,7 @@
 			<value_node value="levels/instances/unique/dark/train_numbers/world/world"/>
 			<value_node value="levels/instances/unique/are_exfil_puzzle/world/world"/>
 			<value_node value="levels/instances/unique/chca/chca_heli_drop/world/world"/>
+			<value_node value="levels/narratives/classics/dah/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -134,6 +135,22 @@
 	<instance id="ton_locked_murkycontainer">
 		<packages/>
 	</instance>
+	<Achievements icon="textures/CustomAchievements/T2icon" id="tonis2_package">
+		<achievement icon="textures/CustomAchievements/T2propane" id="tonis2_propane" rank="4" reward_amount="20" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2normal" id="tonis2_normal" rank="1" reward_amount="2" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2hard" id="tonis2_hard" rank="1" reward_amount="3" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2veryhard" id="tonis2_veryhard" rank="2" reward_amount="4" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2OVK" id="tonis2_OVK" rank="2" reward_amount="5" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2mayhem" id="tonis2_mayhem" rank="3" reward_amount="6" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2DW" id="tonis2_DW" rank="3" reward_amount="7" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2DS" id="tonis2_DS" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2DSOD" id="tonis2_DSOD" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2PlanC" id="tonis2_planC" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2PlanB" id="tonis2_planB" rank="4" reward_amount="8" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2mantlepoint" id="tonis2_mantlepoint" rank="2" reward_amount="6" reward_type="cc"/>
+		<achievement icon="textures/CustomAchievements/T2scorchmayhem" id="tonis2_scorchmayhem" rank="2" reward_amount="6" reward_type="cc"/>
+		<achievement hidden_achievement="true" icon="textures/CustomAchievements/T2secret" id="tonis2_secret" rank="4" reward_amount="8" reward_type="cc"/>
+	</Achievements>
 	<AddFiles directory="assets">
 		<texture path="textures/test1"/>
 		<texture path="textures/CustomAchievements/T2icon"/>
@@ -158,27 +175,14 @@
 		<texture path="textures/tonis2_icon" unload="true"/>
 		<texture path="textures/tonis2_loading" unload="true"/>
 	</AddFiles>
-	<Achievements icon="textures/CustomAchievements/T2icon" id="tonis2_package">
-		<achievement icon="textures/CustomAchievements/T2propane" id="tonis2_propane" rank="4" reward_amount="20" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/T2normal" id="tonis2_normal" rank="1" reward_amount="2" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/T2hard" id="tonis2_hard" rank="1" reward_amount="3" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/T2veryhard" id="tonis2_veryhard" rank="2" reward_amount="4" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/T2OVK" id="tonis2_OVK" rank="2" reward_amount="5" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/T2mayhem" id="tonis2_mayhem" rank="3" reward_amount="6" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/T2DW" id="tonis2_DW" rank="3" reward_amount="7" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/T2DS" id="tonis2_DS" rank="4" reward_amount="8" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/T2DSOD" id="tonis2_DSOD" rank="4" reward_amount="8" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/T2PlanC" id="tonis2_planC" rank="4" reward_amount="8" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/T2PlanB" id="tonis2_planB" rank="4" reward_amount="8" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/T2mantlepoint" id="tonis2_mantlepoint" rank="2" reward_amount="6" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/T2scorchmayhem" id="tonis2_scorchmayhem" rank="2" reward_amount="6" reward_type="cc"/>
-		<achievement icon="textures/CustomAchievements/T2secret" id="tonis2_secret" rank="4" reward_amount="8" reward_type="cc" hidden_achievement="true"/>
-	</Achievements>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
+	<Sounds auto_pause="true" directory="assets/audio">
+		<sound id="heist_tonis2_crimenet_brief" path="vo/tonis/heist_tonis2_crimenet_brief.ogg"/>
+	</Sounds>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Tonis" name_id="contract_tonis" package="packages/contact_bain"/>
-	<narrative brief_id="heist_tonis2_crimenet" briefing_event="heist_tonis2_crimenet_brief" icon="textures/tonis2_icon" contact="Tonis" id="Tonis2" name_id="heist_Tonis2">
+	<narrative brief_id="heist_tonis2_crimenet" briefing_event="heist_tonis2_crimenet_brief" contact="Tonis" icon="textures/tonis2_icon" id="Tonis2" name_id="heist_Tonis2">
 		<chain>
 			<table level_id="Tonis2" type="d" type_id="heist_type_assault"/>
 		</chain>
@@ -237,7 +241,4 @@
 			<value_node value="60000"/>
 		</payout>
 	</narrative>
-	<Sounds auto_pause="true" directory="assets/audio">
-		<sound id="heist_tonis2_crimenet_brief" path="vo/tonis/heist_tonis2_crimenet_brief.ogg"/>
-	</Sounds>
 </table>

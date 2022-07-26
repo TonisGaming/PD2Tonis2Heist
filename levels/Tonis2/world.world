@@ -3094,7 +3094,7 @@
 			<entry key="sky_rot" type="number" value="146.203"/>
 		</entry>
 		<entry key="wind" type="table">
-			<entry key="angle" type="number" value="0"/>
+			<entry key="angle" type="number" value="137.468"/>
 			<entry key="angle_var" type="number" value="0"/>
 			<entry key="speed" type="number" value="6"/>
 			<entry key="speed_variation" type="number" value="1"/>
