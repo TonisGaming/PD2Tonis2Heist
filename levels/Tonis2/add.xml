@@ -1,5 +1,8 @@
 <table directory="assets">
 	<add>
+		<unit from_db="true" load="true" path="units/dev_tools/mission_elements/point_interaction/interaction_dummy"/>
+	</add>
+	<add>
 		<texture path="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2_static/truck_gensec_transport_mk2_decal"/>
 		<texture path="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2_static/truck_gensec_transport_mk2_df"/>
 		<texture path="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2_static/truck_gensec_transport_mk2_nm"/>
