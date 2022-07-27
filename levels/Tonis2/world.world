@@ -3801,9 +3801,9 @@
 						<entry key="width" type="number" value="2400"/>
 					</entry>
 					<entry index="2" type="table">
-						<entry key="depth" type="number" value="2500"/>
+						<entry key="depth" type="number" value="5250"/>
 						<entry key="height" type="number" value="1000"/>
-						<entry key="position" type="vector3" value="-73.6757 752.75 -266.809"/>
+						<entry key="position" type="vector3" value="-73.6757 -3122.25 -266.809"/>
 						<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 						<entry key="type" type="string" value="box"/>
 						<entry key="width" type="number" value="1200"/>
@@ -5863,7 +5863,7 @@
 					<entry index="4" type="table">
 						<entry key="depth" type="number" value="4700"/>
 						<entry key="height" type="number" value="1000"/>
-						<entry key="position" type="vector3" value="-99.4041 3271.16 3.72529e-007"/>
+						<entry key="position" type="vector3" value="-99.4041 3271.16 0"/>
 						<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 						<entry key="type" type="string" value="box"/>
 						<entry key="width" type="number" value="4350"/>
@@ -5899,6 +5899,14 @@
 						<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
 						<entry key="type" type="string" value="box"/>
 						<entry key="width" type="number" value="600"/>
+					</entry>
+					<entry index="9" type="table">
+						<entry key="depth" type="number" value="1000"/>
+						<entry key="height" type="number" value="1000"/>
+						<entry key="position" type="vector3" value="-75.7921 2248.45 -66"/>
+						<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+						<entry key="type" type="string" value="box"/>
+						<entry key="width" type="number" value="1000"/>
 					</entry>
 				</entry>
 			</entry>
@@ -9573,6 +9581,14 @@
 						<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 						<entry key="type" type="string" value="box"/>
 						<entry key="width" type="number" value="1000"/>
+					</entry>
+					<entry index="8" type="table">
+						<entry key="depth" type="number" value="1000"/>
+						<entry key="height" type="number" value="1000"/>
+						<entry key="position" type="vector3" value="4801.45 4111.87 17.4703"/>
+						<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+						<entry key="type" type="string" value="box"/>
+						<entry key="width" type="number" value="1800"/>
 					</entry>
 				</entry>
 			</entry>

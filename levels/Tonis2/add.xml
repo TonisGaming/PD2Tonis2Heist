@@ -4618,7 +4618,7 @@
 		<effect load="true" path="effects/payday2/environment/environment_heavy_fire"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_murkywater_heavy/ene_murkywater_heavy" type="unit">
-		<unit path="units/pd2_dlc_bph/characters/ene_murkywater_heavy/ene_murkywater_heavy" load="true"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_heavy/ene_murkywater_heavy"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/std"/>
@@ -4648,7 +4648,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_murkywater_tazer/ene_murkywater_tazer" type="unit">
-		<unit path="units/pd2_dlc_bph/characters/ene_murkywater_tazer/ene_murkywater_tazer" load="true"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_tazer/ene_murkywater_tazer"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<object path="units/pd2_dlc_bph/characters/ene_murkywater_tazer/ene_murkywater_tazer"/>
@@ -4684,7 +4684,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_murkywater_light_fbi/ene_murkywater_light_fbi" type="unit">
-		<unit path="units/pd2_dlc_bph/characters/ene_murkywater_light_fbi/ene_murkywater_light_fbi" load="true"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_light_fbi/ene_murkywater_light_fbi"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<object path="units/pd2_dlc_bph/characters/ene_murkywater_light_fbi/ene_murkywater_light_fbi"/>
@@ -4716,7 +4716,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_murkywater_medic_r870/ene_murkywater_medic_r870" type="unit">
-		<unit path="units/pd2_dlc_bph/characters/ene_murkywater_medic_r870/ene_murkywater_medic_r870" load="true"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_medic_r870/ene_murkywater_medic_r870"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<object path="units/pd2_dlc_bph/characters/ene_murkywater_medic/ene_murkywater_medic"/>
@@ -4749,7 +4749,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_murkywater_shield/ene_murkywater_shield" type="unit">
-		<unit path="units/pd2_dlc_bph/characters/ene_murkywater_shield/ene_murkywater_shield" load="true"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_shield/ene_murkywater_shield"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<object path="units/pd2_dlc_bph/characters/ene_murkywater_shield/ene_murkywater_shield"/>
@@ -4791,7 +4791,7 @@
 		<effect load="true" path="effects/particles/weapons/silenced/muzzleflash_3dp"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_murkywater_heavy_g36/ene_murkywater_heavy_g36" type="unit">
-		<unit path="units/pd2_dlc_bph/characters/ene_murkywater_heavy_g36/ene_murkywater_heavy_g36" load="true"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_heavy_g36/ene_murkywater_heavy_g36"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/std"/>
@@ -4821,7 +4821,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_murkywater_heavy_shotgun/ene_murkywater_heavy_shotgun" type="unit">
-		<unit path="units/pd2_dlc_bph/characters/ene_murkywater_heavy_shotgun/ene_murkywater_heavy_shotgun" load="true"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_heavy_shotgun/ene_murkywater_heavy_shotgun"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<animation_subset path="anims/units/enemies/cop/std"/>
@@ -4851,7 +4851,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_murkywater_light_city_r870/ene_murkywater_light_city_r870" type="unit">
-		<unit path="units/pd2_dlc_bph/characters/ene_murkywater_light_city_r870/ene_murkywater_light_city_r870" load="true"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_light_city_r870/ene_murkywater_light_city_r870"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<object path="units/pd2_dlc_bph/characters/ene_murkywater_light_city_r870/ene_murkywater_light_city_r870"/>
@@ -4883,7 +4883,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_murkywater_light_fbi_r870/ene_murkywater_light_fbi_r870" type="unit">
-		<unit path="units/pd2_dlc_bph/characters/ene_murkywater_light_fbi_r870/ene_murkywater_light_fbi_r870" load="true"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_light_fbi_r870/ene_murkywater_light_fbi_r870"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<object path="units/pd2_dlc_bph/characters/ene_murkywater_light_fbi_r870/ene_murkywater_light_fbi_r870"/>
@@ -4915,7 +4915,7 @@
 		<sequence_manager path="units/payday2/characters/ragdoll"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_3/ene_murkywater_bulldozer_3" type="unit">
-		<unit path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_3/ene_murkywater_bulldozer_3" load="true"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_3/ene_murkywater_bulldozer_3"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<object path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_3/ene_murkywater_bulldozer_3"/>
@@ -4963,7 +4963,7 @@
 		<sequence_manager path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_3/ene_murkywater_bulldozer_3"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_2/ene_murkywater_bulldozer_2" type="unit">
-		<unit path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_2/ene_murkywater_bulldozer_2" load="true"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_2/ene_murkywater_bulldozer_2"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<object path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_2/ene_murkywater_bulldozer_2"/>
@@ -5011,13 +5011,11 @@
 		<sequence_manager path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_2/ene_murkywater_bulldozer_2"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_medic/ene_murkywater_bulldozer_medic" type="unit">
-		<unit path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_medic/ene_murkywater_bulldozer_medic" load="true"/>
-		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_medic/ene_murkywater_bulldozer_medic"/>
 		<animation_states path="anims/units/enemies/cop/std"/>
 		<animation_states path="anims/units/enemies/cop/civilian"/>
 		<object path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_medic/ene_murkywater_bulldozer_medic"/>
 		<material_config path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_medic/ene_murkywater_bulldozer_medic"/>
-		<sequence_manager path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_medic/ene_murkywater_bulldozer_medic"/>
 		<unit path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_medic_helmet_plate/ene_acc_bulldozer_medic_helmet_plate"/>
 		<object path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_medic_helmet_plate/ene_acc_bulldozer_medic_helmet_plate"/>
 		<material_config path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_medic_helmet_plate/ene_acc_bulldozer_medic_helmet_plate"/>
@@ -5036,7 +5034,6 @@
 		<unit path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_medic_neck/ene_acc_bulldozer_medic_neck"/>
 		<object path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_medic_neck/ene_acc_bulldozer_medic_neck"/>
 		<material_config path="units/pd2_dlc_bph/characters/ene_acc_bulldozer_medic_neck/ene_acc_bulldozer_medic_neck"/>
-		<animation_def path="anims/units/enemies/cop/cop_def"/>
 		<animation_subset path="anims/units/enemies/cop/std"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
@@ -5057,5 +5054,58 @@
 		<bnk path="soundbanks/regular_vox"/>
 		<bnk path="soundbanks/regular_sfx"/>
 		<unit load="true" path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_medic/ene_murkywater_bulldozer_medic_husk"/>
+		<animation_def path="anims/units/enemies/cop/cop_def"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+		<sequence_manager path="units/pd2_dlc_bph/characters/ene_murkywater_bulldozer_medic/ene_murkywater_bulldozer_medic"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/ene_city_swat_1/ene_city_swat_1" type="unit">
+		<unit path="units/payday2/characters/ene_city_swat_1/ene_city_swat_1"/>
+		<animation_states path="anims/units/enemies/cop/std"/>
+		<animation_states path="anims/units/enemies/cop/civilian"/>
+		<object path="units/payday2/characters/ene_city_swat_1/ene_city_swat_1"/>
+		<material_config path="units/payday2/characters/ene_city_swat_1/ene_city_swat_1"/>
+		<sequence_manager path="units/payday2/characters/ragdoll"/>
+		<animation_subset path="anims/units/enemies/cop/std"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield"/>
+		<animation_subset path="anims/units/enemies/cop/civilian"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup"/>
+		<bnk path="soundbanks/regular_vox"/>
+		<unit path="units/payday2/characters/ene_acc_city_swat_helmet/ene_acc_city_swat_helmet"/>
+		<object path="units/payday2/characters/ene_acc_city_swat_helmet/ene_acc_city_swat_helmet"/>
+		<material_config path="units/payday2/characters/ene_acc_city_swat_helmet/ene_acc_city_swat_helmet"/>
+		<unit path="units/payday2/weapons/wpn_npc_g36/wpn_npc_g36"/>
+		<object path="units/payday2/weapons/wpn_npc_g36/wpn_npc_g36"/>
+		<material_config path="units/payday2/weapons/wpn_npc_g36/wpn_npc_g36"/>
+		<sequence_manager path="units/payday2/weapons/wpn_npc_g36/wpn_npc_g36"/>
+		<effect load="true" path="effects/particles/weapons/rifle/muzzleflash_3dp"/>
+		<effect load="true" path="effects/particles/weapons/sniper_trail"/>
+		<bnk path="soundbanks/weapon_g36"/>
+		<unit load="true" path="units/payday2/characters/ene_city_swat_1/ene_city_swat_1_husk"/>
+		<unit path="units/payday2/characters/ene_acc_fbi_swat_helmet/ene_acc_fbi_swat_helmet"/>
+		<object path="units/payday2/characters/ene_acc_fbi_swat_helmet/ene_acc_fbi_swat_helmet"/>
+		<material_config path="units/payday2/characters/ene_acc_fbi_swat_helmet/ene_acc_fbi_swat_helmet"/>
+		<animation_def path="anims/units/enemies/cop/cop_def"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_a_end" type="unit">
+		<material_config path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decals"/>
+		<object path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_a_end"/>
+		<unit path="units/payday2/architecture/com_ext_parking_garage/com_ext_parking_garage_decal_a_end"/>
+	</add>
+	<add from_db="true" path="effects/payday2/environment/bigger_big_fire" type="effect">
+		<effect load="true" path="effects/payday2/environment/bigger_big_fire"/>
 	</add>
 </table>
