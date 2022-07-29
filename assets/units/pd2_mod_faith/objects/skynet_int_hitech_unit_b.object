@@ -1,0 +1,16 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_faith/material_configs/skynet_int_hitechunits" orientation_object="rp_skynet_int_hitech_unitb"/>
+	<bodies>
+		<body name="default_body" template="static" enabled="true">
+			<object name="rp_skynet_int_hitech_unitb"/>
+			<object name="s_skynet_int_hitech_unita" collision_type="mesh_mopp"/>
+		</body>
+	</bodies>
+	<decal_surfaces name="decal_surfaces">
+		<decal_mesh name="g_skynet_int_hitech_unitb" material="metal" enabled="true"/>
+	</decal_surfaces>
+	<graphics>
+		<object name="g_skynet_int_hitech_unitb" shadow_caster="false" instance_struct="world_tm" enabled="true"/>
+		<object name="s_skynet_int_hitech_unita" shadow_caster="true" instance_struct="world_tm" enabled="true"/>
+	</graphics>
+</dynamic_object>

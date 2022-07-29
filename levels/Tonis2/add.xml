@@ -2,6 +2,54 @@
 	<add>
 		<unit from_db="true" load="true" path="units/dev_tools/mission_elements/point_interaction/interaction_dummy"/>
 	</add>
+	<add path="units/pd2_mod_faith/skynet_int_hitech_engine_unit" type="unit">
+		<texture path="units/pd2_mod_faith/textures/interior_hightechunit_df"/>
+		<texture path="units/pd2_mod_faith/textures/interior_hightechunit_nm"/>
+		<texture path="units/pd2_mod_faith/textures/interior_hightechunit_gsm"/>
+		<texture path="units/pd2_mod_faith/textures/detail_metal_df"/>
+		<texture path="units/pd2_mod_faith/textures/detail_metal_nm"/>
+		<material_config path="units/pd2_mod_faith/material_configs/skynet_int_hitechunits"/>
+		<model path="units/pd2_mod_faith/objects/skynet_int_hitech_engine_unit"/>
+		<object path="units/pd2_mod_faith/objects/skynet_int_hitech_engine_unit"/>
+		<unit path="units/pd2_mod_faith/skynet_int_hitech_engine_unit"/>
+	</add>
+	<add path="units/pd2_mod_faith/skynet_int_hitech_unit_b" type="unit">
+		<texture path="units/pd2_mod_faith/textures/interior_hightechunit_df"/>
+		<texture path="units/pd2_mod_faith/textures/interior_hightechunit_nm"/>
+		<texture path="units/pd2_mod_faith/textures/interior_hightechunit_gsm"/>
+		<texture path="units/pd2_mod_faith/textures/detail_metal_df"/>
+		<texture path="units/pd2_mod_faith/textures/detail_metal_nm"/>
+		<material_config path="units/pd2_mod_faith/material_configs/skynet_int_hitechunits"/>
+		<model path="units/pd2_mod_faith/objects/skynet_int_hitech_unit_b"/>
+		<object path="units/pd2_mod_faith/objects/skynet_int_hitech_unit_b"/>
+		<unit path="units/pd2_mod_faith/skynet_int_hitech_unit_b"/>
+	</add>
+	<add path="units/pd2_mod_faith/lowtech_unit_01" type="unit">
+		<texture path="units/pd2_mod_faith/textures/interior_lowtechunits_df"/>
+		<texture path="units/pd2_mod_faith/textures/interior_lowtechunits_gsm"/>
+		<texture path="units/pd2_mod_faith/textures/interior_lowtechunits_nm"/>
+		<texture path="units/pd2_mod_faith/textures/detail_metal_df"/>
+		<texture path="units/pd2_mod_faith/textures/detail_metal_nm"/>
+		<texture path="units/pd2_mod_faith/textures/interior_lowtechunits_df"/>
+		<texture path="units/pd2_mod_faith/textures/interior_lowtechunits_nm"/>
+		<material_config path="units/pd2_mod_faith/material_configs/interior_lowtechunits"/>
+		<model path="units/pd2_mod_faith/objects/lowtech_unit_01"/>
+		<object path="units/pd2_mod_faith/objects/lowtech_unit_01"/>
+		<unit path="units/pd2_mod_faith/lowtech_unit_01"/>
+	</add>
+	<add path="units/pd2_mod_faith/lowtech_unit_03" type="unit">
+		<texture path="units/pd2_mod_faith/textures/interior_lowtechunits_df"/>
+		<texture path="units/pd2_mod_faith/textures/interior_lowtechunits_gsm"/>
+		<texture path="units/pd2_mod_faith/textures/interior_lowtechunits_nm"/>
+		<texture path="units/pd2_mod_faith/textures/detail_metal_df"/>
+		<texture path="units/pd2_mod_faith/textures/detail_metal_nm"/>
+		<texture path="units/pd2_mod_faith/textures/interior_lowtechunits_df"/>
+		<texture path="units/pd2_mod_faith/textures/interior_lowtechunits_nm"/>
+		<material_config path="units/pd2_mod_faith/material_configs/interior_lowtechunits"/>
+		<model path="units/pd2_mod_faith/objects/lowtech_unit_03"/>
+		<object path="units/pd2_mod_faith/objects/lowtech_unit_03"/>
+		<unit path="units/pd2_mod_faith/lowtech_unit_03"/>
+	</add>
 	<add>
 		<texture path="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2_static/truck_gensec_transport_mk2_decal"/>
 		<texture path="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2_static/truck_gensec_transport_mk2_df"/>

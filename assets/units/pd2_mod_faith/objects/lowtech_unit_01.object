@@ -1,0 +1,16 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_faith/material_configs/interior_lowtechunits" orientation_object="rp_lowtech_unit_01"/>
+	<bodies>
+		<body name="default_body" template="static" enabled="true">
+			<object name="rp_lowtech_unit_01"/>
+			<object name="s_lowtech_unit_01_meshmopp" collision_type="mesh_mopp"/>
+		</body>
+	</bodies>
+	<decal_surfaces name="decal_surfaces">
+		<decal_mesh name="g_lowtech_unit_01" material="metal" enabled="true"/>
+	</decal_surfaces>
+	<graphics>
+		<object name="g_lowtech_unit_01" shadow_caster="false" instance_struct="world_tm" enabled="true"/>
+		<object name="s_lowtech_unit_01_meshmopp" shadow_caster="true" instance_struct="world_tm" enabled="true"/>
+	</graphics>
+</dynamic_object>

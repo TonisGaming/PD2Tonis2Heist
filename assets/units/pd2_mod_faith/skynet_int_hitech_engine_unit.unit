@@ -1,0 +1,6 @@
+<unit type="generic" slot="1">
+	<object file="units/pd2_mod_faith/objects/skynet_int_hitech_engine_unit"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData"/>
+	</extensions>
+</unit>

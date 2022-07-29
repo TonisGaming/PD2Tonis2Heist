@@ -1,0 +1,11 @@
+<materials version="3">
+	<material name="mtr_shadow_caster" version="2" render_template="shadow_caster_only:INSTANCED"/>
+	<material name="mtr_int_hitechunit" version="2" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:INSTANCED:NORMALMAP">
+		<diffuse_texture file="units/pd2_mod_faith/textures/interior_hightechunit_df"/>
+		<variable value="6 6 0" type="vector3" name="detail_scale"/>
+		<bump_normal_texture file="units/pd2_mod_faith/textures/interior_hightechunit_nm"/>
+		<material_texture file="units/pd2_mod_faith/textures/interior_hightechunit_gsm"/>
+		<detail_diffuse_texture file="units/pd2_mod_faith/textures/detail_metal_df"/>
+		<detail_normal_map file="units/pd2_mod_faith/textures/detail_metal_nm"/>
+	</material>
+</materials>
