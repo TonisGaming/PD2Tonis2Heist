@@ -172,6 +172,8 @@
 	"Ton2_vo_gensec7l_blow" : "Boom! Hahaha, bye bye GenSec warehouse, hello sweet payday.",
 	"Ton2_vo_escape_van" : "I'm sending in Twitch, he'll be there in 3 minutes.",
 	"Ton2_vo_escape_van_arrive" : "Twitch has arrived at the front gate, use the getaway or secure more loot.",
+	"Ton2_vo_angryloud" : "Did... did you really just do that? God, you guys are absolutely useless. At least go sink the ship, try to not slip and fall into the water yourself, idiots.",
+	"Ton2_vo_angrystealth" : "I was told you people are professionals. Well, all you are is incompetent and a joke. I'm sending Twitch, at least don't fuck up getting in a van.",
 	"tonis2_package_name" : "Triple Threat",
 	"tonis2_normal_name" : "Another Warehouse?",
 	"tonis2_normal_desc" : "",

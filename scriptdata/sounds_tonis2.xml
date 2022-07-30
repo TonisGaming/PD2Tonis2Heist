@@ -1,5 +1,7 @@
 <table>
 	<Sounds directory="assets/audio/vo">
+		<sound id="Tonis2_vo_angrystealth" path="tonis/ton2_vo_angrystealth.ogg" subtitle_id="Ton2_vo_angrystealth"/>
+		<sound id="Tonis2_vo_angryloud" path="tonis/ton2_vo_angryloud.ogg" subtitle_id="Ton2_vo_angryloud"/>
 		<sound id="Tonis2_vo_manifestbreaker" path="tonis/ton2_vo_manifestbreaker.ogg" subtitle_id="Ton2_vo_manifestbreaker"/>
 		<sound id="Tonis2_vo_gensecbreaker" path="tonis/ton2_vo_gensecbreaker.ogg" subtitle_id="Ton2_vo_gensecbreaker"/>
 		<sound id="Tonis2_vo_murkybreaker" path="tonis/ton2_vo_murkybreaker.ogg" subtitle_id="Ton2_vo_murkybreaker"/>
