@@ -3,6 +3,7 @@
 	"menu_asset_tonis2_extraropeoutside" : "Extra Mantle Points",
 	"menu_asset_tonis2_stealthloot" : "Stealth Bagman",
 	"menu_asset_tonis2_extragas" : "Extra Gasoline",
+	"menu_asset_tonis2_tutorial" : "Mechanic Explanation",
 	"tonis2_extraoutsiderope_desc" : "An inside man will add more mantle points on the outside wall",
 	"tonis2_stealthloot_desc" : "Our inside man will park a loot drop off you can use while it's still quiet",
 	"tonis2_extragas_desc" : "Our insider will stash some gas nearby",

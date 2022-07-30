@@ -6,6 +6,11 @@
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
+			<tutorial name_id="menu_asset_tonis2_tutorial" no_mystery="true" texture="textures/tutorial">
+				<stages>
+					<value_node value="Tonis2"/>
+				</stages>
+			</tutorial>
 			<extragas money_lock="100000" name_id="menu_asset_tonis2_extragas" no_mystery="true" texture="textures/ExtraGasPolaroid" unlock_desc_id="tonis2_extragas_desc" visible_if_locked="true">
 				<stages>
 					<value_node value="Tonis2"/>
@@ -172,6 +177,7 @@
 		<texture path="textures/MoreMantlepointPolaroid"/>
 		<texture path="textures/StealthLootDropPolaroid"/>
 		<texture path="textures/ExtraGasPolaroid"/>
+		<texture path="textures/tutorial"/>
 		<texture path="textures/tonis2_icon" unload="true"/>
 		<texture path="textures/tonis2_loading" unload="true"/>
 	</AddFiles>

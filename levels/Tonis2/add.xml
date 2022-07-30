@@ -5156,4 +5156,19 @@
 	<add from_db="true" path="effects/payday2/environment/bigger_big_fire" type="effect">
 		<effect load="true" path="effects/payday2/environment/bigger_big_fire"/>
 	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_3x4x3" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_3x4x3"/>
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_3x4x3"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x5x3" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x5x3"/>
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x5x3"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_vehicle_sedan" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_vehicle_sedan"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_vehicle_sedan"/>
+		<material_config path="core/material_configs/hub_elements"/>
+	</add>
 </table>
